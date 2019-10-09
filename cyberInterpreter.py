@@ -41,37 +41,37 @@ from sumolib import checkBinary  # noqa
 import traci  # noqa
 
 
-def generate_routefile():
-    random.seed(42)  # make tests reproducible
-    N = 3600  # number of time steps
-    # demand per second from different directions
-    pWE = 1. / 10
-    pEW = 1. / 11
-    pNS = 1. / 30
-    with open("data/cross.rou.xml", "w") as routes:
-        print("""<routes>
-        <vType id="typeWE" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" \
-guiShape="passenger"/>
-        <vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="3" maxSpeed="25" guiShape="bus"/>
-
-        <route id="right" edges="51o 1i 2o 52i" />
-        <route id="left" edges="52o 2i 1o 51i" />
-        <route id="down" edges="54o 4i 3o 53i" />""", file=routes)
-        vehNr = 0
-        for i in range(N):
-            if random.uniform(0, 1) < pWE:
-                print('    <vehicle id="right_%i" type="typeWE" route="right" depart="%i" />' % (
-                    vehNr, i), file=routes)
-                vehNr += 1
-            if random.uniform(0, 1) < pEW:
-                print('    <vehicle id="left_%i" type="typeWE" route="left" depart="%i" />' % (
-                    vehNr, i), file=routes)
-                vehNr += 1
-            if random.uniform(0, 1) < pNS:
-                print('    <vehicle id="down_%i" type="typeNS" route="down" depart="%i" color="1,0,0"/>' % (
-                    vehNr, i), file=routes)
-                vehNr += 1
-        print("</routes>", file=routes)
+# def generate_routefile():
+#     random.seed(42)  # make tests reproducible
+#     N = 3600  # number of time steps
+#     # demand per second from different directions
+#     pWE = 1. / 10
+#     pEW = 1. / 11
+#     pNS = 1. / 30
+#     with open("data/cross.rou.xml", "w") as routes:
+#         print("""<routes>
+#         <vType id="typeWE" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="16.67" \
+# guiShape="passenger"/>
+#         <vType id="typeNS" accel="0.8" decel="4.5" sigma="0.5" length="7" minGap="3" maxSpeed="25" guiShape="bus"/>
+#
+#         <route id="right" edges="51o 1i 2o 52i" />
+#         <route id="left" edges="52o 2i 1o 51i" />
+#         <route id="down" edges="54o 4i 3o 53i" />""", file=routes)
+#         vehNr = 0
+#         for i in range(N):
+#             if random.uniform(0, 1) < pWE:
+#                 print('    <vehicle id="right_%i" type="typeWE" route="right" depart="%i" />' % (
+#                     vehNr, i), file=routes)
+#                 vehNr += 1
+#             if random.uniform(0, 1) < pEW:
+#                 print('    <vehicle id="left_%i" type="typeWE" route="left" depart="%i" />' % (
+#                     vehNr, i), file=routes)
+#                 vehNr += 1
+#             if random.uniform(0, 1) < pNS:
+#                 print('    <vehicle id="down_%i" type="typeNS" route="down" depart="%i" color="1,0,0"/>' % (
+#                     vehNr, i), file=routes)
+#                 vehNr += 1
+#         print("</routes>", file=routes)
 
 
 # The program looks like this
@@ -88,11 +88,17 @@ def run():
     """execute the TraCI control loop"""
     step = 0
     jam = [[0, 0]]
-    vehi = [[0, 0]]
+    vehicles = [[0, 0]]
+
     e2detList, tlsList = net_conf()
-    for x in range(0, len(e2detList)):
+    for x in range(len(e2detList)):
         print(e2detList[x])
     print(tlsList)
+
+    # set jam and vehicles variables
+    for x in range(len(e2detList)-1):
+        jam.append([0, 0])
+        vehicles.append([0, 0])
 
     # we start with phase 2 where EW has green
     while traci.simulation.getMinExpectedNumber() > 0:
@@ -101,17 +107,13 @@ def run():
         # we are not already switching
         # if traci.inductionloop.getLastStepVehicleNumber("gneJ1") > 0:
 
-        for x in range(0, len(e2detList)):
-            jam.append([0, 0])
-            vehi.append([0, 0])
-
-        for x in range(0, len(e2detList)):
+        for x in range(len(e2detList)):
             e2detID = e2detList[x]
             # print(e2detID)
             jam[x][0] = traci.lanearea.getJamLengthVehicle(e2detID)
-            vehi[x][0] = traci.lanearea.getLastStepVehicleNumber(e2detID)
-            if vehi[x][0] != vehi[x][1]:
-                vehi[x][1] = vehi[x][0]
+            vehicles[x][0] = traci.lanearea.getLastStepVehicleNumber(e2detID)
+            if vehicles[x][0] != vehicles[x][1]:
+                vehicles[x][1] = vehicles[x][0]
 
                 # Fiware data model
                 # https://fiware-datamodels.readthedocs.io/en/latest/Transportation/TrafficFlowObserved/doc/spec/index.html
@@ -124,7 +126,7 @@ def run():
                     "intensity": jam[x][0],
                     "occupancy": traci.lanearea.getLastStepOccupancy(e2detID),
                     "averageVehicleSpeed": traci.lanearea.getLastStepMeanSpeed(e2detID),
-                    "carsInLane": vehi[x][0],
+                    "carsInLane": vehicles[x][0],
                     "accidentOnLane": False,    # It has to be configured
                     "laneDirection": e2detID[24] + "-" + e2detID[28:33]
                 }
