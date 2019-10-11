@@ -91,9 +91,9 @@ def run():
     vehicles = [[0, 0]]
 
     e2detList, tlsList = net_conf()
-    for x in range(len(e2detList)):
-        print(e2detList[x])
-    print(tlsList)
+    # for x in range(len(e2detList)):
+    #     print(e2detList[x])
+    # print(tlsList)
 
     # set jam and vehicles variables
     for x in range(len(e2detList)-1):
@@ -135,11 +135,12 @@ def run():
                 # print(e2detID[0:25])
                 client.publish(e2detID[0:25], json.dumps(msj))
 
-        if step <= 10:
+        # if step <= 10:
             # there is a vehicle from the north, switch
-            traci.trafficlight.setPhase(tlsList[0], 0)
+            # traci.trafficlight.setPhase(tlsList[0], 0)
 
-        print("Phase:", traci.trafficlight.getPhase(tlsList[0]))
+        # print("Phase:", traci.trafficlight.getPhase(tlsList[0]))
+        # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tlsList[0]))
         step += 1
     traci.close()
     sys.stdout.flush()
@@ -155,6 +156,7 @@ def get_options():
 
 def mqtt_conf() -> Client:
     broker_address = "192.168.5.95"   # "192.168.1.95"
+    broker_address = "192.168.0.196"
     # broker_address="iot.eclipse.org" # use external broker
     client = mqtt.Client()
     client.on_connect = on_connect
@@ -185,16 +187,30 @@ def on_connect(client, userdata, flags, rc):
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
     print(msg.topic + " " + str(msg.payload))
+    msg_dic = y = json.loads(str(msg.payload))
 
+    if msg_dic["command"] == "setPhase":
+        traci.trafficlight.setRedYellowGreenState(msg_dic["tlsID"], msg_dic["data"])
+    if msg_dic["command"] == "setProgram":
+        traci.trafficlight.setProgram(msg_dic["tlsID"], msg_dic["data"])
+    if msg_dic["command"] == "setCompleteRedYellowGreenDefinition":
+        traci.trafficlight.setCompleteRedYellowGreenDefinition(msg_dic["tlsID"], msg_dic["data"])
 
 def net_conf():
     e2detList = traci.lanearea.getIDList()
-    # print(e2detList)
+    print(e2detList)
     print("Lista de e2detList cargada")
 
     tlsList = traci.trafficlight.getIDList()
-    # print(tlsList)
+    print(tlsList)
     print("Lista de tls cargada")
+
+    for x in tlsList:
+        state = []
+        for i in range(len(traci.trafficlight.getRedYellowGreenState(x))):
+            state.append('r')
+        print(state)
+        #traci.trafficlight.setRedYellowGreenState(x, "".join(state))
 
     # junctionList = traci.junction.getIDList()
     # print(junctionList)
