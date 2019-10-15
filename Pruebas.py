@@ -65,3 +65,36 @@ print(len(e2detList))
 print("DetectorTopic:     " + e2detID[0:25])
 print("DetectorID:        " + e2detID[0:27])
 print("DetectorDirection: " + e2detID[24] + "-" + e2detID[28:33])
+
+
+
+def on_message(client, userdata, message):
+    print("Received message '" + str(message.payload) + "' on topic '"
+        + message.topic + "' with QoS " + str(message.qos))
+
+def on_connect(client, userdata, flags, rc):
+    print("Connected with result code " + str(rc))
+
+    # Subscribing in on_connect() means that if we lose the connection and
+    # reconnect then subscriptions will be renewed.
+    client.subscribe("respuesta")
+    print("suscribed")
+
+import paho.mqtt.client as mqtt
+
+client_mqtt = mqtt.Client()
+client_mqtt.on_message = on_message
+client_mqtt.on_connect = on_connect
+client_mqtt.connect("192.168.5.95")
+client_mqtt.loop_start()
+#client_mqtt.publish("hola", "hola")
+#client_mqtt.subscribe("respuesta")
+
+
+while True:
+    count = 0
+    for i in range(30000000):
+        count += 1
+    print(count)
+
+

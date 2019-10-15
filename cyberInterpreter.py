@@ -29,7 +29,7 @@ import datetime
 
 
 # we need to import python modules from the $SUMO_HOME/tools directory
-from paho.mqtt.client import Client
+# from paho.mqtt.client import Client
 
 if 'SUMO_HOME' in os.environ:
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
@@ -83,12 +83,18 @@ import traci  # noqa
 #        <phase duration="6"  state="ryry"/>
 #    </tlLogic>
 
+# Define the global variable of command_received
+command_received = False
+msg_dic = []
+
 
 def run():
     """execute the TraCI control loop"""
     step = 0
     jam = [[0, 0]]
     vehicles = [[0, 0]]
+    global command_received
+    global msg_dic
 
     e2detList, tlsList = net_conf()
     # for x in range(len(e2detList)):
@@ -133,13 +139,26 @@ def run():
 
                 # print("jam: ", jam[x][0], "; vehicles: ", vehi[x][1])
                 # print(e2detID[0:25])
-                client.publish(e2detID[0:25], json.dumps(msj))
+                client_sumo.publish(e2detID[0:25], json.dumps(msj))
 
-        # if step <= 10:
+        # tls management
+        print("Phase:", traci.trafficlight.getPhase(tlsList[0]))
+        print(command_received)
+        print(msg_dic)
+        if command_received:
+            for x in msg_dic:
+                if x["command"] == "setPhase":
+                    traci.trafficlight.setRedYellowGreenState(x["tlsID"], x["data"])
+                if x["command"] == "setProgram":
+                    traci.trafficlight.setProgram(x["tlsID"], x["data"])
+                if x["command"] == "setCompleteRedYellowGreenDefinition":
+                    traci.trafficlight.setCompleteRedYellowGreenDefinition(x["tlsID"], x["data"])
+            command_received = False
+            msg_dic = []
+            # traci.trafficlight.setRedYellowGreenState("intersection/0008/tls", "rrrrrrrrr")
             # there is a vehicle from the north, switch
             # traci.trafficlight.setPhase(tlsList[0], 0)
 
-        # print("Phase:", traci.trafficlight.getPhase(tlsList[0]))
         # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tlsList[0]))
         step += 1
     traci.close()
@@ -152,17 +171,6 @@ def get_options():
                          default=False, help="run the commandline version of sumo")
     options, args = optParser.parse_args()
     return options
-
-
-def mqtt_conf() -> Client:
-    broker_address = "192.168.5.95"   # "192.168.1.95"
-    broker_address = "192.168.0.196"
-    # broker_address="iot.eclipse.org" # use external broker
-    client = mqtt.Client()
-    client.on_connect = on_connect
-    client.on_message = on_message
-    client.connect(broker_address)  # connect to broker
-    return client
 
 
 # The callback for when the client receives a CONNACK response from the server.
@@ -187,14 +195,24 @@ def on_connect(client, userdata, flags, rc):
 # The callback for when a PUBLISH message is received from the server.
 def on_message(client, userdata, msg):
     print(msg.topic + " " + str(msg.payload))
-    msg_dic = y = json.loads(str(msg.payload))
+    msg_command = str(json.loads(msg.payload)["command"])
 
-    if msg_dic["command"] == "setPhase":
-        traci.trafficlight.setRedYellowGreenState(msg_dic["tlsID"], msg_dic["data"])
-    if msg_dic["command"] == "setProgram":
-        traci.trafficlight.setProgram(msg_dic["tlsID"], msg_dic["data"])
-    if msg_dic["command"] == "setCompleteRedYellowGreenDefinition":
-        traci.trafficlight.setCompleteRedYellowGreenDefinition(msg_dic["tlsID"], msg_dic["data"])
+    if msg_command == "setPhase" or msg_command == "setProgram" or msg_command == "setCompleteRedYellowGreenDefinition":
+        print("Command arrived :" + str(msg_command))
+        global msg_dic
+        global command_received
+        msg_dic.append(json.loads(msg.payload))
+        command_received = True
+
+
+def mqtt_conf() -> mqtt.Client:
+    broker_address = "192.168.5.95"   # "192.168.1.95"
+    client = mqtt.Client()
+    client.on_connect = on_connect
+    client.on_message = on_message
+    client.connect(broker_address)  # connect to broker
+    return client
+
 
 def net_conf():
     e2detList = traci.lanearea.getIDList()
@@ -209,7 +227,7 @@ def net_conf():
         state = []
         for i in range(len(traci.trafficlight.getRedYellowGreenState(x))):
             state.append('r')
-        print(state)
+        print("stare " + str(x) + str(state))
         #traci.trafficlight.setRedYellowGreenState(x, "".join(state))
 
     # junctionList = traci.junction.getIDList()
@@ -222,7 +240,8 @@ def net_conf():
 # this is the main entry point of this script
 if __name__ == "__main__":
     options = get_options()
-    client: Client = mqtt_conf()
+    client_sumo = mqtt_conf()
+    client_sumo.loop_start()    # Necessary to maintain connection
 
     # this script has been called from the command line. It will start sumo as a
     # server, then connect and run
