@@ -88,6 +88,88 @@ command_received = False
 msg_dic = []
 
 
+def get_options():
+    optParser = optparse.OptionParser()
+    optParser.add_option("--nogui", action="store_true",
+                         default=False, help="run the commandline version of sumo")
+    options, args = optParser.parse_args()
+    return options
+
+
+# The callback for when the client receives a CONNACK response from the server.
+def on_connect(client, userdata, flags, rc):
+    print("Connected with result code " + str(rc))
+
+    # Subscribing in on_connect() means that if we lose the connection and
+    # reconnect then subscriptions will be renewed.
+    client.subscribe("intersection/0002/tls")
+    client.subscribe("intersection/0003/tls")
+    client.subscribe("intersection/0004/tls")
+    client.subscribe("intersection/0005/tls")
+    client.subscribe("intersection/0006/tls")
+    client.subscribe("intersection/0007/tls")
+    client.subscribe("intersection/0008/tls")
+    client.subscribe("intersection/0009/tls")
+    client.subscribe("intersection/00010/tls")
+    client.subscribe("intersection/00011/tls")
+    client.subscribe("intersection/00012/tls")
+
+
+# The callback for when a PUBLISH message is received from the server.
+def on_message(client, userdata, msg):
+    print(msg.topic + " " + str(msg.payload))
+    msg_type = str(json.loads(msg.payload)["type"])
+
+    if msg_type == "tlsControl":
+        msg_command = str(json.loads(msg.payload)["command"])
+        if msg_command == "setPhase" or msg_command == "setProgram" or msg_command == "setCompleteRedYellowGreenDefinition":
+            print("Command arrived :" + str(msg_command))
+            global msg_dic
+            global command_received
+            msg_dic.append(json.loads(msg.payload))
+            command_received = True
+
+
+def mqtt_conf() -> mqtt.Client:
+    broker_address = "192.168.5.95"   # "192.168.1.95"
+    client = mqtt.Client()
+    client.on_connect = on_connect
+    client.on_message = on_message
+    client.connect(broker_address)  # connect to broker
+    return client
+
+
+def net_conf():
+    e2detList = traci.lanearea.getIDList()
+    print(e2detList)
+    print("Lista de e2detList cargada")
+
+    tlsList = traci.trafficlight.getIDList()
+    print(tlsList)
+    print("Lista de tls cargada")
+
+    for x in tlsList:
+        state = []
+        for i in range(len(traci.trafficlight.getRedYellowGreenState(x))):
+            state.append('r')
+        print("stare " + str(x) + str(state))
+        #traci.trafficlight.setRedYellowGreenState(x, "".join(state))
+
+    # junctionList = traci.junction.getIDList()
+    # print(junctionList)
+    # print("Lista de junction cargada")
+
+    return e2detList, tlsList
+
+
+def generate_random_accident(e2detList):
+    # TODO generate an accident on all channels of a random Street
+    #  I can generate a random number x between 0 and the e2detList length and create an accident in the edge of
+    #  e2detList[x]. To do that I can put dead cars in all the channels of the edge.
+    #  Finally I have to send the accident msg to the correspondent node
+    return
+
+
 def run():
     """execute the TraCI control loop"""
     step = 0
@@ -123,7 +205,7 @@ def run():
 
                 # Fiware data model
                 # https://fiware-datamodels.readthedocs.io/en/latest/Transportation/TrafficFlowObserved/doc/spec/index.html
-                msj = {
+                msg = {
                     "id": e2detID[0:27],
                     "type": "TrafficFlowObserved",
                     "laneId": traci.lanearea.getLaneID(e2detID),
@@ -139,7 +221,8 @@ def run():
 
                 # print("jam: ", jam[x][0], "; vehicles: ", vehi[x][1])
                 # print(e2detID[0:25])
-                client_sumo.publish(e2detID[0:25], json.dumps(msj))
+                print(msg)
+                client_sumo.publish(e2detID[0:25], json.dumps(msg))
 
         # tls management
         print("Phase:", traci.trafficlight.getPhase(tlsList[0]))
@@ -163,78 +246,6 @@ def run():
         step += 1
     traci.close()
     sys.stdout.flush()
-
-
-def get_options():
-    optParser = optparse.OptionParser()
-    optParser.add_option("--nogui", action="store_true",
-                         default=False, help="run the commandline version of sumo")
-    options, args = optParser.parse_args()
-    return options
-
-
-# The callback for when the client receives a CONNACK response from the server.
-def on_connect(client, userdata, flags, rc):
-    print("Connected with result code " + str(rc))
-
-    # Subscribing in on_connect() means that if we lose the connection and
-    # reconnect then subscriptions will be renewed.
-    client.subscribe("intersection/0002/tls")
-    client.subscribe("intersection/0003/tls")
-    client.subscribe("intersection/0004/tls")
-    client.subscribe("intersection/0005/tls")
-    client.subscribe("intersection/0006/tls")
-    client.subscribe("intersection/0007/tls")
-    client.subscribe("intersection/0008/tls")
-    client.subscribe("intersection/0009/tls")
-    client.subscribe("intersection/00010/tls")
-    client.subscribe("intersection/00011/tls")
-    client.subscribe("intersection/00012/tls")
-
-
-# The callback for when a PUBLISH message is received from the server.
-def on_message(client, userdata, msg):
-    print(msg.topic + " " + str(msg.payload))
-    msg_command = str(json.loads(msg.payload)["command"])
-
-    if msg_command == "setPhase" or msg_command == "setProgram" or msg_command == "setCompleteRedYellowGreenDefinition":
-        print("Command arrived :" + str(msg_command))
-        global msg_dic
-        global command_received
-        msg_dic.append(json.loads(msg.payload))
-        command_received = True
-
-
-def mqtt_conf() -> mqtt.Client:
-    broker_address = "192.168.5.95"   # "192.168.1.95"
-    client = mqtt.Client()
-    client.on_connect = on_connect
-    client.on_message = on_message
-    client.connect(broker_address)  # connect to broker
-    return client
-
-
-def net_conf():
-    e2detList = traci.lanearea.getIDList()
-    print(e2detList)
-    print("Lista de e2detList cargada")
-
-    tlsList = traci.trafficlight.getIDList()
-    print(tlsList)
-    print("Lista de tls cargada")
-
-    for x in tlsList:
-        state = []
-        for i in range(len(traci.trafficlight.getRedYellowGreenState(x))):
-            state.append('r')
-        print("stare " + str(x) + str(state))
-        #traci.trafficlight.setRedYellowGreenState(x, "".join(state))
-
-    # junctionList = traci.junction.getIDList()
-    # print(junctionList)
-    # print("Lista de junction cargada")
-
-    return e2detList, tlsList
 
 
 # this is the main entry point of this script
