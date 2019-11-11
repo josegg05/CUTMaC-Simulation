@@ -25,6 +25,7 @@ import sys
 import paho.mqtt.client as mqtt
 import json
 import datetime
+
 # Import my classes
 
 
@@ -39,7 +40,6 @@ else:
 
 from sumolib import checkBinary  # noqa
 import traci  # noqa
-
 
 # def generate_routefile():
 #     random.seed(42)  # make tests reproducible
@@ -131,7 +131,7 @@ def on_message(client, userdata, msg):
 
 
 def mqtt_conf() -> mqtt.Client:
-    broker_address = "192.168.5.95"   # "192.168.1.95"
+    broker_address = "192.168.0.95"  # "192.168.1.95"
     client = mqtt.Client()
     client.on_connect = on_connect
     client.on_message = on_message
@@ -140,33 +140,71 @@ def mqtt_conf() -> mqtt.Client:
 
 
 def net_conf():
-    e2detList = traci.lanearea.getIDList()
-    print(e2detList)
-    print("Lista de e2detList cargada")
+    e2det_list = traci.lanearea.getIDList()
+    print(e2det_list)
+    print("Lista de e2det_list cargada")
 
-    tlsList = traci.trafficlight.getIDList()
-    print(tlsList)
+    tls_list = traci.trafficlight.getIDList()
+    print(tls_list)
     print("Lista de tls cargada")
 
-    for x in tlsList:
+    for x in tls_list:
         state = []
         for i in range(len(traci.trafficlight.getRedYellowGreenState(x))):
             state.append('r')
         print("stare " + str(x) + str(state))
-        #traci.trafficlight.setRedYellowGreenState(x, "".join(state))
+        # traci.trafficlight.setRedYellowGreenState(x, "".join(state))
 
     # junctionList = traci.junction.getIDList()
     # print(junctionList)
     # print("Lista de junction cargada")
 
-    return e2detList, tlsList
+    return e2det_list, tls_list
 
 
-def generate_random_accident(e2detList):
-    # TODO generate an accident on all channels of a random Street
-    #  I can generate a random number x between 0 and the e2detList length and create an accident in the edge of
-    #  e2detList[x]. To do that I can put dead cars in all the channels of the edge.
-    #  Finally I have to send the accident msg to the correspondent node
+def generate_random_accident(e2det_list):
+    e2det_index = random.randrange(len(e2det_list))
+    e2det_id = e2det_list[e2det_index]
+    accident_direction = e2det_id[0:25]
+    for x in e2det_list:
+        if accident_direction in x:
+            lane_id = traci.lanearea.getLaneID(x)
+            traci.lane.setMaxSpeed(lane_id, 0.0)  # option 1
+            # traci.lane.setDisallowed(lane_id, [])  # option 2
+            print(f"Trafico parado en {lane_id}")
+
+    msg = {
+        "id": e2det_id[0:27],
+        "type": "AccidentObserved",
+        "laneId": traci.lanearea.getLaneID(e2det_id),
+        "location": traci.lanearea.getPosition(e2det_id),  # Location may be in "GeoProperty. geo:json."
+        "dateObserved": datetime.datetime.utcnow().isoformat(),
+        "accidentOnLane": True,  # It has to be configured
+        "laneDirection": e2det_id[24] + "-" + e2det_id[28:33]
+    }
+    client_sumo.publish(e2det_id[0:25], json.dumps(msg))
+    print(f"Accident in lane  '{e2det_id[0:25]}'")
+    return e2det_id
+
+
+def remove_accident(e2det_id, e2det_list):
+    accident_direction = e2det_id[0:25]
+    for x in e2det_list:
+        if accident_direction in x:
+            lane_id = traci.lanearea.getLaneID(x)
+            traci.lane.setMaxSpeed(lane_id, 13.89)  # option 1
+            # traci.lane.setAllowed(lane_id, [])  # option 2
+
+    msg = {
+        "id": e2det_id[0:27],
+        "type": "AccidentObserved",
+        "laneId": traci.lanearea.getLaneID(e2det_id),
+        "location": traci.lanearea.getPosition(e2det_id),  # Location may be in "GeoProperty. geo:json."
+        "dateObserved": datetime.datetime.utcnow().isoformat(),
+        "accidentOnLane": False,  # It has to be configured
+        "laneDirection": e2det_id[24] + "-" + e2det_id[28:33]
+    }
+    client_sumo.publish(e2det_id[0:25], json.dumps(msg))
     return
 
 
@@ -178,13 +216,13 @@ def run():
     global command_received
     global msg_dic
 
-    e2detList, tlsList = net_conf()
-    # for x in range(len(e2detList)):
-    #     print(e2detList[x])
-    # print(tlsList)
+    e2det_list, tls_list = net_conf()
+    # for x in range(len(e2det_list)):
+    #     print(e2det_list[x])
+    # print(tls_list)
 
     # set jam and vehicles variables
-    for x in range(len(e2detList)-1):
+    for x in range(len(e2det_list) - 1):
         jam.append([0, 0])
         vehicles.append([0, 0])
 
@@ -195,37 +233,37 @@ def run():
         # we are not already switching
         # if traci.inductionloop.getLastStepVehicleNumber("gneJ1") > 0:
 
-        for x in range(len(e2detList)):
-            e2detID = e2detList[x]
-            # print(e2detID)
-            jam[x][0] = traci.lanearea.getJamLengthVehicle(e2detID)
-            vehicles[x][0] = traci.lanearea.getLastStepVehicleNumber(e2detID)
+        for x in range(len(e2det_list)):
+            e2det_id = e2det_list[x]
+            # print(e2det_id)
+            jam[x][0] = traci.lanearea.getJamLengthVehicle(e2det_id)
+            vehicles[x][0] = traci.lanearea.getLastStepVehicleNumber(e2det_id)
             if vehicles[x][0] != vehicles[x][1]:
                 vehicles[x][1] = vehicles[x][0]
 
                 # Fiware data model
                 # https://fiware-datamodels.readthedocs.io/en/latest/Transportation/TrafficFlowObserved/doc/spec/index.html
                 msg = {
-                    "id": e2detID[0:27],
+                    "id": e2det_id[0:27],
                     "type": "TrafficFlowObserved",
-                    "laneId": traci.lanearea.getLaneID(e2detID),
-                    "location": traci.lanearea.getPosition(e2detID),  # Location may be in "GeoProperty. geo:json."
+                    "laneId": traci.lanearea.getLaneID(e2det_id),
+                    "location": traci.lanearea.getPosition(e2det_id),  # Location may be in "GeoProperty. geo:json."
                     "dateObserved": datetime.datetime.utcnow().isoformat(),
                     "intensity": jam[x][0],
-                    "occupancy": traci.lanearea.getLastStepOccupancy(e2detID),
-                    "averageVehicleSpeed": traci.lanearea.getLastStepMeanSpeed(e2detID),
+                    "occupancy": traci.lanearea.getLastStepOccupancy(e2det_id),
+                    "averageVehicleSpeed": traci.lanearea.getLastStepMeanSpeed(e2det_id),
                     "carsInLane": vehicles[x][0],
-                    "accidentOnLane": False,    # It has to be configured
-                    "laneDirection": e2detID[24] + "-" + e2detID[28:33]
+                    # "accidentOnLane": False,  # It has to be configured
+                    "laneDirection": e2det_id[24] + "-" + e2det_id[28:33]
                 }
 
                 # print("jam: ", jam[x][0], "; vehicles: ", vehi[x][1])
-                # print(e2detID[0:25])
+                # print(e2det_id[0:25])
                 print(msg)
-                client_sumo.publish(e2detID[0:25], json.dumps(msg))
+                client_sumo.publish(e2det_id[0:25], json.dumps(msg))
 
         # tls management
-        print("Phase:", traci.trafficlight.getPhase(tlsList[0]))
+        print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
         print(command_received)
         print(msg_dic)
         if command_received:
@@ -240,9 +278,15 @@ def run():
             msg_dic = []
             # traci.trafficlight.setRedYellowGreenState("intersection/0008/tls", "rrrrrrrrr")
             # there is a vehicle from the north, switch
-            # traci.trafficlight.setPhase(tlsList[0], 0)
+            # traci.trafficlight.setPhase(tls_list[0], 0)
 
-        # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tlsList[0]))
+        # generate a random accident
+        if step == 20:
+            accident_e2det = generate_random_accident(e2det_list)
+        if step == 300:
+            remove_accident(accident_e2det, e2det_list)
+
+        # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_list[0]))
         step += 1
     traci.close()
     sys.stdout.flush()
@@ -250,9 +294,10 @@ def run():
 
 # this is the main entry point of this script
 if __name__ == "__main__":
+    random.seed(5)
     options = get_options()
     client_sumo = mqtt_conf()
-    client_sumo.loop_start()    # Necessary to maintain connection
+    client_sumo.loop_start()  # Necessary to maintain connection
 
     # this script has been called from the command line. It will start sumo as a
     # server, then connect and run
