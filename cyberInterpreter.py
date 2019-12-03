@@ -129,7 +129,7 @@ def on_message(client, userdata, msg):
 
 
 def mqtt_conf() -> mqtt.Client:
-    broker_address = "192.168.0.196"  # "192.168.1.95"
+    broker_address = "192.168.5.95"  # "192.168.1.95"
     client = mqtt.Client()
     client.on_connect = on_connect
     client.on_message = on_message
@@ -290,10 +290,10 @@ def run():
             # traci.trafficlight.setPhase(tls_list[0], 0)
 
         # generate a random accident
-        if step == 20:
-            accident_e2det = generate_random_accident(e2det_list)
-        if step == 300:
-            remove_accident(accident_e2det, e2det_list)
+        # if step == 20:
+        #     accident_e2det = generate_random_accident(e2det_list)
+        # if step == 300:
+        #     remove_accident(accident_e2det, e2det_list)
 
         # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_list[0]))
         step += 1
