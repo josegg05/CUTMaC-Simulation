@@ -150,7 +150,7 @@ def net_conf():
         state = []
         for i in range(len(traci.trafficlight.getRedYellowGreenState(x))):
             state.append('r')
-        print("stare " + str(x) + str(state))
+        print("state " + str(x) + str(state))
         # traci.trafficlight.setRedYellowGreenState(x, "".join(state))
 
     # junctionList = traci.junction.getIDList()
@@ -268,13 +268,13 @@ def run():
 
                 # print("jamLengthVehicle: ", jamLengthVehicle[x][0], "; vehicleNumber: ", vehi[x][1])
                 # print(e2det_id[0:25])
-                print(msg)
+                # print(msg)
                 client_sumo.publish(e2det_id[0:25], json.dumps(msg))
 
         # TLS management
-        print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
-        print(command_received)
-        print(msg_dic)
+        # print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
+        # print(command_received)
+        # print(msg_dic)
         if command_received:
             for x in msg_dic:
                 if x["command"] == "setPhase":
@@ -322,6 +322,6 @@ if __name__ == "__main__":
 
     # this is the normal way of using traci. sumo is started as a
     # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, "-c", "MicroDescongest/osm.sumocfg",
+    traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
                  "--tripinfo-output", "tripinfo.xml"])
     run()
