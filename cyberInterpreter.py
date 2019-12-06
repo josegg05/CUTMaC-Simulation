@@ -297,9 +297,10 @@ def run():
 
         # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_list[0]))
         step += 1
-    traci.close()
+    print("Simulation Finished")
     # Send the stop signal
     client_sumo.publish(start_topic, "stop")
+    traci.close()
     sys.stdout.flush()
 
 
