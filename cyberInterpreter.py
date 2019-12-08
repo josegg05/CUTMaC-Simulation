@@ -22,6 +22,7 @@ import sys
 import paho.mqtt.client as mqtt
 import json
 import datetime
+import time
 
 # Import my classes
 
@@ -233,6 +234,9 @@ def run():
     client_sumo.publish(start_topic, "start")
 
     # Start the Simulation
+    print("Simulation Start")
+    time_0 = time.perf_counter()
+    time_current = 0.0
     while traci.simulation.getMinExpectedNumber() > 0:
         traci.simulationStep()
 
@@ -296,6 +300,9 @@ def run():
         #     remove_accident(accident_e2det, e2det_list)
 
         # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_list[0]))
+        time_current += 1.0
+        while time.perf_counter() < time_0 + time_current:
+            pass
         step += 1
     print("Simulation Finished")
     # Send the stop signal
