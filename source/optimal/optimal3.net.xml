@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on jue 05 dic 2019 11:15:29 -03 by Eclipse SUMO netedit Version 1.3.1
+<!-- generated on dom 08 dic 2019 09:37:18 -03 by Eclipse SUMO netedit Version 1.3.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="optimal2.net.xml"/>
+        <sumo-net-file value="optimal3.net.xml"/>
     </input>
 
     <output>
-        <output-file value="/home/pandora/Desktop/Jose_Proyecto/ProyectoTesis/Simulación/SUMO/SanDiego/SUMO_SanDiego_Pilot1/MicroDescongest/optimal/optimal3.net.xml"/>
+        <output-file value="optimal3.net.xml"/>
     </output>
 
     <processing>
@@ -807,129 +807,129 @@
     </edge>
 
     <tlLogic id="intersection/0002/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0003/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0004/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0005/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0006/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0007/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0008/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0009/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0010/tls" type="static" programID="0" offset="0">
-        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
-        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
-        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
-        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
         <phase duration="20" state="rrrrrrGGGGrrrrrrrrGGGGrr"/>
         <phase duration="3"  state="rrrrrryyyyrrrrrrrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
-        <phase duration="3"  state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="20" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="3"  state="rrrryyrrrrrrrrrryyrrrrrr"/>
+        <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="20" state="GGGGrrrrrrrrGGGGrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrrrrrryyyyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrrrrrrrrrrrrr"/>
     </tlLogic>
 
@@ -950,25 +950,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0003" type="traffic_light" x="200.00" y="300.00" incLanes="C4C3_0 C4C3_1 D3C3_0 D3C3_1 C2C3_0 C2C3_1 B3C3_0 B3C3_1" intLanes=":intersection/0003_0_0 :intersection/0003_1_0 :intersection/0003_2_0 :intersection/0003_2_1 :intersection/0003_4_0 :intersection/0003_5_0 :intersection/0003_6_0 :intersection/0003_7_0 :intersection/0003_8_0 :intersection/0003_8_1 :intersection/0003_10_0 :intersection/0003_11_0 :intersection/0003_12_0 :intersection/0003_13_0 :intersection/0003_14_0 :intersection/0003_14_1 :intersection/0003_16_0 :intersection/0003_17_0 :intersection/0003_18_0 :intersection/0003_19_0 :intersection/0003_20_0 :intersection/0003_20_1 :intersection/0003_22_0 :intersection/0003_23_0" shape="193.60,310.40 206.40,310.40 206.84,308.18 207.40,307.40 208.18,306.84 209.18,306.51 210.40,306.40 210.40,293.60 208.18,293.16 207.40,292.60 206.84,291.82 206.51,290.82 206.40,289.60 193.60,289.60 193.16,291.82 192.60,292.60 191.82,293.16 190.82,293.49 189.60,293.60 189.60,306.40 191.82,306.84 192.60,307.40 193.16,308.18 193.49,309.18">
@@ -976,25 +976,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0004" type="traffic_light" x="300.00" y="300.00" incLanes="D4D3_0 D4D3_1 E3D3_0 E3D3_1 D2D3_0 D2D3_1 C3D3_0 C3D3_1" intLanes=":intersection/0004_0_0 :intersection/0004_1_0 :intersection/0004_2_0 :intersection/0004_2_1 :intersection/0004_4_0 :intersection/0004_5_0 :intersection/0004_6_0 :intersection/0004_7_0 :intersection/0004_8_0 :intersection/0004_8_1 :intersection/0004_10_0 :intersection/0004_11_0 :intersection/0004_12_0 :intersection/0004_13_0 :intersection/0004_14_0 :intersection/0004_14_1 :intersection/0004_16_0 :intersection/0004_17_0 :intersection/0004_18_0 :intersection/0004_19_0 :intersection/0004_20_0 :intersection/0004_20_1 :intersection/0004_22_0 :intersection/0004_23_0" shape="293.60,310.40 306.40,310.40 306.84,308.18 307.40,307.40 308.18,306.84 309.18,306.51 310.40,306.40 310.40,293.60 308.18,293.16 307.40,292.60 306.84,291.82 306.51,290.82 306.40,289.60 293.60,289.60 293.16,291.82 292.60,292.60 291.82,293.16 290.82,293.49 289.60,293.60 289.60,306.40 291.82,306.84 292.60,307.40 293.16,308.18 293.49,309.18">
@@ -1002,25 +1002,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0005" type="traffic_light" x="100.00" y="200.00" incLanes="B3B2_0 B3B2_1 C2B2_0 C2B2_1 B1B2_0 B1B2_1 A2B2_0 A2B2_1" intLanes=":intersection/0005_0_0 :intersection/0005_1_0 :intersection/0005_2_0 :intersection/0005_2_1 :intersection/0005_4_0 :intersection/0005_5_0 :intersection/0005_6_0 :intersection/0005_7_0 :intersection/0005_8_0 :intersection/0005_8_1 :intersection/0005_10_0 :intersection/0005_11_0 :intersection/0005_12_0 :intersection/0005_13_0 :intersection/0005_14_0 :intersection/0005_14_1 :intersection/0005_16_0 :intersection/0005_17_0 :intersection/0005_18_0 :intersection/0005_19_0 :intersection/0005_20_0 :intersection/0005_20_1 :intersection/0005_22_0 :intersection/0005_23_0" shape="93.60,210.40 106.40,210.40 106.84,208.18 107.40,207.40 108.18,206.84 109.18,206.51 110.40,206.40 110.40,193.60 108.18,193.16 107.40,192.60 106.84,191.82 106.51,190.82 106.40,189.60 93.60,189.60 93.16,191.82 92.60,192.60 91.82,193.16 90.82,193.49 89.60,193.60 89.60,206.40 91.82,206.84 92.60,207.40 93.16,208.18 93.49,209.18">
@@ -1028,25 +1028,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0006" type="traffic_light" x="200.00" y="200.00" incLanes="C3C2_0 C3C2_1 D2C2_0 D2C2_1 C1C2_0 C1C2_1 B2C2_0 B2C2_1" intLanes=":intersection/0006_0_0 :intersection/0006_1_0 :intersection/0006_2_0 :intersection/0006_2_1 :intersection/0006_4_0 :intersection/0006_5_0 :intersection/0006_6_0 :intersection/0006_7_0 :intersection/0006_8_0 :intersection/0006_8_1 :intersection/0006_10_0 :intersection/0006_11_0 :intersection/0006_12_0 :intersection/0006_13_0 :intersection/0006_14_0 :intersection/0006_14_1 :intersection/0006_16_0 :intersection/0006_17_0 :intersection/0006_18_0 :intersection/0006_19_0 :intersection/0006_20_0 :intersection/0006_20_1 :intersection/0006_22_0 :intersection/0006_23_0" shape="193.60,210.40 206.40,210.40 206.84,208.18 207.40,207.40 208.18,206.84 209.18,206.51 210.40,206.40 210.40,193.60 208.18,193.16 207.40,192.60 206.84,191.82 206.51,190.82 206.40,189.60 193.60,189.60 193.16,191.82 192.60,192.60 191.82,193.16 190.82,193.49 189.60,193.60 189.60,206.40 191.82,206.84 192.60,207.40 193.16,208.18 193.49,209.18">
@@ -1054,25 +1054,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0007" type="traffic_light" x="300.00" y="200.00" incLanes="D3D2_0 D3D2_1 E2D2_0 E2D2_1 D1D2_0 D1D2_1 C2D2_0 C2D2_1" intLanes=":intersection/0007_0_0 :intersection/0007_1_0 :intersection/0007_2_0 :intersection/0007_2_1 :intersection/0007_4_0 :intersection/0007_5_0 :intersection/0007_6_0 :intersection/0007_7_0 :intersection/0007_8_0 :intersection/0007_8_1 :intersection/0007_10_0 :intersection/0007_11_0 :intersection/0007_12_0 :intersection/0007_13_0 :intersection/0007_14_0 :intersection/0007_14_1 :intersection/0007_16_0 :intersection/0007_17_0 :intersection/0007_18_0 :intersection/0007_19_0 :intersection/0007_20_0 :intersection/0007_20_1 :intersection/0007_22_0 :intersection/0007_23_0" shape="293.60,210.40 306.40,210.40 306.84,208.18 307.40,207.40 308.18,206.84 309.18,206.51 310.40,206.40 310.40,193.60 308.18,193.16 307.40,192.60 306.84,191.82 306.51,190.82 306.40,189.60 293.60,189.60 293.16,191.82 292.60,192.60 291.82,193.16 290.82,193.49 289.60,193.60 289.60,206.40 291.82,206.84 292.60,207.40 293.16,208.18 293.49,209.18">
@@ -1080,25 +1080,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0008" type="traffic_light" x="100.00" y="100.00" incLanes="B2B1_0 B2B1_1 C1B1_0 C1B1_1 B0B1_0 B0B1_1 A1B1_0 A1B1_1" intLanes=":intersection/0008_0_0 :intersection/0008_1_0 :intersection/0008_2_0 :intersection/0008_2_1 :intersection/0008_4_0 :intersection/0008_5_0 :intersection/0008_6_0 :intersection/0008_7_0 :intersection/0008_8_0 :intersection/0008_8_1 :intersection/0008_10_0 :intersection/0008_11_0 :intersection/0008_12_0 :intersection/0008_13_0 :intersection/0008_14_0 :intersection/0008_14_1 :intersection/0008_16_0 :intersection/0008_17_0 :intersection/0008_18_0 :intersection/0008_19_0 :intersection/0008_20_0 :intersection/0008_20_1 :intersection/0008_22_0 :intersection/0008_23_0" shape="93.60,110.40 106.40,110.40 106.84,108.18 107.40,107.40 108.18,106.84 109.18,106.51 110.40,106.40 110.40,93.60 108.18,93.16 107.40,92.60 106.84,91.82 106.51,90.82 106.40,89.60 93.60,89.60 93.16,91.82 92.60,92.60 91.82,93.16 90.82,93.49 89.60,93.60 89.60,106.40 91.82,106.84 92.60,107.40 93.16,108.18 93.49,109.18">
@@ -1106,25 +1106,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0009" type="traffic_light" x="200.00" y="100.00" incLanes="C2C1_0 C2C1_1 D1C1_0 D1C1_1 C0C1_0 C0C1_1 B1C1_0 B1C1_1" intLanes=":intersection/0009_0_0 :intersection/0009_1_0 :intersection/0009_2_0 :intersection/0009_2_1 :intersection/0009_4_0 :intersection/0009_5_0 :intersection/0009_6_0 :intersection/0009_7_0 :intersection/0009_8_0 :intersection/0009_8_1 :intersection/0009_10_0 :intersection/0009_11_0 :intersection/0009_12_0 :intersection/0009_13_0 :intersection/0009_14_0 :intersection/0009_14_1 :intersection/0009_16_0 :intersection/0009_17_0 :intersection/0009_18_0 :intersection/0009_19_0 :intersection/0009_20_0 :intersection/0009_20_1 :intersection/0009_22_0 :intersection/0009_23_0" shape="193.60,110.40 206.40,110.40 206.84,108.18 207.40,107.40 208.18,106.84 209.18,106.51 210.40,106.40 210.40,93.60 208.18,93.16 207.40,92.60 206.84,91.82 206.51,90.82 206.40,89.60 193.60,89.60 193.16,91.82 192.60,92.60 191.82,93.16 190.82,93.49 189.60,93.60 189.60,106.40 191.82,106.84 192.60,107.40 193.16,108.18 193.49,109.18">
@@ -1132,25 +1132,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
     <junction id="intersection/0010" type="traffic_light" x="300.00" y="100.00" incLanes="D2D1_0 D2D1_1 E1D1_0 E1D1_1 D0D1_0 D0D1_1 C1D1_0 C1D1_1" intLanes=":intersection/0010_0_0 :intersection/0010_1_0 :intersection/0010_2_0 :intersection/0010_2_1 :intersection/0010_4_0 :intersection/0010_5_0 :intersection/0010_6_0 :intersection/0010_7_0 :intersection/0010_8_0 :intersection/0010_8_1 :intersection/0010_10_0 :intersection/0010_11_0 :intersection/0010_12_0 :intersection/0010_13_0 :intersection/0010_14_0 :intersection/0010_14_1 :intersection/0010_16_0 :intersection/0010_17_0 :intersection/0010_18_0 :intersection/0010_19_0 :intersection/0010_20_0 :intersection/0010_20_1 :intersection/0010_22_0 :intersection/0010_23_0" shape="293.60,110.40 306.40,110.40 306.84,108.18 307.40,107.40 308.18,106.84 309.18,106.51 310.40,106.40 310.40,93.60 308.18,93.16 307.40,92.60 306.84,91.82 306.51,90.82 306.40,89.60 293.60,89.60 293.16,91.82 292.60,92.60 291.82,93.16 290.82,93.49 289.60,93.60 289.60,106.40 291.82,106.84 292.60,107.40 293.16,108.18 293.49,109.18">
@@ -1158,25 +1158,25 @@
         <request index="1"  response="000000000000000000000000" foes="000000110000001100000000" cont="0"/>
         <request index="2"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
         <request index="3"  response="000000000000000000000000" foes="111111110000111100000000" cont="0"/>
-        <request index="4"  response="000000001111000000000000" foes="111100101111111100000000" cont="0"/>
+        <request index="4"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="5"  response="000000001111000000000000" foes="111100001111111100000000" cont="0"/>
         <request index="6"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="7"  response="000000001100000000000000" foes="110000001100000000000000" cont="0"/>
         <request index="8"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
         <request index="9"  response="000000111100000000111111" foes="110000111100000000111111" cont="0"/>
-        <request index="10" response="001111111100000000111100" foes="101111111100000000111100" cont="0"/>
+        <request index="10" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="11" response="001111111100000000111100" foes="001111111100000000111100" cont="0"/>
         <request index="12" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="13" response="000000000000000000000000" foes="001100000000000000110000" cont="0"/>
         <request index="14" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
         <request index="15" response="000000000000000000000000" foes="111100000000111111110000" cont="0"/>
-        <request index="16" response="000000000000000000101111" foes="111100000000111100101111" cont="0"/>
+        <request index="16" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="17" response="000000000000000000001111" foes="111100000000111100001111" cont="0"/>
         <request index="18" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="19" response="000000000000000000001100" foes="000000000000110000001100" cont="0"/>
         <request index="20" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
         <request index="21" response="000000111111000000111100" foes="000000111111110000111100" cont="0"/>
-        <request index="22" response="000000111100101111111100" foes="000000111100101111111100" cont="0"/>
+        <request index="22" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
         <request index="23" response="000000111100001111111100" foes="000000111100001111111100" cont="0"/>
     </junction>
 

@@ -234,7 +234,7 @@ def run():
     client_sumo.publish(start_topic, "start")
 
     # Start the Simulation
-    print("Simulation Start")
+    print("Start Simulation")
     time_0 = time.perf_counter()
     time_current = 0.0
     while traci.simulation.getMinExpectedNumber() > 0:
