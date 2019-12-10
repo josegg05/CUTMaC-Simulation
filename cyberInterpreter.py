@@ -330,6 +330,6 @@ if __name__ == "__main__":
 
     # this is the normal way of using traci. sumo is started as a
     # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
+    traci.start([sumoBinary, "-c", "source/osm/osm.sumocfg",
                  "--tripinfo-output", "tripinfo.xml"])
     run()
