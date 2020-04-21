@@ -130,7 +130,7 @@ def on_message(client, userdata, msg):
 
 
 def mqtt_conf() -> mqtt.Client:
-    broker_address = "192.168.5.95"  # "192.168.1.95"
+    broker_address = "localhost"  # "192.168.1.95"
     client = mqtt.Client()
     client.on_connect = on_connect
     client.on_message = on_message
@@ -238,6 +238,7 @@ def run():
     time_0 = time.perf_counter()
     time_current = 0.0
     while traci.simulation.getMinExpectedNumber() > 0:
+        print("Time:[%s] " % time_current)
         traci.simulationStep()
 
         for x in range(len(e2det_list)):
@@ -283,6 +284,7 @@ def run():
             for x in msg_dic:
                 if x["command"] == "setPhase":
                     traci.trafficlight.setRedYellowGreenState(x["tls_id"], x["data"])
+                    print("Traci changed to", str(x["data"]))
                 if x["command"] == "setProgram":
                     traci.trafficlight.setProgram(x["tls_id"], x["data"])
                 if x["command"] == "setCompleteRedYellowGreenDefinition":

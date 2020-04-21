@@ -1,20 +1,19 @@
-***Starting server on port 56947 ***
-Loading net-file from 'source/optimal/optimal3.net.xml'... done (38ms).
-Loading additional-files from 'source/optimal/e2.add.xml'... done (16ms).
+***Starting server on port 53906 ***
+Loading net-file from 'source/optimal/optimal3.net.xml'... done (28ms).
+Loading additional-files from 'source/optimal/e2.add.xml'... done (28ms).
 Loading done.
-Simulation started with time: 0.00
 Performance: 
- Duration: 287284ms
- Real time factor: 0.985088
- UPS: 54.193759
+ Duration: 96045ms
+ Real time factor: 0
+ UPS: 0.000000
 Vehicles: 
- Inserted: 124 (Loaded: 184)
- Running: 97
+ Inserted: 0 (Loaded: 10)
+ Running: 0
  Waiting: 0
 Statistics (avg):
- RouteLength: 350.20
- Duration: 135.59
- WaitingTime: 83.85
- TimeLoss: 99.47
- DepartDelay: -0.46
+ RouteLength: 0.00
+ Duration: 0.00
+ WaitingTime: 0.00
+ TimeLoss: 0.00
+ DepartDelay: 0.00
 
