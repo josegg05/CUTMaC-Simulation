@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 04/27/20 12:17:30 by Eclipse SUMO netedit Version 1.3.1
+<!-- generated on 04/28/20 22:41:13 by Eclipse SUMO netedit Version 1.3.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -8,7 +8,7 @@
     </input>
 
     <output>
-        <output-file value=".\osm\osm.net.xml"/>
+        <output-file value="C:\Users\KratosUC\PycharmProjects\SUMO_SanDiego_Pilot1\source\osm\osm.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
@@ -2751,11 +2751,11 @@
             <param key="origId" value="36054466"/>
         </lane>
     </edge>
-    <edge id="36054466#10" from="49080931" to="278084142" name="3rd Avenue" priority="10" type="highway.tertiary" spreadType="center" shape="837.55,459.47 835.97,574.83 834.31,631.23">
-        <lane id="36054466#10_0" index="0" allow="pedestrian" speed="13.89" length="164.08" width="3.00" shape="839.04,467.21 837.57,574.86 835.91,631.28">
+    <edge id="36054466#10" from="49080931" to="278084142" name="3rd Avenue" priority="10" type="highway.tertiary" spreadType="center" shape="837.55,459.47 835.97,574.83 835.67,602.54">
+        <lane id="36054466#10_0" index="0" allow="pedestrian" speed="13.89" length="135.37" width="3.00" shape="839.04,467.21 837.57,574.85 837.27,602.56">
             <param key="origId" value="36054466"/>
         </lane>
-        <lane id="36054466#10_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="164.08" shape="835.94,467.16 834.47,574.80 832.81,631.19">
+        <lane id="36054466#10_1" index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" speed="13.89" length="135.37" shape="835.94,467.16 834.47,574.81 834.17,602.52">
             <param key="origId" value="36054466"/>
         </lane>
     </edge>
@@ -4133,8 +4133,8 @@
     <junction id="2654205181" type="priority" x="751.48" y="555.62" incLanes="-419814433#0_0 -419814433#0_1" intLanes=":2654205181_0_0" shape="751.48,555.62 757.68,555.59 751.48,555.62">
         <request index="0" response="0" foes="0" cont="0"/>
     </junction>
-    <junction id="278084142" type="dead_end" x="832.81" y="631.19" incLanes="36054466#10_0 36054466#10_1" intLanes="" shape="837.41,631.33 831.21,631.14"/>
-    <junction id="278084564" type="dead_end" x="919.67" y="620.57" incLanes="" intLanes="" shape="922.87,620.60 913.47,620.51"/>
+    <junction id="278084142" type="dead_end" x="834.17" y="602.50" incLanes="36054466#10_0 36054466#10_1" intLanes="" shape="838.77,602.55 832.57,602.48"/>
+    <junction id="278084564" type="dead_end" x="919.22" y="611.50" incLanes="" intLanes="" shape="922.42,611.58 913.02,611.35"/>
     <junction id="356127689" type="dead_end" x="654.22" y="152.32" incLanes="132579327_0" intLanes="" shape="654.23,153.32 654.21,151.32"/>
     <junction id="4341675279" type="priority" x="667.65" y="206.25" incLanes="573865733#1_0 573865733#1_1 573865733#1_2 573865733#1_3" intLanes=":4341675279_0_0 :4341675279_0_1 :4341675279_0_2 :4341675279_0_3" shape="675.47,202.28 662.87,202.22 662.44,205.20 661.66,207.23 661.36,208.49 661.23,210.21 677.03,210.29 676.63,207.31 675.87,205.27 675.58,204.01">
         <request index="0" response="0000" foes="0000" cont="0"/>
