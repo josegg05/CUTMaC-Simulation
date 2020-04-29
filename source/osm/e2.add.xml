@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 04/21/20 17:08:51 by Eclipse SUMO netedit Version 1.3.1
+<!-- generated on 04/28/20 20:26:16 by Eclipse SUMO netedit Version 1.3.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="osm.net.xml"/>
+        <sumo-net-file value=".\osm.net.xml"/>
     </input>
 
     <output>
-        <output-file value="osm.net.xml"/>
+        <output-file value=".\osm.net.xml"/>
         <output.street-names value="true"/>
     </output>
 
@@ -43,16 +43,16 @@
     <e2Detector id="intersection/0002/e2det/s01/__ne" lane="436291016#3_1" pos="0.80" length="30.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0002/e2det/s02/__n_" lane="436291016#3_2" pos="0.80" length="30.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0002/e2det/s03/_wn_" lane="436291016#3_3" pos="0.80" length="30.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0002/e2det/w01/_ne_" lane="-5955850#0_1" pos="23.40" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0002/e2det/w01/_ne_" lane="-5955850#0_1" pos="23.40" length="49.99" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0003/e2det/e01/_sw_" lane="-593766960_1" pos="4.20" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0003/e2det/n01/__sw" lane="436291021#0_1" pos="102.98" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0003/e2det/n02/_es_" lane="436291021#0_2" pos="102.98" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0004/e2det/e01/__w_" lane="436291064#1_1" pos="1.00" length="35.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0004/e2det/e02/__w_" lane="436291064#1_2" pos="1.00" length="35.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0004/e2det/e03/_s__" lane="436291064#1_3" pos="1.00" length="35.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0004/e2det/e04/_s__" lane="436291064#1_4" pos="1.00" length="35.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0004/e2det/n01/__sw" lane="6024091#5_1" pos="2.50" length="30.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0004/e2det/n02/__s_" lane="6024091#5_2" pos="2.50" length="30.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0003/e2det/n01/__sw" lane="436291021#0_1" pos="102.98" length="41.03" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0003/e2det/n02/_es_" lane="436291021#0_2" pos="102.98" length="41.03" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0004/e2det/e01/__w_" lane="436291064#1_1" pos="1.00" length="34.93" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0004/e2det/e02/__w_" lane="436291064#1_2" pos="1.00" length="34.93" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0004/e2det/e03/_s__" lane="436291064#1_3" pos="1.00" length="34.93" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0004/e2det/e04/_s__" lane="436291064#1_4" pos="1.00" length="34.93" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0004/e2det/n01/__sw" lane="6024091#5_1" pos="2.50" length="29.92" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0004/e2det/n02/__s_" lane="6024091#5_2" pos="2.50" length="29.92" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0005/e2det/e01/___n" lane="436291031_1" pos="2.25" length="25.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0005/e2det/e02/___n" lane="436291031_2" pos="2.25" length="25.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0005/e2det/e03/__wn" lane="436291031_3" pos="2.25" length="25.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
@@ -67,7 +67,7 @@
     <e2Detector id="intersection/0006/e2det/s01/_wn_" lane="-641705065_1" pos="58.10" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0007/e2det/e01/__wn" lane="641705063#1_1" pos="0.91" length="40.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0007/e2det/e02/__w_" lane="641705063#1_2" pos="0.91" length="40.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0007/e2det/s01/_wn_" lane="36054466#4_1" pos="0.00" length="30.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0007/e2det/s01/_wn_" lane="36054466#4_1" pos="0.00" length="29.47" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0008/e2det/e01/__w_" lane="89922370#5_1" pos="7.90" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0008/e2det/e02/_sw_" lane="89922370#5_2" pos="7.90" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0008/e2det/n01/___w" lane="593766961_1" pos="26.30" length="50.00" freq="1.00" file="e2output.xml"/>
@@ -75,8 +75,8 @@
     <e2Detector id="intersection/0009/e2det/s01/___e" lane="573865733#1_1" pos="42.00" length="50.00" freq="1.00" file="e2output.xml"/>
     <e2Detector id="intersection/0009/e2det/s02/__ne" lane="573865733#1_2" pos="42.00" length="50.00" freq="1.00" file="e2output.xml"/>
     <e2Detector id="intersection/0009/e2det/s03/__n_" lane="573865733#1_3" pos="42.00" length="50.00" freq="1.00" file="e2output.xml"/>
-    <e2Detector id="intersection/0009/e2det/w01/__e_" lane="642337373_1" pos="22.00" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0009/e2det/w02/_ne_" lane="642337373_2" pos="22.00" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0009/e2det/w01/__e_" lane="642337373_1" pos="22.00" length="49.61" freq="1.00" file="e2output.xml" friendlyPos="1"/>
+    <e2Detector id="intersection/0009/e2det/w02/_ne_" lane="642337373_2" pos="22.00" length="49.61" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0010/e2det/n01/_e__" lane="641705065_1" pos="58.10" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0010/e2det/w01/__e_" lane="234953562_1" pos="13.90" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0010/e2det/w02/_ne_" lane="234953562_2" pos="13.90" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
@@ -87,7 +87,4 @@
     <e2Detector id="intersection/0012/e2det/n02/_e__" lane="436291020#2_2" pos="0.00" length="40.00" freq="1.00" file="e2output.xml"/>
     <e2Detector id="intersection/0012/e2det/w01/__es" lane="278328405#0_1" pos="15.95" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
     <e2Detector id="intersection/0012/e2det/w02/__e_" lane="278328405#0_2" pos="15.95" length="50.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0013/e2det/s01/__n_" lane="573865733#0_1" pos="88.99" length="20.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0013/e2det/s02/__n_" lane="573865733#0_2" pos="88.99" length="20.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
-    <e2Detector id="intersection/0013/e2det/s03/__n_" lane="573865733#0_3" pos="88.99" length="20.00" freq="1.00" file="e2output.xml" friendlyPos="1"/>
 </additional>
