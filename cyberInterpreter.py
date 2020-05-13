@@ -338,6 +338,7 @@ if __name__ == "__main__":
     # subprocess and then the python script connects and runs
     traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
                  "--tripinfo-output", "tripinfo.xml"])
+
     with open("sumo_detect.log", "w") as f:
         f.write("time; detect_id; cars_number; occupancy; jam; mean_speed\n")
 
