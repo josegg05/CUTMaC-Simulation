@@ -126,7 +126,7 @@ def on_message(client, userdata, msg):
             global msg_dic
             global command_received
             msg_dic.append(json.loads(msg.payload))
-            command_received = True
+            #command_received = True
 
 
 def mqtt_conf() -> mqtt.Client:
@@ -237,9 +237,9 @@ def run():
     print("Start Simulation")
     time_0 = time.perf_counter()
     time_current = 0.0
+    time_step = 0.0
     while traci.simulation.getMinExpectedNumber() > 0:
         print("Time:[%s] " % time_current)
-        traci.simulationStep()
 
         for x in range(len(e2det_list)):
             e2det_id = e2det_list[x]
@@ -275,25 +275,10 @@ def run():
                 # print(e2det_id[0:25])
                 # print(msg)
                 client_sumo.publish(e2det_id[0:25], json.dumps(msg))
-
-        # TLS management
-        # print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
-        # print(command_received)
-        # print(msg_dic)
-        if command_received:
-            for x in msg_dic:
-                if x["command"] == "setPhase":
-                    traci.trafficlight.setRedYellowGreenState(x["tls_id"], x["data"])
-                    print("Traci changed to", str(x["data"]))
-                if x["command"] == "setProgram":
-                    traci.trafficlight.setProgram(x["tls_id"], x["data"])
-                if x["command"] == "setCompleteRedYellowGreenDefinition":
-                    traci.trafficlight.setCompleteRedYellowGreenDefinition(x["tls_id"], x["data"])
-            command_received = False
-            msg_dic = []
-            # traci.trafficlight.setRedYellowGreenState("intersection/0008/tls", "rrrrrrrrr")
-            # there is a vehicle from the north, switch
-            # traci.trafficlight.setPhase(tls_list[0], 0)
+                if "intersection/0002/" in e2det_id[0:27]:
+                    with open("sumo_detect.log", "a") as f:
+                        f.write(str(time_current) + "; " + str(e2det_id[0:27]) + "; " + str(vehicleNumber[x][0]) + "; " +
+                        str(occupancy[x][0]) + "; " + str(jamLengthVehicle[x][0]) + "; " + str(meanSpeed[x][0]) + "\n")
 
         # generate a random accident
         # if step == 20:
@@ -302,9 +287,28 @@ def run():
         #     remove_accident(accident_e2det, e2det_list)
 
         # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_list[0]))
+        traci.simulationStep()
+        time_step += 1.0
+        while time.perf_counter() < time_0 + time_step:  # --> DON'T SEND MSGS TO THE NODES IN THIS PART
+            # TLS management
+            # print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
+            # print(command_received)
+            # print(msg_dic)
+            if msg_dic:
+                msg_in = msg_dic.pop(0)
+                if msg_in["command"] == "setPhase":
+                    traci.trafficlight.setRedYellowGreenState(msg_in["tls_id"], msg_in["data"])
+                    print("Traci changed to", str(msg_in["data"]))
+                if msg_in["command"] == "setProgram":
+                    traci.trafficlight.setProgram(msg_in["tls_id"], msg_in["data"])
+                if msg_in["command"] == "setCompleteRedYellowGreenDefinition":
+                    traci.trafficlight.setCompleteRedYellowGreenDefinition(msg_in["tls_id"], msg_in["data"])
+                with open("tls_state.log", "a") as f:
+                    f.write(str(msg_in["tls_id"]) + "; " + str(time_current) + "; " + str(msg_in["data"]) + "\n")
+                # traci.trafficlight.setRedYellowGreenState("intersection/0008/tls", "rrrrrrrrr")
+                # there is a vehicle from the north, switch
+                # traci.trafficlight.setPhase(tls_list[0], 0)
         time_current += 1.0
-        while time.perf_counter() < time_0 + time_current:
-            pass
         step += 1
     print("Simulation Finished")
     # Send the stop signal
@@ -332,6 +336,12 @@ if __name__ == "__main__":
 
     # this is the normal way of using traci. sumo is started as a
     # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, "-c", "source/osm/osm.sumocfg",
+    traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
                  "--tripinfo-output", "tripinfo.xml"])
+    with open("sumo_detect.log", "w") as f:
+        f.write("time; detect_id; cars_number; occupancy; jam; mean_speed\n")
+
+    with open("tls_state.log", "w") as f:
+        f.write("movement_id; time; state\n")
+
     run()
