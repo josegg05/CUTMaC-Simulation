@@ -238,48 +238,57 @@ def run():
     time_0 = time.perf_counter()
     time_current = 0.0
     time_step = 0.0
+    sample_period = 2  # Most be >= 1
+    sample_cycle = 1  # Most be 1 to reset
     while traci.simulation.getMinExpectedNumber() > 0:
         print("Time:[%s] " % time_current)
+        if sample_cycle == sample_period:
+            sample_cycle = 1
+            for x in range(len(e2det_list)):
+                e2det_id = e2det_list[x]
+                # print(e2det_id)
+                jamLengthVehicle[x][0] = traci.lanearea.getJamLengthVehicle(e2det_id)
+                vehicleNumber[x][0] = traci.lanearea.getLastStepVehicleNumber(e2det_id)
+                occupancy[x][0] = traci.lanearea.getLastStepOccupancy(e2det_id)
+                meanSpeed[x][0] = traci.lanearea.getLastStepMeanSpeed(e2det_id)
+                if (jamLengthVehicle[x][0] != jamLengthVehicle[x][1]) or (vehicleNumber[x][0] != vehicleNumber[x][1]) or (
+                        occupancy[x][0] != occupancy[x][1]) or (meanSpeed[x][0] != meanSpeed[x][1]):
+                    jamLengthVehicle[x][1] = jamLengthVehicle[x][0]
+                    vehicleNumber[x][1] = vehicleNumber[x][0]
+                    occupancy[x][1] = occupancy[x][0]
+                    meanSpeed[x][1] = meanSpeed[x][0]
 
-        for x in range(len(e2det_list)):
-            e2det_id = e2det_list[x]
-            # print(e2det_id)
-            jamLengthVehicle[x][0] = traci.lanearea.getJamLengthVehicle(e2det_id)
-            vehicleNumber[x][0] = traci.lanearea.getLastStepVehicleNumber(e2det_id)
-            occupancy[x][0] = traci.lanearea.getLastStepOccupancy(e2det_id)
-            meanSpeed[x][0] = traci.lanearea.getLastStepMeanSpeed(e2det_id)
-            if (jamLengthVehicle[x][0] != jamLengthVehicle[x][1]) or (vehicleNumber[x][0] != vehicleNumber[x][1]) or (
-                    occupancy[x][0] != occupancy[x][1]) or (meanSpeed[x][0] != meanSpeed[x][1]):
-                jamLengthVehicle[x][1] = jamLengthVehicle[x][0]
-                vehicleNumber[x][1] = vehicleNumber[x][0]
-                occupancy[x][1] = occupancy[x][0]
-                meanSpeed[x][1] = meanSpeed[x][0]
+                    # Fiware data model
+                    # https://fiware-datamodels.readthedocs.io/en/latest/Transportation/TrafficFlowObserved/doc/spec/index.html
+                    msg = {
+                        "id": e2det_id[0:27],
+                        "type": "TrafficFlowObserved",
+                        "laneId": traci.lanearea.getLaneID(e2det_id),
+                        "location": traci.lanearea.getPosition(e2det_id),  # Location may be in "GeoProperty. geo:json."
+                        "dateObserved": time_current,
+                        "jamLengthVehicle": jamLengthVehicle[x][0],
+                        "occupancy": occupancy[x][0],
+                        "meanSpeed": meanSpeed[x][0],
+                        "vehicleNumber": vehicleNumber[x][0],
+                        # "accidentOnLane": False,  # It has to be configured
+                        "laneDirection": e2det_id[24] + "-" + e2det_id[28:33]
+                    }
 
-                # Fiware data model
-                # https://fiware-datamodels.readthedocs.io/en/latest/Transportation/TrafficFlowObserved/doc/spec/index.html
-                msg = {
-                    "id": e2det_id[0:27],
-                    "type": "TrafficFlowObserved",
-                    "laneId": traci.lanearea.getLaneID(e2det_id),
-                    "location": traci.lanearea.getPosition(e2det_id),  # Location may be in "GeoProperty. geo:json."
-                    "dateObserved": datetime.datetime.utcnow().isoformat(),
-                    "jamLengthVehicle": jamLengthVehicle[x][0],
-                    "occupancy": occupancy[x][0],
-                    "meanSpeed": meanSpeed[x][0],
-                    "vehicleNumber": vehicleNumber[x][0],
-                    # "accidentOnLane": False,  # It has to be configured
-                    "laneDirection": e2det_id[24] + "-" + e2det_id[28:33]
-                }
-
-                # print("jamLengthVehicle: ", jamLengthVehicle[x][0], "; vehicleNumber: ", vehi[x][1])
-                # print(e2det_id[0:25])
-                # print(msg)
-                client_sumo.publish(e2det_id[0:25], json.dumps(msg))
-                if "intersection/0002/" in e2det_id[0:27]:
-                    with open("sumo_detect.log", "a") as f:
-                        f.write(str(time_current) + "; " + str(e2det_id[0:27]) + "; " + str(vehicleNumber[x][0]) + "; " +
-                        str(occupancy[x][0]) + "; " + str(jamLengthVehicle[x][0]) + "; " + str(meanSpeed[x][0]) + "\n")
-
+                    # print("jamLengthVehicle: ", jamLengthVehicle[x][0], "; vehicleNumber: ", vehi[x][1])
+                    # print(e2det_id[0:25])
+                    # print(msg)
+                    client_sumo.publish(e2det_id[0:25], json.dumps(msg))
+                    if "intersection/0002/" in e2det_id[0:27]:
+                        with open("sumo_detect.log", "a") as f:
+                            f.write(str(time_current) + "; " +
+                                    str(time_current) + "; " +
+                                    str(e2det_id[0:27]) + "; " +
+                                    str(vehicleNumber[x][0]) + "; " +
+                                    str(occupancy[x][0]) + "; " +
+                                    str(jamLengthVehicle[x][0]) + "; " +
+                                    str(meanSpeed[x][0]) + "\n")
+        else:
+            sample_cycle += 1
         # generate a random accident
         # if step == 20:
         #     accident_e2det = generate_random_accident(e2det_list)
@@ -304,7 +313,7 @@ def run():
                 if msg_in["command"] == "setCompleteRedYellowGreenDefinition":
                     traci.trafficlight.setCompleteRedYellowGreenDefinition(msg_in["tls_id"], msg_in["data"])
                 with open("tls_state.log", "a") as f:
-                    f.write(str(msg_in["tls_id"]) + "; " + str(time_current) + "; " + str(msg_in["data"]) + "\n")
+                    f.write(str(time_current) + "; " + str(msg_in["tls_id"]) + "; " + str(msg_in["data"]) + "\n")
                 # traci.trafficlight.setRedYellowGreenState("intersection/0008/tls", "rrrrrrrrr")
                 # there is a vehicle from the north, switch
                 # traci.trafficlight.setPhase(tls_list[0], 0)
@@ -340,9 +349,9 @@ if __name__ == "__main__":
                  "--tripinfo-output", "tripinfo.xml"])
 
     with open("sumo_detect.log", "w") as f:
-        f.write("time; detect_id; cars_number; occupancy; jam; mean_speed\n")
+        f.write("time; time_det; detect_id; cars_number; occupancy; jam; mean_speed\n")
 
     with open("tls_state.log", "w") as f:
-        f.write("movement_id; time; state\n")
+        f.write("time; movement_id; state\n")
 
     run()
