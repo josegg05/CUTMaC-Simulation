@@ -81,16 +81,10 @@ import traci  # noqa
 #        <phase duration="6"  state="ryry"/>
 #    </tlLogic>
 
-# Define the global variable of command_received
-command_received = False
-msg_dic = []
-start_topic = "intersection/all/start"
-
-
 def get_options():
     optParser = optparse.OptionParser()
     optParser.add_option("--nogui", action="store_true",
-                         default=False, help="run the commandline version of sumo")
+                         default=True, help="run the commandline version of sumo")
     options, args = optParser.parse_args()
     return options
 
@@ -124,9 +118,7 @@ def on_message(client, userdata, msg):
         if msg_command == "setPhase" or msg_command == "setProgram" or msg_command == "setCompleteRedYellowGreenDefinition":
             print("Command arrived :" + str(msg_command))
             global msg_dic
-            global command_received
             msg_dic.append(json.loads(msg.payload))
-            #command_received = True
 
 
 def mqtt_conf() -> mqtt.Client:
@@ -209,9 +201,6 @@ def remove_accident(e2det_id, e2det_list):
 
 def run():
     """execute the TraCI control loop"""
-    global command_received
-    global msg_dic
-    global start_topic
     step = 0
     jamLengthVehicle = [[0, 0]]
     vehicleNumber = [[0, 0]]
@@ -230,6 +219,12 @@ def run():
         occupancy.append([0, 0])
         meanSpeed.append([0, 0])
 
+    with open("log_files/sumo_detect_%d.log" % run_num, "w") as f:
+        f.write("time; time_det; detect_id; cars_number; occupancy; jam; mean_speed\n")
+
+    with open("log_files/tls_state_%d.log" % run_num, "w") as f:
+        f.write("time; movement_id; state\n")
+
     # Send the start signal
     client_sumo.publish(start_topic, "start")
 
@@ -240,6 +235,7 @@ def run():
     time_step = 0.0
     sample_period = 2  # Most be >= 1
     sample_cycle = 1  # Most be 1 to reset
+    #while time_current < 45:
     while traci.simulation.getMinExpectedNumber() > 0:
         print("Time:[%s] " % time_current)
         if sample_cycle == sample_period:
@@ -279,7 +275,7 @@ def run():
                     # print(msg)
                     client_sumo.publish(e2det_id[0:25], json.dumps(msg))
                     if "intersection/0002/" in e2det_id[0:27]:
-                        with open("sumo_detect.log", "a") as f:
+                        with open("log_files/sumo_detect_%d.log" % run_num, "a") as f:
                             f.write(str(time_current) + "; " +
                                     str(time_current) + "; " +
                                     str(e2det_id[0:27]) + "; " +
@@ -301,7 +297,6 @@ def run():
         while time.perf_counter() < time_0 + time_step:  # --> DON'T SEND MSGS TO THE NODES IN THIS PART
             # TLS management
             # print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
-            # print(command_received)
             # print(msg_dic)
             if msg_dic:
                 msg_in = msg_dic.pop(0)
@@ -312,8 +307,9 @@ def run():
                     traci.trafficlight.setProgram(msg_in["tls_id"], msg_in["data"])
                 if msg_in["command"] == "setCompleteRedYellowGreenDefinition":
                     traci.trafficlight.setCompleteRedYellowGreenDefinition(msg_in["tls_id"], msg_in["data"])
-                with open("tls_state.log", "a") as f:
-                    f.write(str(time_current) + "; " + str(msg_in["tls_id"]) + "; " + str(msg_in["data"]) + "\n")
+                if "intersection/0002/" in str(msg_in["tls_id"]):
+                    with open("log_files/tls_state_%d.log" % run_num, "a") as f:
+                        f.write(str(time_current) + "; " + str(msg_in["tls_id"]) + "; " + str(msg_in["data"]) + "\n")
                 # traci.trafficlight.setRedYellowGreenState("intersection/0008/tls", "rrrrrrrrr")
                 # there is a vehicle from the north, switch
                 # traci.trafficlight.setPhase(tls_list[0], 0)
@@ -322,12 +318,13 @@ def run():
     print("Simulation Finished")
     # Send the stop signal
     client_sumo.publish(start_topic, "stop")
-    traci.close()
-    sys.stdout.flush()
 
 
 # this is the main entry point of this script
 if __name__ == "__main__":
+    # Define the global variables
+    run_num = 0
+    start_topic = "intersection/all/start"
     random.seed(5)
     options = get_options()
     client_sumo = mqtt_conf()
@@ -343,15 +340,16 @@ if __name__ == "__main__":
     # first, generate the route file for this simulation
     # generate_routefile()
 
-    # this is the normal way of using traci. sumo is started as a
-    # subprocess and then the python script connects and runs
-    traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
-                 "--tripinfo-output", "tripinfo.xml"])
+    while run_num < 3:
+        msg_dic = []
+        # this is the normal way of using traci. sumo is started as a
+        # subprocess and then the python script connects and runs
+        traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
+                     "--tripinfo-output", "log_files/tripinfo_%d.xml" % run_num])
 
-    with open("sumo_detect.log", "w") as f:
-        f.write("time; time_det; detect_id; cars_number; occupancy; jam; mean_speed\n")
+        run()
 
-    with open("tls_state.log", "w") as f:
-        f.write("time; movement_id; state\n")
-
-    run()
+        traci.close()
+        sys.stdout.flush()
+        run_num += 1
+        time.sleep(60)
