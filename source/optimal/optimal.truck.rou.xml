@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 05/11/20 11:10:27 by Eclipse SUMO duarouter Version 1.3.1
+<!-- generated on Wed May 27 06:42:21 2020 by Eclipse SUMO duarouter Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -32,172 +32,172 @@
     <vehicle id="truck0" type="truck_truck" depart="0.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="truck1" type="truck_truck" depart="31.77" departLane="best" departSpeed="max">
+    <vehicle id="truck1" type="truck_truck" depart="32.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2B3 B3C3 C3C2 C2B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="truck2" type="truck_truck" depart="63.53" departLane="best" departSpeed="max">
+    <vehicle id="truck2" type="truck_truck" depart="64.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1C2 C2C3 C3B3 B3B2 B2C2 C2C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="truck3" type="truck_truck" depart="95.30" departLane="best" departSpeed="max">
+    <vehicle id="truck3" type="truck_truck" depart="96.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1B1 B1B2 B2C2 C2C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck4" type="truck_truck" depart="127.06" departLane="best" departSpeed="max">
+    <vehicle id="truck4" type="truck_truck" depart="128.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3D3 D3D2 D2D1 D1C1 C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="truck5" type="truck_truck" depart="158.83" departLane="best" departSpeed="max">
+    <vehicle id="truck5" type="truck_truck" depart="160.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck6" type="truck_truck" depart="190.59" departLane="best" departSpeed="max">
+    <vehicle id="truck6" type="truck_truck" depart="192.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2D1 D1C1 C1B1 B1B2 B2C2 C2D2 D2D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck7" type="truck_truck" depart="222.36" departLane="best" departSpeed="max">
+    <vehicle id="truck7" type="truck_truck" depart="224.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2C2 C2D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="truck8" type="truck_truck" depart="254.12" departLane="best" departSpeed="max">
+    <vehicle id="truck8" type="truck_truck" depart="256.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3B3 B3B2 B2C2 C2C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="truck9" type="truck_truck" depart="285.89" departLane="best" departSpeed="max">
+    <vehicle id="truck9" type="truck_truck" depart="288.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1C2 C2D2 D2D3 D3C3 C3C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck10" type="truck_truck" depart="317.66" departLane="best" departSpeed="max">
+    <vehicle id="truck10" type="truck_truck" depart="320.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="truck11" type="truck_truck" depart="349.42" departLane="best" departSpeed="max">
+    <vehicle id="truck11" type="truck_truck" depart="352.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2B2 B2B3 B3C3 C3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="truck12" type="truck_truck" depart="381.19" departLane="best" departSpeed="max">
+    <vehicle id="truck12" type="truck_truck" depart="384.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="truck13" type="truck_truck" depart="412.95" departLane="best" departSpeed="max">
+    <vehicle id="truck13" type="truck_truck" depart="416.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="truck14" type="truck_truck" depart="444.72" departLane="best" departSpeed="max">
+    <vehicle id="truck14" type="truck_truck" depart="448.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck15" type="truck_truck" depart="476.48" departLane="best" departSpeed="max">
+    <vehicle id="truck15" type="truck_truck" depart="480.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck16" type="truck_truck" depart="508.25" departLane="best" departSpeed="max">
+    <vehicle id="truck16" type="truck_truck" depart="512.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1D2 D2D3 D3C3 C3C2 C2C1 C1C0"/>
     </vehicle>
-    <vehicle id="truck17" type="truck_truck" depart="540.01" departLane="best" departSpeed="max">
+    <vehicle id="truck17" type="truck_truck" depart="544.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2 C2C1 C1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="truck18" type="truck_truck" depart="571.78" departLane="best" departSpeed="max">
+    <vehicle id="truck18" type="truck_truck" depart="576.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2 C2B2 B2B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck19" type="truck_truck" depart="603.54" departLane="best" departSpeed="max">
+    <vehicle id="truck19" type="truck_truck" depart="608.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1C1 C1D1 D1D2 D2C2 C2B2 B2B3 B3A3"/>
     </vehicle>
-    <vehicle id="truck20" type="truck_truck" depart="635.31" departLane="best" departSpeed="max">
+    <vehicle id="truck20" type="truck_truck" depart="640.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="truck21" type="truck_truck" depart="667.08" departLane="best" departSpeed="max">
+    <vehicle id="truck21" type="truck_truck" depart="672.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="truck22" type="truck_truck" depart="698.84" departLane="best" departSpeed="max">
+    <vehicle id="truck22" type="truck_truck" depart="704.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="truck23" type="truck_truck" depart="730.61" departLane="best" departSpeed="max">
+    <vehicle id="truck23" type="truck_truck" depart="736.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2C2 C2C3 C3B3 B3B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="truck24" type="truck_truck" depart="762.37" departLane="best" departSpeed="max">
+    <vehicle id="truck24" type="truck_truck" depart="768.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1C2 C2D2 D2D3 D3C3 C3C2 C2C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="truck25" type="truck_truck" depart="794.14" departLane="best" departSpeed="max">
+    <vehicle id="truck25" type="truck_truck" depart="800.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2C2 C2D2 D2D1 D1C1 C1C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="truck26" type="truck_truck" depart="825.90" departLane="best" departSpeed="max">
+    <vehicle id="truck26" type="truck_truck" depart="832.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3C2 C2D2 D2D3 D3C3 C3B3 B3B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="truck27" type="truck_truck" depart="857.67" departLane="best" departSpeed="max">
+    <vehicle id="truck27" type="truck_truck" depart="864.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck28" type="truck_truck" depart="889.43" departLane="best" departSpeed="max">
+    <vehicle id="truck28" type="truck_truck" depart="896.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck29" type="truck_truck" depart="921.20" departLane="best" departSpeed="max">
+    <vehicle id="truck29" type="truck_truck" depart="928.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2C2 C2C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck30" type="truck_truck" depart="952.97" departLane="best" departSpeed="max">
+    <vehicle id="truck30" type="truck_truck" depart="960.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2D2 D2D1 D1C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="truck31" type="truck_truck" depart="984.73" departLane="best" departSpeed="max">
+    <vehicle id="truck31" type="truck_truck" depart="992.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="truck32" type="truck_truck" depart="1016.50" departLane="best" departSpeed="max">
+    <vehicle id="truck32" type="truck_truck" depart="1024.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2C1 C1D1 D1D2 D2C2 C2C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="truck33" type="truck_truck" depart="1048.26" departLane="best" departSpeed="max">
+    <vehicle id="truck33" type="truck_truck" depart="1056.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2C1 C1D1 D1D2 D2C2 C2B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="truck34" type="truck_truck" depart="1080.03" departLane="best" departSpeed="max">
+    <vehicle id="truck34" type="truck_truck" depart="1088.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3C2 C2C1 C1D1 D1D2 D2C2 C2C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="truck35" type="truck_truck" depart="1111.79" departLane="best" departSpeed="max">
+    <vehicle id="truck35" type="truck_truck" depart="1120.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck36" type="truck_truck" depart="1143.56" departLane="best" departSpeed="max">
+    <vehicle id="truck36" type="truck_truck" depart="1152.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1C1 C1C0"/>
     </vehicle>
-    <vehicle id="truck37" type="truck_truck" depart="1175.32" departLane="best" departSpeed="max">
+    <vehicle id="truck37" type="truck_truck" depart="1184.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3C2 C2D2 D2D3 D3C3 C3C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="truck38" type="truck_truck" depart="1207.09" departLane="best" departSpeed="max">
+    <vehicle id="truck38" type="truck_truck" depart="1216.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="truck39" type="truck_truck" depart="1238.85" departLane="best" departSpeed="max">
+    <vehicle id="truck39" type="truck_truck" depart="1248.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck40" type="truck_truck" depart="1270.62" departLane="best" departSpeed="max">
+    <vehicle id="truck40" type="truck_truck" depart="1280.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck41" type="truck_truck" depart="1302.39" departLane="best" departSpeed="max">
+    <vehicle id="truck41" type="truck_truck" depart="1312.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2B2 B2B3 B3C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="truck42" type="truck_truck" depart="1334.15" departLane="best" departSpeed="max">
+    <vehicle id="truck42" type="truck_truck" depart="1344.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2C3 C3D3 D3D2 D2D1 D1C1 C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="truck43" type="truck_truck" depart="1365.92" departLane="best" departSpeed="max">
+    <vehicle id="truck43" type="truck_truck" depart="1376.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck44" type="truck_truck" depart="1397.68" departLane="best" departSpeed="max">
+    <vehicle id="truck44" type="truck_truck" depart="1408.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck45" type="truck_truck" depart="1429.45" departLane="best" departSpeed="max">
+    <vehicle id="truck45" type="truck_truck" depart="1440.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1C1 C1C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck46" type="truck_truck" depart="1461.21" departLane="best" departSpeed="max">
+    <vehicle id="truck46" type="truck_truck" depart="1472.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1C2 C2B2 B2B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck47" type="truck_truck" depart="1492.98" departLane="best" departSpeed="max">
+    <vehicle id="truck47" type="truck_truck" depart="1504.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck48" type="truck_truck" depart="1524.74" departLane="best" departSpeed="max">
+    <vehicle id="truck48" type="truck_truck" depart="1536.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="truck49" type="truck_truck" depart="1556.51" departLane="best" departSpeed="max">
+    <vehicle id="truck49" type="truck_truck" depart="1568.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3B3 B3B2 B2B1 B1C1 C1C2 C2C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="truck50" type="truck_truck" depart="1588.28" departLane="best" departSpeed="max">
+    <vehicle id="truck50" type="truck_truck" depart="1600.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck51" type="truck_truck" depart="1620.04" departLane="best" departSpeed="max">
+    <vehicle id="truck51" type="truck_truck" depart="1632.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3D3 D3D2 D2C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="truck52" type="truck_truck" depart="1651.81" departLane="best" departSpeed="max">
+    <vehicle id="truck52" type="truck_truck" depart="1664.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1C2 C2C3 C3B3 B3B2 B2B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="truck53" type="truck_truck" depart="1683.57" departLane="best" departSpeed="max">
+    <vehicle id="truck53" type="truck_truck" depart="1696.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="truck54" type="truck_truck" depart="1715.34" departLane="best" departSpeed="max">
+    <vehicle id="truck54" type="truck_truck" depart="1728.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="truck55" type="truck_truck" depart="1747.10" departLane="best" departSpeed="max">
+    <vehicle id="truck55" type="truck_truck" depart="1760.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2 C2B2 B2B1 B1C1 C1C2 C2C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="truck56" type="truck_truck" depart="1778.87" departLane="best" departSpeed="max">
+    <vehicle id="truck56" type="truck_truck" depart="1792.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1C1 C1C2 C2C3 C3D3 D3D4"/>
     </vehicle>
 </routes>

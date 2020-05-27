@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 05/11/20 11:10:24 by Eclipse SUMO duarouter Version 1.3.1
+<!-- generated on Wed May 27 06:42:21 2020 by Eclipse SUMO duarouter Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -32,565 +32,541 @@
     <vehicle id="bike0" type="bike_bicycle" depart="0.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3B3 B3B2 B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="bike1" type="bike_bicycle" depart="9.58" departLane="best">
+    <vehicle id="bike1" type="bike_bicycle" depart="10.00" departLane="best">
         <route edges="B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike2" type="bike_bicycle" depart="19.15" departLane="best">
+    <vehicle id="bike2" type="bike_bicycle" depart="20.00" departLane="best">
         <route edges="D2C2 C2C1 C1D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike3" type="bike_bicycle" depart="28.73" departLane="best" departSpeed="max">
+    <vehicle id="bike3" type="bike_bicycle" depart="30.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="bike4" type="bike_bicycle" depart="38.30" departLane="best">
+    <vehicle id="bike4" type="bike_bicycle" depart="40.00" departLane="best">
         <route edges="C1C2 C2B2 B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="bike5" type="bike_bicycle" depart="47.88" departLane="best">
+    <vehicle id="bike5" type="bike_bicycle" depart="50.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3"/>
     </vehicle>
-    <vehicle id="bike6" type="bike_bicycle" depart="57.45" departLane="best" departSpeed="max">
+    <vehicle id="bike6" type="bike_bicycle" depart="60.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2B3"/>
     </vehicle>
-    <vehicle id="bike7" type="bike_bicycle" depart="67.03" departLane="best" departSpeed="max">
+    <vehicle id="bike7" type="bike_bicycle" depart="70.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="bike8" type="bike_bicycle" depart="76.60" departLane="best">
+    <vehicle id="bike8" type="bike_bicycle" depart="80.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike9" type="bike_bicycle" depart="86.18" departLane="best">
+    <vehicle id="bike9" type="bike_bicycle" depart="90.00" departLane="best">
         <route edges="D3C3 C3C2 C2B2 B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="bike10" type="bike_bicycle" depart="95.75" departLane="best">
+    <vehicle id="bike10" type="bike_bicycle" depart="100.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike11" type="bike_bicycle" depart="105.33" departLane="best" departSpeed="max">
+    <vehicle id="bike11" type="bike_bicycle" depart="110.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike12" type="bike_bicycle" depart="114.91" departLane="best" departSpeed="max">
+    <vehicle id="bike12" type="bike_bicycle" depart="120.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2C2 C2B2 B2B3 B3C3"/>
     </vehicle>
-    <vehicle id="bike13" type="bike_bicycle" depart="124.48" departLane="best" departSpeed="max">
+    <vehicle id="bike13" type="bike_bicycle" depart="130.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2C2 C2C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="bike14" type="bike_bicycle" depart="134.06" departLane="best" departSpeed="max">
+    <vehicle id="bike14" type="bike_bicycle" depart="140.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike15" type="bike_bicycle" depart="143.63" departLane="best">
+    <vehicle id="bike15" type="bike_bicycle" depart="150.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2D1 D1E1"/>
     </vehicle>
-    <vehicle id="bike16" type="bike_bicycle" depart="153.21" departLane="best">
+    <vehicle id="bike16" type="bike_bicycle" depart="160.00" departLane="best">
         <route edges="C2D2 D2D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike17" type="bike_bicycle" depart="162.78" departLane="best" departSpeed="max">
+    <vehicle id="bike17" type="bike_bicycle" depart="170.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="bike18" type="bike_bicycle" depart="172.36" departLane="best">
+    <vehicle id="bike18" type="bike_bicycle" depart="180.00" departLane="best">
         <route edges="D3D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike19" type="bike_bicycle" depart="181.93" departLane="best" departSpeed="max">
+    <vehicle id="bike19" type="bike_bicycle" depart="190.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="bike20" type="bike_bicycle" depart="191.51" departLane="best">
+    <vehicle id="bike20" type="bike_bicycle" depart="200.00" departLane="best">
         <route edges="D1C1 C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="bike21" type="bike_bicycle" depart="201.08" departLane="best">
+    <vehicle id="bike21" type="bike_bicycle" depart="210.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3B3 B3B2"/>
     </vehicle>
-    <vehicle id="bike22" type="bike_bicycle" depart="210.66" departLane="best" departSpeed="max">
+    <vehicle id="bike22" type="bike_bicycle" depart="220.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike23" type="bike_bicycle" depart="220.24" departLane="best" departSpeed="max">
+    <vehicle id="bike23" type="bike_bicycle" depart="230.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2"/>
     </vehicle>
-    <vehicle id="bike24" type="bike_bicycle" depart="229.81" departLane="best" departSpeed="max">
+    <vehicle id="bike24" type="bike_bicycle" depart="240.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2C1 C1B1"/>
     </vehicle>
-    <vehicle id="bike25" type="bike_bicycle" depart="239.39" departLane="best" departSpeed="max">
+    <vehicle id="bike25" type="bike_bicycle" depart="250.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike26" type="bike_bicycle" depart="248.96" departLane="best">
+    <vehicle id="bike26" type="bike_bicycle" depart="260.00" departLane="best">
         <route edges="B2C2 C2C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike27" type="bike_bicycle" depart="258.54" departLane="best" departSpeed="max">
+    <vehicle id="bike27" type="bike_bicycle" depart="270.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike28" type="bike_bicycle" depart="268.11" departLane="best">
+    <vehicle id="bike28" type="bike_bicycle" depart="280.00" departLane="best">
         <route edges="B1B2 B2C2 C2C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="bike29" type="bike_bicycle" depart="277.69" departLane="best" departSpeed="max">
+    <vehicle id="bike29" type="bike_bicycle" depart="290.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1C1 C1C0"/>
     </vehicle>
-    <vehicle id="bike30" type="bike_bicycle" depart="287.26" departLane="best" departSpeed="max">
+    <vehicle id="bike30" type="bike_bicycle" depart="300.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2C3 C3D3"/>
     </vehicle>
-    <vehicle id="bike31" type="bike_bicycle" depart="296.84" departLane="best">
+    <vehicle id="bike31" type="bike_bicycle" depart="310.00" departLane="best">
         <route edges="C3B3 B3B2 B2C2 C2C1 C1D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike32" type="bike_bicycle" depart="306.41" departLane="best" departSpeed="max">
+    <vehicle id="bike32" type="bike_bicycle" depart="320.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2"/>
     </vehicle>
-    <vehicle id="bike33" type="bike_bicycle" depart="315.99" departLane="best">
+    <vehicle id="bike33" type="bike_bicycle" depart="330.00" departLane="best">
         <route edges="B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="bike34" type="bike_bicycle" depart="325.57" departLane="best" departSpeed="max">
+    <vehicle id="bike34" type="bike_bicycle" depart="340.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike35" type="bike_bicycle" depart="335.14" departLane="best">
+    <vehicle id="bike35" type="bike_bicycle" depart="350.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike36" type="bike_bicycle" depart="344.72" departLane="best" departSpeed="max">
+    <vehicle id="bike36" type="bike_bicycle" depart="360.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2C2 C2C3 C3B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike37" type="bike_bicycle" depart="354.29" departLane="best" departSpeed="max">
+    <vehicle id="bike37" type="bike_bicycle" depart="370.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C0"/>
     </vehicle>
-    <vehicle id="bike38" type="bike_bicycle" depart="363.87" departLane="best" departSpeed="max">
+    <vehicle id="bike38" type="bike_bicycle" depart="380.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2C2 C2B2"/>
     </vehicle>
-    <vehicle id="bike39" type="bike_bicycle" depart="373.44" departLane="best">
+    <vehicle id="bike39" type="bike_bicycle" depart="390.00" departLane="best">
         <route edges="B2C2 C2C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike40" type="bike_bicycle" depart="383.02" departLane="best">
+    <vehicle id="bike40" type="bike_bicycle" depart="400.00" departLane="best">
         <route edges="C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike41" type="bike_bicycle" depart="392.59" departLane="best">
+    <vehicle id="bike41" type="bike_bicycle" depart="410.00" departLane="best">
         <route edges="C3D3 D3D2"/>
     </vehicle>
-    <vehicle id="bike42" type="bike_bicycle" depart="402.17" departLane="best">
+    <vehicle id="bike42" type="bike_bicycle" depart="420.00" departLane="best">
         <route edges="C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike43" type="bike_bicycle" depart="411.74" departLane="best" departSpeed="max">
+    <vehicle id="bike43" type="bike_bicycle" depart="430.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2C3"/>
     </vehicle>
-    <vehicle id="bike44" type="bike_bicycle" depart="421.32" departLane="best" departSpeed="max">
+    <vehicle id="bike44" type="bike_bicycle" depart="440.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="bike45" type="bike_bicycle" depart="430.90" departLane="best" departSpeed="max">
+    <vehicle id="bike45" type="bike_bicycle" depart="450.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3D3"/>
     </vehicle>
-    <vehicle id="bike46" type="bike_bicycle" depart="440.47" departLane="best">
+    <vehicle id="bike46" type="bike_bicycle" depart="460.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2D1 D1C1 C1C2"/>
     </vehicle>
-    <vehicle id="bike47" type="bike_bicycle" depart="450.05" departLane="best" departSpeed="max">
+    <vehicle id="bike47" type="bike_bicycle" depart="470.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B1 B1C1 C1C0"/>
     </vehicle>
-    <vehicle id="bike48" type="bike_bicycle" depart="459.62" departLane="best" departSpeed="max">
+    <vehicle id="bike48" type="bike_bicycle" depart="480.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3C2 C2D2"/>
     </vehicle>
-    <vehicle id="bike49" type="bike_bicycle" depart="469.20" departLane="best" departSpeed="max">
+    <vehicle id="bike49" type="bike_bicycle" depart="490.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike50" type="bike_bicycle" depart="478.77" departLane="best" departSpeed="max">
+    <vehicle id="bike50" type="bike_bicycle" depart="500.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="bike51" type="bike_bicycle" depart="488.35" departLane="best" departSpeed="max">
+    <vehicle id="bike51" type="bike_bicycle" depart="510.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2D2"/>
     </vehicle>
-    <vehicle id="bike52" type="bike_bicycle" depart="497.92" departLane="best">
+    <vehicle id="bike52" type="bike_bicycle" depart="520.00" departLane="best">
         <route edges="B2C2 C2C3 C3D3"/>
     </vehicle>
-    <vehicle id="bike53" type="bike_bicycle" depart="507.50" departLane="best" departSpeed="max">
+    <vehicle id="bike53" type="bike_bicycle" depart="530.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1C1 C1C2"/>
     </vehicle>
-    <vehicle id="bike54" type="bike_bicycle" depart="517.07" departLane="best">
+    <vehicle id="bike54" type="bike_bicycle" depart="540.00" departLane="best">
         <route edges="C1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike55" type="bike_bicycle" depart="526.65" departLane="best" departSpeed="max">
+    <vehicle id="bike55" type="bike_bicycle" depart="550.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2C2 C2B2 B2B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike56" type="bike_bicycle" depart="536.23" departLane="best">
+    <vehicle id="bike56" type="bike_bicycle" depart="560.00" departLane="best">
         <route edges="C2C3 C3B3 B3B2 B2B1"/>
     </vehicle>
-    <vehicle id="bike57" type="bike_bicycle" depart="545.80" departLane="best" departSpeed="max">
+    <vehicle id="bike57" type="bike_bicycle" depart="570.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike58" type="bike_bicycle" depart="555.38" departLane="best">
+    <vehicle id="bike58" type="bike_bicycle" depart="580.00" departLane="best">
         <route edges="B3C3 C3D3"/>
     </vehicle>
-    <vehicle id="bike59" type="bike_bicycle" depart="564.95" departLane="best" departSpeed="max">
+    <vehicle id="bike59" type="bike_bicycle" depart="590.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3B3 B3B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike60" type="bike_bicycle" depart="574.53" departLane="best">
+    <vehicle id="bike60" type="bike_bicycle" depart="600.00" departLane="best">
         <route edges="D2D1 D1C1 C1C2 C2D2"/>
     </vehicle>
-    <vehicle id="bike61" type="bike_bicycle" depart="584.10" departLane="best">
+    <vehicle id="bike61" type="bike_bicycle" depart="610.00" departLane="best">
         <route edges="D2D3 D3C3 C3C2 C2D2"/>
     </vehicle>
-    <vehicle id="bike62" type="bike_bicycle" depart="593.68" departLane="best" departSpeed="max">
+    <vehicle id="bike62" type="bike_bicycle" depart="620.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike63" type="bike_bicycle" depart="603.25" departLane="best" departSpeed="max">
+    <vehicle id="bike63" type="bike_bicycle" depart="630.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2C2 C2C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike64" type="bike_bicycle" depart="612.83" departLane="best" departSpeed="max">
+    <vehicle id="bike64" type="bike_bicycle" depart="640.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2D3"/>
     </vehicle>
-    <vehicle id="bike65" type="bike_bicycle" depart="622.40" departLane="best">
+    <vehicle id="bike65" type="bike_bicycle" depart="650.00" departLane="best">
         <route edges="B3C3 C3C2 C2C1 C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="bike66" type="bike_bicycle" depart="631.98" departLane="best" departSpeed="max">
+    <vehicle id="bike66" type="bike_bicycle" depart="660.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike67" type="bike_bicycle" depart="641.56" departLane="best" departSpeed="max">
+    <vehicle id="bike67" type="bike_bicycle" depart="670.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2C2 C2C1"/>
     </vehicle>
-    <vehicle id="bike68" type="bike_bicycle" depart="651.13" departLane="best" departSpeed="max">
+    <vehicle id="bike68" type="bike_bicycle" depart="680.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="bike69" type="bike_bicycle" depart="660.71" departLane="best">
+    <vehicle id="bike69" type="bike_bicycle" depart="690.00" departLane="best">
         <route edges="D2D1 D1C1 C1B1 B1B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike70" type="bike_bicycle" depart="670.28" departLane="best">
+    <vehicle id="bike70" type="bike_bicycle" depart="700.00" departLane="best">
         <route edges="C2B2 B2B1 B1C1 C1C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="bike71" type="bike_bicycle" depart="679.86" departLane="best">
+    <vehicle id="bike71" type="bike_bicycle" depart="710.00" departLane="best">
         <route edges="B2C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike72" type="bike_bicycle" depart="689.43" departLane="best">
+    <vehicle id="bike72" type="bike_bicycle" depart="720.00" departLane="best">
         <route edges="C1C2 C2C3 C3B3 B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike73" type="bike_bicycle" depart="699.01" departLane="best">
+    <vehicle id="bike73" type="bike_bicycle" depart="730.00" departLane="best">
         <route edges="C2D2 D2D1 D1E1"/>
     </vehicle>
-    <vehicle id="bike74" type="bike_bicycle" depart="708.58" departLane="best">
+    <vehicle id="bike74" type="bike_bicycle" depart="740.00" departLane="best">
         <route edges="B1C1 C1C2 C2B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike75" type="bike_bicycle" depart="718.16" departLane="best" departSpeed="max">
+    <vehicle id="bike75" type="bike_bicycle" depart="750.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2D1 D1C1"/>
     </vehicle>
-    <vehicle id="bike76" type="bike_bicycle" depart="727.74" departLane="best">
+    <vehicle id="bike76" type="bike_bicycle" depart="760.00" departLane="best">
         <route edges="C1D1 D1D2 D2C2 C2C3"/>
     </vehicle>
-    <vehicle id="bike77" type="bike_bicycle" depart="737.31" departLane="best" departSpeed="max">
+    <vehicle id="bike77" type="bike_bicycle" depart="770.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike78" type="bike_bicycle" depart="746.89" departLane="best" departSpeed="max">
+    <vehicle id="bike78" type="bike_bicycle" depart="780.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike79" type="bike_bicycle" depart="756.46" departLane="best">
+    <vehicle id="bike79" type="bike_bicycle" depart="790.00" departLane="best">
         <route edges="B2B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike80" type="bike_bicycle" depart="766.04" departLane="best" departSpeed="max">
+    <vehicle id="bike80" type="bike_bicycle" depart="800.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B3 B3C3 C3D3"/>
     </vehicle>
-    <vehicle id="bike81" type="bike_bicycle" depart="775.61" departLane="best">
+    <vehicle id="bike81" type="bike_bicycle" depart="810.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3D3 D3D2"/>
     </vehicle>
-    <vehicle id="bike82" type="bike_bicycle" depart="785.19" departLane="best" departSpeed="max">
+    <vehicle id="bike82" type="bike_bicycle" depart="820.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C2 C2C1 C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="bike83" type="bike_bicycle" depart="794.76" departLane="best">
+    <vehicle id="bike83" type="bike_bicycle" depart="830.00" departLane="best">
         <route edges="B2B3 B3C3 C3C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike84" type="bike_bicycle" depart="804.34" departLane="best">
+    <vehicle id="bike84" type="bike_bicycle" depart="840.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike85" type="bike_bicycle" depart="813.91" departLane="best" departSpeed="max">
+    <vehicle id="bike85" type="bike_bicycle" depart="850.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="bike86" type="bike_bicycle" depart="823.49" departLane="best">
+    <vehicle id="bike86" type="bike_bicycle" depart="860.00" departLane="best">
         <route edges="C2B2 B2B3 B3C3 C3D3 D3D2 D2C2"/>
     </vehicle>
-    <vehicle id="bike87" type="bike_bicycle" depart="833.07" departLane="best">
+    <vehicle id="bike87" type="bike_bicycle" depart="870.00" departLane="best">
         <route edges="D3C3 C3C2 C2B2 B2B3"/>
     </vehicle>
-    <vehicle id="bike88" type="bike_bicycle" depart="842.64" departLane="best" departSpeed="max">
+    <vehicle id="bike88" type="bike_bicycle" depart="880.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1C1 C1C2"/>
     </vehicle>
-    <vehicle id="bike89" type="bike_bicycle" depart="852.22" departLane="best">
+    <vehicle id="bike89" type="bike_bicycle" depart="890.00" departLane="best">
         <route edges="C1C2 C2B2"/>
     </vehicle>
-    <vehicle id="bike90" type="bike_bicycle" depart="861.79" departLane="best">
+    <vehicle id="bike90" type="bike_bicycle" depart="900.00" departLane="best">
         <route edges="D1D2 D2C2 C2C1 C1D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike91" type="bike_bicycle" depart="871.37" departLane="best" departSpeed="max">
+    <vehicle id="bike91" type="bike_bicycle" depart="910.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="bike92" type="bike_bicycle" depart="880.94" departLane="best">
+    <vehicle id="bike92" type="bike_bicycle" depart="920.00" departLane="best">
         <route edges="C1B1 B1B2 B2B3 B3C3"/>
     </vehicle>
-    <vehicle id="bike93" type="bike_bicycle" depart="890.52" departLane="best" departSpeed="max">
+    <vehicle id="bike93" type="bike_bicycle" depart="930.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike94" type="bike_bicycle" depart="900.09" departLane="best">
+    <vehicle id="bike94" type="bike_bicycle" depart="940.00" departLane="best">
         <route edges="B1C1 C1D1"/>
     </vehicle>
-    <vehicle id="bike95" type="bike_bicycle" depart="909.67" departLane="best">
+    <vehicle id="bike95" type="bike_bicycle" depart="950.00" departLane="best">
         <route edges="C1C2 C2C3 C3B3 B3B2"/>
     </vehicle>
-    <vehicle id="bike96" type="bike_bicycle" depart="919.24" departLane="best">
+    <vehicle id="bike96" type="bike_bicycle" depart="960.00" departLane="best">
         <route edges="B2B3 B3C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike97" type="bike_bicycle" depart="928.82" departLane="best">
+    <vehicle id="bike97" type="bike_bicycle" depart="970.00" departLane="best">
         <route edges="C1D1 D1D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike98" type="bike_bicycle" depart="938.40" departLane="best">
+    <vehicle id="bike98" type="bike_bicycle" depart="980.00" departLane="best">
         <route edges="C3B3 B3B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="bike99" type="bike_bicycle" depart="947.97" departLane="best" departSpeed="max">
+    <vehicle id="bike99" type="bike_bicycle" depart="990.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike100" type="bike_bicycle" depart="957.55" departLane="best" departSpeed="max">
+    <vehicle id="bike100" type="bike_bicycle" depart="1000.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike101" type="bike_bicycle" depart="967.12" departLane="best" departSpeed="max">
+    <vehicle id="bike101" type="bike_bicycle" depart="1010.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike102" type="bike_bicycle" depart="976.70" departLane="best">
+    <vehicle id="bike102" type="bike_bicycle" depart="1020.00" departLane="best">
         <route edges="C2C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike103" type="bike_bicycle" depart="986.27" departLane="best">
+    <vehicle id="bike103" type="bike_bicycle" depart="1030.00" departLane="best">
         <route edges="C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="bike104" type="bike_bicycle" depart="995.85" departLane="best" departSpeed="max">
+    <vehicle id="bike104" type="bike_bicycle" depart="1040.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1D1 D1D2 D2D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike105" type="bike_bicycle" depart="1005.42" departLane="best">
+    <vehicle id="bike105" type="bike_bicycle" depart="1050.00" departLane="best">
         <route edges="B2C2 C2C3 C3D3 D3D2 D2C2"/>
     </vehicle>
-    <vehicle id="bike106" type="bike_bicycle" depart="1015.00" departLane="best">
+    <vehicle id="bike106" type="bike_bicycle" depart="1060.00" departLane="best">
         <route edges="C1D1 D1D2 D2C2 C2B2 B2B1 B1C1 C1C2"/>
     </vehicle>
-    <vehicle id="bike107" type="bike_bicycle" depart="1024.57" departLane="best" departSpeed="max">
+    <vehicle id="bike107" type="bike_bicycle" depart="1070.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike108" type="bike_bicycle" depart="1034.15" departLane="best">
+    <vehicle id="bike108" type="bike_bicycle" depart="1080.00" departLane="best">
         <route edges="C3B3 B3B2 B2C2 C2C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="bike109" type="bike_bicycle" depart="1043.73" departLane="best" departSpeed="max">
+    <vehicle id="bike109" type="bike_bicycle" depart="1090.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike110" type="bike_bicycle" depart="1053.30" departLane="best" departSpeed="max">
+    <vehicle id="bike110" type="bike_bicycle" depart="1100.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="bike111" type="bike_bicycle" depart="1062.88" departLane="best">
+    <vehicle id="bike111" type="bike_bicycle" depart="1110.00" departLane="best">
         <route edges="C3B3 B3B2 B2C2 C2D2 D2D1 D1E1"/>
     </vehicle>
-    <vehicle id="bike112" type="bike_bicycle" depart="1072.45" departLane="best" departSpeed="max">
+    <vehicle id="bike112" type="bike_bicycle" depart="1120.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B3 B3C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike113" type="bike_bicycle" depart="1082.03" departLane="best">
+    <vehicle id="bike113" type="bike_bicycle" depart="1130.00" departLane="best">
         <route edges="C2C3 C3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike114" type="bike_bicycle" depart="1091.60" departLane="best" departSpeed="max">
+    <vehicle id="bike114" type="bike_bicycle" depart="1140.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1C1 C1C2 C2D2 D2D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike115" type="bike_bicycle" depart="1101.18" departLane="best" departSpeed="max">
+    <vehicle id="bike115" type="bike_bicycle" depart="1150.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B1"/>
     </vehicle>
-    <vehicle id="bike116" type="bike_bicycle" depart="1110.75" departLane="best">
+    <vehicle id="bike116" type="bike_bicycle" depart="1160.00" departLane="best">
         <route edges="C3D3 D3D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike117" type="bike_bicycle" depart="1120.33" departLane="best">
+    <vehicle id="bike117" type="bike_bicycle" depart="1170.00" departLane="best">
         <route edges="B2B3 B3C3 C3C2 C2B2 B2B1 B1C1"/>
     </vehicle>
-    <vehicle id="bike118" type="bike_bicycle" depart="1129.90" departLane="best" departSpeed="max">
+    <vehicle id="bike118" type="bike_bicycle" depart="1180.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2C2 C2B2 B2B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike119" type="bike_bicycle" depart="1139.48" departLane="best">
+    <vehicle id="bike119" type="bike_bicycle" depart="1190.00" departLane="best">
         <route edges="C3D3 D3D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike120" type="bike_bicycle" depart="1149.06" departLane="best">
+    <vehicle id="bike120" type="bike_bicycle" depart="1200.00" departLane="best">
         <route edges="C1C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike121" type="bike_bicycle" depart="1158.63" departLane="best">
+    <vehicle id="bike121" type="bike_bicycle" depart="1210.00" departLane="best">
         <route edges="C2D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike122" type="bike_bicycle" depart="1168.21" departLane="best">
+    <vehicle id="bike122" type="bike_bicycle" depart="1220.00" departLane="best">
         <route edges="B1C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="bike123" type="bike_bicycle" depart="1177.78" departLane="best">
+    <vehicle id="bike123" type="bike_bicycle" depart="1230.00" departLane="best">
         <route edges="B2B3 B3C3 C3C2 C2C1 C1C0"/>
     </vehicle>
-    <vehicle id="bike124" type="bike_bicycle" depart="1187.36" departLane="best" departSpeed="max">
+    <vehicle id="bike124" type="bike_bicycle" depart="1240.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike125" type="bike_bicycle" depart="1196.93" departLane="best" departSpeed="max">
+    <vehicle id="bike125" type="bike_bicycle" depart="1250.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3C2 C2D2 D2D1 D1E1"/>
     </vehicle>
-    <vehicle id="bike126" type="bike_bicycle" depart="1206.51" departLane="best" departSpeed="max">
+    <vehicle id="bike126" type="bike_bicycle" depart="1260.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B1 B1C1 C1D1"/>
     </vehicle>
-    <vehicle id="bike127" type="bike_bicycle" depart="1216.08" departLane="best" departSpeed="max">
+    <vehicle id="bike127" type="bike_bicycle" depart="1270.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike128" type="bike_bicycle" depart="1225.66" departLane="best" departSpeed="max">
+    <vehicle id="bike128" type="bike_bicycle" depart="1280.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike129" type="bike_bicycle" depart="1235.23" departLane="best">
+    <vehicle id="bike129" type="bike_bicycle" depart="1290.00" departLane="best">
         <route edges="B2C2 C2C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike130" type="bike_bicycle" depart="1244.81" departLane="best" departSpeed="max">
+    <vehicle id="bike130" type="bike_bicycle" depart="1300.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2D3 D3C3"/>
     </vehicle>
-    <vehicle id="bike131" type="bike_bicycle" depart="1254.39" departLane="best" departSpeed="max">
+    <vehicle id="bike131" type="bike_bicycle" depart="1310.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1B1 B1B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike132" type="bike_bicycle" depart="1263.96" departLane="best" departSpeed="max">
+    <vehicle id="bike132" type="bike_bicycle" depart="1320.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="bike133" type="bike_bicycle" depart="1273.54" departLane="best" departSpeed="max">
+    <vehicle id="bike133" type="bike_bicycle" depart="1330.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike134" type="bike_bicycle" depart="1283.11" departLane="best" departSpeed="max">
+    <vehicle id="bike134" type="bike_bicycle" depart="1340.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="bike135" type="bike_bicycle" depart="1292.69" departLane="best">
+    <vehicle id="bike135" type="bike_bicycle" depart="1350.00" departLane="best">
         <route edges="D3D2 D2C2 C2C3 C3B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike136" type="bike_bicycle" depart="1302.26" departLane="best" departSpeed="max">
+    <vehicle id="bike136" type="bike_bicycle" depart="1360.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike137" type="bike_bicycle" depart="1311.84" departLane="best" departSpeed="max">
+    <vehicle id="bike137" type="bike_bicycle" depart="1370.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1C1"/>
     </vehicle>
-    <vehicle id="bike138" type="bike_bicycle" depart="1321.41" departLane="best" departSpeed="max">
+    <vehicle id="bike138" type="bike_bicycle" depart="1380.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="bike139" type="bike_bicycle" depart="1330.99" departLane="best">
+    <vehicle id="bike139" type="bike_bicycle" depart="1390.00" departLane="best">
         <route edges="B3B2 B2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike140" type="bike_bicycle" depart="1340.56" departLane="best">
+    <vehicle id="bike140" type="bike_bicycle" depart="1400.00" departLane="best">
         <route edges="D1D2 D2C2 C2B2 B2B3"/>
     </vehicle>
-    <vehicle id="bike141" type="bike_bicycle" depart="1350.14" departLane="best" departSpeed="max">
+    <vehicle id="bike141" type="bike_bicycle" depart="1410.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike142" type="bike_bicycle" depart="1359.72" departLane="best">
+    <vehicle id="bike142" type="bike_bicycle" depart="1420.00" departLane="best">
         <route edges="C2C1 C1B1 B1B2 B2C2 C2C3 C3D3 D3D2"/>
     </vehicle>
-    <vehicle id="bike143" type="bike_bicycle" depart="1369.29" departLane="best" departSpeed="max">
+    <vehicle id="bike143" type="bike_bicycle" depart="1430.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C2 C2C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="bike144" type="bike_bicycle" depart="1378.87" departLane="best">
+    <vehicle id="bike144" type="bike_bicycle" depart="1440.00" departLane="best">
         <route edges="C1C2 C2C3 C3B3 B3B2"/>
     </vehicle>
-    <vehicle id="bike145" type="bike_bicycle" depart="1388.44" departLane="best" departSpeed="max">
+    <vehicle id="bike145" type="bike_bicycle" depart="1450.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1C1 C1D1 D1D2 D2C2"/>
     </vehicle>
-    <vehicle id="bike146" type="bike_bicycle" depart="1398.02" departLane="best" departSpeed="max">
+    <vehicle id="bike146" type="bike_bicycle" depart="1460.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike147" type="bike_bicycle" depart="1407.59" departLane="best">
+    <vehicle id="bike147" type="bike_bicycle" depart="1470.00" departLane="best">
         <route edges="D2C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="bike148" type="bike_bicycle" depart="1417.17" departLane="best">
+    <vehicle id="bike148" type="bike_bicycle" depart="1480.00" departLane="best">
         <route edges="C1C2 C2B2 B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="bike149" type="bike_bicycle" depart="1426.74" departLane="best" departSpeed="max">
+    <vehicle id="bike149" type="bike_bicycle" depart="1490.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2D2 D2D3 D3C3"/>
     </vehicle>
-    <vehicle id="bike150" type="bike_bicycle" depart="1436.32" departLane="best" departSpeed="max">
+    <vehicle id="bike150" type="bike_bicycle" depart="1500.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="bike151" type="bike_bicycle" depart="1445.89" departLane="best" departSpeed="max">
+    <vehicle id="bike151" type="bike_bicycle" depart="1510.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="bike152" type="bike_bicycle" depart="1455.47" departLane="best" departSpeed="max">
+    <vehicle id="bike152" type="bike_bicycle" depart="1520.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2A2"/>
     </vehicle>
-    <vehicle id="bike153" type="bike_bicycle" depart="1465.05" departLane="best">
+    <vehicle id="bike153" type="bike_bicycle" depart="1530.00" departLane="best">
         <route edges="B3C3 C3D3 D3D2"/>
     </vehicle>
-    <vehicle id="bike154" type="bike_bicycle" depart="1474.62" departLane="best">
+    <vehicle id="bike154" type="bike_bicycle" depart="1540.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike155" type="bike_bicycle" depart="1484.20" departLane="best" departSpeed="max">
+    <vehicle id="bike155" type="bike_bicycle" depart="1550.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike156" type="bike_bicycle" depart="1493.77" departLane="best">
+    <vehicle id="bike156" type="bike_bicycle" depart="1560.00" departLane="best">
         <route edges="B2B3 B3C3 C3C2 C2C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="bike157" type="bike_bicycle" depart="1503.35" departLane="best">
+    <vehicle id="bike157" type="bike_bicycle" depart="1570.00" departLane="best">
         <route edges="D2D3 D3C3"/>
     </vehicle>
-    <vehicle id="bike158" type="bike_bicycle" depart="1512.92" departLane="best">
+    <vehicle id="bike158" type="bike_bicycle" depart="1580.00" departLane="best">
         <route edges="C1B1 B1B2 B2B3 B3C3 C3C4"/>
     </vehicle>
-    <vehicle id="bike159" type="bike_bicycle" depart="1522.50" departLane="best" departSpeed="max">
+    <vehicle id="bike159" type="bike_bicycle" depart="1590.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1C1 C1C2 C2C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike160" type="bike_bicycle" depart="1532.07" departLane="best" departSpeed="max">
+    <vehicle id="bike160" type="bike_bicycle" depart="1600.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3E3"/>
     </vehicle>
-    <vehicle id="bike161" type="bike_bicycle" depart="1541.65" departLane="best">
+    <vehicle id="bike161" type="bike_bicycle" depart="1610.00" departLane="best">
         <route edges="D3C3"/>
     </vehicle>
-    <vehicle id="bike162" type="bike_bicycle" depart="1551.22" departLane="best" departSpeed="max">
+    <vehicle id="bike162" type="bike_bicycle" depart="1620.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="bike163" type="bike_bicycle" depart="1560.80" departLane="best" departSpeed="max">
+    <vehicle id="bike163" type="bike_bicycle" depart="1630.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="bike164" type="bike_bicycle" depart="1570.38" departLane="best">
+    <vehicle id="bike164" type="bike_bicycle" depart="1640.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike165" type="bike_bicycle" depart="1579.95" departLane="best">
+    <vehicle id="bike165" type="bike_bicycle" depart="1650.00" departLane="best">
         <route edges="D3C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike166" type="bike_bicycle" depart="1589.53" departLane="best">
+    <vehicle id="bike166" type="bike_bicycle" depart="1660.00" departLane="best">
         <route edges="D2D3 D3C3 C3C2 C2B2 B2B1 B1C1"/>
     </vehicle>
-    <vehicle id="bike167" type="bike_bicycle" depart="1599.10" departLane="best" departSpeed="max">
+    <vehicle id="bike167" type="bike_bicycle" depart="1670.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike168" type="bike_bicycle" depart="1608.68" departLane="best">
+    <vehicle id="bike168" type="bike_bicycle" depart="1680.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2D2 D2D3"/>
     </vehicle>
-    <vehicle id="bike169" type="bike_bicycle" depart="1618.25" departLane="best">
+    <vehicle id="bike169" type="bike_bicycle" depart="1690.00" departLane="best">
         <route edges="C2B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="bike170" type="bike_bicycle" depart="1627.83" departLane="best">
+    <vehicle id="bike170" type="bike_bicycle" depart="1700.00" departLane="best">
         <route edges="D3C3 C3B3 B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="bike171" type="bike_bicycle" depart="1637.40" departLane="best" departSpeed="max">
+    <vehicle id="bike171" type="bike_bicycle" depart="1710.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2B3"/>
     </vehicle>
-    <vehicle id="bike172" type="bike_bicycle" depart="1646.98" departLane="best" departSpeed="max">
+    <vehicle id="bike172" type="bike_bicycle" depart="1720.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="bike173" type="bike_bicycle" depart="1656.55" departLane="best" departSpeed="max">
+    <vehicle id="bike173" type="bike_bicycle" depart="1730.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3B3 B3B2"/>
     </vehicle>
-    <vehicle id="bike174" type="bike_bicycle" depart="1666.13" departLane="best" departSpeed="max">
+    <vehicle id="bike174" type="bike_bicycle" depart="1740.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2C1 C1C0"/>
     </vehicle>
-    <vehicle id="bike175" type="bike_bicycle" depart="1675.71" departLane="best" departSpeed="max">
+    <vehicle id="bike175" type="bike_bicycle" depart="1750.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3C2 C2D2"/>
     </vehicle>
-    <vehicle id="bike176" type="bike_bicycle" depart="1685.28" departLane="best" departSpeed="max">
+    <vehicle id="bike176" type="bike_bicycle" depart="1760.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2C2 C2B2 B2B1 B1C1"/>
     </vehicle>
-    <vehicle id="bike177" type="bike_bicycle" depart="1694.86" departLane="best" departSpeed="max">
+    <vehicle id="bike177" type="bike_bicycle" depart="1770.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2B2 B2B1"/>
     </vehicle>
-    <vehicle id="bike178" type="bike_bicycle" depart="1704.43" departLane="best" departSpeed="max">
+    <vehicle id="bike178" type="bike_bicycle" depart="1780.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="bike179" type="bike_bicycle" depart="1714.01" departLane="best" departSpeed="max">
+    <vehicle id="bike179" type="bike_bicycle" depart="1790.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1C1 C1C2"/>
-    </vehicle>
-    <vehicle id="bike180" type="bike_bicycle" depart="1723.58" departLane="best">
-        <route edges="D1D2 D2C2 C2C3 C3B3 B3B4"/>
-    </vehicle>
-    <vehicle id="bike181" type="bike_bicycle" depart="1733.16" departLane="best" departSpeed="max">
-        <route edges="C4C3 C3D3 D3D2 D2C2 C2C3"/>
-    </vehicle>
-    <vehicle id="bike182" type="bike_bicycle" depart="1742.73" departLane="best" departSpeed="max">
-        <route edges="C0C1 C1B1 B1B2 B2B3 B3C3 C3C2"/>
-    </vehicle>
-    <vehicle id="bike183" type="bike_bicycle" depart="1752.31" departLane="best">
-        <route edges="B2C2 C2C1 C1D1 D1D2"/>
-    </vehicle>
-    <vehicle id="bike184" type="bike_bicycle" depart="1761.88" departLane="best" departSpeed="max">
-        <route edges="A1B1 B1B2 B2C2 C2C3 C3D3 D3D4"/>
-    </vehicle>
-    <vehicle id="bike185" type="bike_bicycle" depart="1771.46" departLane="best">
-        <route edges="C2D2 D2D3 D3C3 C3C2 C2C1 C1D1 D1D2"/>
-    </vehicle>
-    <vehicle id="bike186" type="bike_bicycle" depart="1781.04" departLane="best">
-        <route edges="D2C2 C2C1 C1D1 D1D0"/>
-    </vehicle>
-    <vehicle id="bike187" type="bike_bicycle" depart="1790.61" departLane="best" departSpeed="max">
-        <route edges="C0C1 C1B1 B1B0"/>
     </vehicle>
 </routes>
