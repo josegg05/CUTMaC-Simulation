@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Wed May 27 06:42:21 2020 by Eclipse SUMO duarouter Version 1.6.0
+<!-- generated on 05/27/20 20:29:15 by Eclipse SUMO duarouter Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value="optimal3.net.xml"/>
+        <net-file value="optimal.net.xml"/>
         <route-files value="optimal.truck.trips.xml"/>
     </input>
 
@@ -31,287 +31,472 @@
     <vType id="truck_truck" vClass="truck"/>
     <vehicle id="truck0" type="truck_truck" depart="0.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="64.52" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2C2 C2D2 D2E2"/>
+            <route cost="29.56" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1A1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck1" type="truck_truck" depart="32.00" departLane="best" departSpeed="max">
+    <vehicle id="truck1" type="truck_truck" depart="19.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.04" probability="1.00000000" edges="B0B1 B1B2 B2B3 B3C3 C3C2 C2B2 B2B1 B1B0"/>
+            <route cost="36.77" probability="1.00000000" edges="E2D2 D2C2 C2B2 B2B1 B1B0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck2" type="truck_truck" depart="64.00" departLane="best" departSpeed="max">
+    <vehicle id="truck2" type="truck_truck" depart="38.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="67.67" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3B3 B3B2 B2C2 C2C3 C3D3 D3E3"/>
+            <route cost="28.69" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2C3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck3" type="truck_truck" depart="96.00" departLane="best" departSpeed="max">
+    <vehicle id="truck3" type="truck_truck" depart="57.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.04" probability="1.00000000" edges="E1D1 D1C1 C1B1 B1B2 B2C2 C2C1 C1D1 D1E1"/>
+            <route cost="36.65" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2C3 C3C4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck4" type="truck_truck" depart="128.00" departLane="best" departSpeed="max">
+    <vehicle id="truck4" type="truck_truck" depart="76.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.16" probability="1.00000000" edges="A3B3 B3C3 C3D3 D3D2 D2D1 D1C1 C1B1 B1B0"/>
+            <route cost="43.13" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1A1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck5" type="truck_truck" depart="160.00" departLane="best" departSpeed="max">
+    <vehicle id="truck5" type="truck_truck" depart="96.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.76" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
+            <route cost="28.71" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3B4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck6" type="truck_truck" depart="192.00" departLane="best" departSpeed="max">
+    <vehicle id="truck6" type="truck_truck" depart="115.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="65.85" probability="1.00000000" edges="E2D2 D2D1 D1C1 C1B1 B1B2 B2C2 C2D2 D2D1 D1E1"/>
+            <route cost="35.92" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3C4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck7" type="truck_truck" depart="224.00" departLane="best" departSpeed="max">
+    <vehicle id="truck7" type="truck_truck" depart="134.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="72.34" probability="1.00000000" edges="A1B1 B1B2 B2C2 C2D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
+            <route cost="29.56" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1E1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck8" type="truck_truck" depart="256.00" departLane="best" departSpeed="max">
+    <vehicle id="truck8" type="truck_truck" depart="153.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.73" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3B2 B2C2 C2C3 C3D3 D3E3"/>
+            <route cost="35.92" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3C4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck9" type="truck_truck" depart="288.00" departLane="best" departSpeed="max">
+    <vehicle id="truck9" type="truck_truck" depart="172.80" departLane="best">
         <routeDistribution last="0">
-            <route cost="67.55" probability="1.00000000" edges="C0C1 C1C2 C2D2 D2D3 D3C3 C3C2 C2D2 D2D1 D1D0"/>
+            <route cost="28.69" probability="1.00000000" edges="D2C2 C2C1 C1B1 B1A1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck10" type="truck_truck" depart="320.00" departLane="best" departSpeed="max">
+    <vehicle id="truck10" type="truck_truck" depart="192.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.04" probability="1.00000000" edges="B4B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2B3 B3B4"/>
+            <route cost="29.56" probability="1.00000000" edges="B0B1 B1B2 B2B3 B3A3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck11" type="truck_truck" depart="352.00" departLane="best" departSpeed="max">
+    <vehicle id="truck11" type="truck_truck" depart="211.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="65.85" probability="1.00000000" edges="E3D3 D3D2 D2C2 C2B2 B2B3 B3C3 C3D3 D3D2 D2E2"/>
+            <route cost="43.86" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck12" type="truck_truck" depart="384.00" departLane="best" departSpeed="max">
+    <vehicle id="truck12" type="truck_truck" depart="230.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="65.13" probability="1.00000000" edges="B4B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2C2 C2D2 D2E2"/>
+            <route cost="20.87" probability="1.00000000" edges="B4B3 B3B2 B2B1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck13" type="truck_truck" depart="416.00" departLane="best" departSpeed="max">
+    <vehicle id="truck13" type="truck_truck" depart="249.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="67.67" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2C2 C2D2 D2E2"/>
+            <route cost="35.78" probability="1.00000000" edges="D0D1 D1C1 C1C2 C2C3 C3D3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck14" type="truck_truck" depart="448.00" departLane="best" departSpeed="max">
+    <vehicle id="truck14" type="truck_truck" depart="268.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.61" probability="1.00000000" edges="A2B2 B2C2 C2C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
+            <route cost="43.86" probability="1.00000000" edges="A3B3 B3C3 C3C2 C2C1 C1D1 D1E1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck15" type="truck_truck" depart="480.00" departLane="best" departSpeed="max">
+    <vehicle id="truck15" type="truck_truck" depart="288.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.76" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
+            <route cost="29.56" probability="1.00000000" edges="E3D3 D3D2 D2D1 D1D0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck16" type="truck_truck" depart="512.00" departLane="best" departSpeed="max">
+    <vehicle id="truck16" type="truck_truck" depart="307.20" departLane="best">
         <routeDistribution last="0">
-            <route cost="51.92" probability="1.00000000" edges="D0D1 D1D2 D2D3 D3C3 C3C2 C2C1 C1C0"/>
+            <route cost="27.96" probability="1.00000000" edges="C3D3 D3D2 D2D1 D1D0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck17" type="truck_truck" depart="544.00" departLane="best" departSpeed="max">
+    <vehicle id="truck17" type="truck_truck" depart="326.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.73" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2C1 C1D1 D1D2 D2D3 D3D4"/>
+            <route cost="43.13" probability="1.00000000" edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3E3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck18" type="truck_truck" depart="576.00" departLane="best" departSpeed="max">
+    <vehicle id="truck18" type="truck_truck" depart="345.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.01" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2B2 B2B1 B1C1 C1D1 D1E1"/>
+            <route cost="43.13" probability="1.00000000" edges="E1D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck19" type="truck_truck" depart="608.00" departLane="best" departSpeed="max">
+    <vehicle id="truck19" type="truck_truck" depart="364.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.73" probability="1.00000000" edges="A1B1 B1C1 C1D1 D1D2 D2C2 C2B2 B2B3 B3A3"/>
+            <route cost="28.69" probability="1.00000000" edges="C0C1 C1B1 B1B2 B2B3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck20" type="truck_truck" depart="640.00" departLane="best" departSpeed="max">
+    <vehicle id="truck20" type="truck_truck" depart="384.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.76" probability="1.00000000" edges="C0C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2E2"/>
+            <route cost="36.65" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2C1 C1C0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck21" type="truck_truck" depart="672.00" departLane="best" departSpeed="max">
+    <vehicle id="truck21" type="truck_truck" depart="403.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="57.43" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
+            <route cost="20.87" probability="1.00000000" edges="E3D3 D3C3 C3B3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck22" type="truck_truck" depart="704.00" departLane="best" departSpeed="max">
+    <vehicle id="truck22" type="truck_truck" depart="422.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.88" probability="1.00000000" edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C1 C1B1 B1A1"/>
+            <route cost="28.83" probability="1.00000000" edges="A1B1 B1C1 C1D1 D1E1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck23" type="truck_truck" depart="736.00" departLane="best" departSpeed="max">
+    <vehicle id="truck23" type="truck_truck" depart="441.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="51.79" probability="1.00000000" edges="E2D2 D2C2 C2C3 C3B3 B3B2 B2B1 B1B0"/>
+            <route cost="43.86" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3B3 B3A3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck24" type="truck_truck" depart="768.00" departLane="best" departSpeed="max">
+    <vehicle id="truck24" type="truck_truck" depart="460.80" departLane="best">
         <routeDistribution last="0">
-            <route cost="66.82" probability="1.00000000" edges="C0C1 C1C2 C2D2 D2D3 D3C3 C3C2 C2C1 C1B1 B1A1"/>
+            <route cost="35.90" probability="1.00000000" edges="B3B2 B2C2 C2D2 D2D1 D1D0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck25" type="truck_truck" depart="800.00" departLane="best" departSpeed="max">
+    <vehicle id="truck25" type="truck_truck" depart="480.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="65.85" probability="1.00000000" edges="A1B1 B1B2 B2C2 C2D2 D2D1 D1C1 C1C2 C2B2 B2A2"/>
+            <route cost="29.56" probability="1.00000000" edges="A1B1 B1B2 B2B3 B3B4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck26" type="truck_truck" depart="832.00" departLane="best" departSpeed="max">
+    <vehicle id="truck26" type="truck_truck" depart="499.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.88" probability="1.00000000" edges="A3B3 B3C3 C3C2 C2D2 D2D3 D3C3 C3B3 B3B2 B2B1 B1B0"/>
+            <route cost="43.98" probability="1.00000000" edges="A1B1 B1C1 C1D1 D1D2 D2D3 D3D4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck27" type="truck_truck" depart="864.00" departLane="best" departSpeed="max">
+    <vehicle id="truck27" type="truck_truck" depart="518.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="66.94" probability="1.00000000" edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
+            <route cost="36.65" probability="1.00000000" edges="A2B2 B2C2 C2C1 C1D1 D1E1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck28" type="truck_truck" depart="896.00" departLane="best" departSpeed="max">
+    <vehicle id="truck28" type="truck_truck" depart="537.60" departLane="best">
         <routeDistribution last="0">
-            <route cost="72.46" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
+            <route cost="36.62" probability="1.00000000" edges="C1D1 D1D2 D2C2 C2C3 C3C4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck29" type="truck_truck" depart="928.00" departLane="best" departSpeed="max">
+    <vehicle id="truck29" type="truck_truck" depart="556.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="72.94" probability="1.00000000" edges="B4B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2C2 C2C1 C1D1 D1E1"/>
+            <route cost="28.83" probability="1.00000000" edges="B0B1 B1B2 B2B3 B3B4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck30" type="truck_truck" depart="960.00" departLane="best" departSpeed="max">
+    <vehicle id="truck30" type="truck_truck" depart="576.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="50.22" probability="1.00000000" edges="A2B2 B2C2 C2D2 D2D1 D1C1 C1B1 B1A1"/>
+            <route cost="29.56" probability="1.00000000" edges="E3D3 D3D2 D2D1 D1D0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck31" type="truck_truck" depart="992.00" departLane="best" departSpeed="max">
+    <vehicle id="truck31" type="truck_truck" depart="595.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="57.43" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
+            <route cost="20.87" probability="1.00000000" edges="B0B1 B1B2 B2B3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck32" type="truck_truck" depart="1024.00" departLane="best" departSpeed="max">
+    <vehicle id="truck32" type="truck_truck" depart="614.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="67.67" probability="1.00000000" edges="C4C3 C3C2 C2C1 C1D1 D1D2 D2C2 C2C1 C1B1 B1A1"/>
+            <route cost="35.92" probability="1.00000000" edges="A2B2 B2C2 C2D2 D2D1 D1D0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck33" type="truck_truck" depart="1056.00" departLane="best" departSpeed="max">
+    <vehicle id="truck33" type="truck_truck" depart="633.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="66.82" probability="1.00000000" edges="A2B2 B2C2 C2C1 C1D1 D1D2 D2C2 C2B2 B2B3 B3B4"/>
+            <route cost="43.86" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2D2 D2D3 D3D4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck34" type="truck_truck" depart="1088.00" departLane="best" departSpeed="max">
+    <vehicle id="truck34" type="truck_truck" depart="652.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.76" probability="1.00000000" edges="A3B3 B3C3 C3C2 C2C1 C1D1 D1D2 D2C2 C2C1 C1B1 B1A1"/>
+            <route cost="29.56" probability="1.00000000" edges="E1D1 D1C1 C1B1 B1B0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck35" type="truck_truck" depart="1120.00" departLane="best" departSpeed="max">
+    <vehicle id="truck35" type="truck_truck" depart="672.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="50.95" probability="1.00000000" edges="A2B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
+            <route cost="35.92" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2B2 B2A2"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck36" type="truck_truck" depart="1152.00" departLane="best" departSpeed="max">
+    <vehicle id="truck36" type="truck_truck" depart="691.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="65.25" probability="1.00000000" edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1C1 C1C0"/>
+            <route cost="43.98" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3B2 B2B1 B1B0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck37" type="truck_truck" depart="1184.00" departLane="best" departSpeed="max">
+    <vehicle id="truck37" type="truck_truck" depart="710.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="67.55" probability="1.00000000" edges="A3B3 B3C3 C3C2 C2D2 D2D3 D3C3 C3C2 C2B2 B2A2"/>
+            <route cost="36.65" probability="1.00000000" edges="C0C1 C1B1 B1B2 B2B3 B3B4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck38" type="truck_truck" depart="1216.00" departLane="best" departSpeed="max">
+    <vehicle id="truck38" type="truck_truck" depart="729.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.16" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3E3"/>
+            <route cost="43.86" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3B3 B3A3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck39" type="truck_truck" depart="1248.00" departLane="best" departSpeed="max">
+    <vehicle id="truck39" type="truck_truck" depart="748.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="66.94" probability="1.00000000" edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
+            <route cost="36.77" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3B3 B3A3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck40" type="truck_truck" depart="1280.00" departLane="best" departSpeed="max">
+    <vehicle id="truck40" type="truck_truck" depart="768.00" departLane="best">
         <routeDistribution last="0">
-            <route cost="65.25" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3C4"/>
+            <route cost="35.90" probability="1.00000000" edges="B1B2 B2B3 B3C3 C3D3 D3D4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck41" type="truck_truck" depart="1312.00" departLane="best" departSpeed="max">
+    <vehicle id="truck41" type="truck_truck" depart="787.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.04" probability="1.00000000" edges="E3D3 D3D2 D2C2 C2B2 B2B3 B3C3 C3D3 D3E3"/>
+            <route cost="36.65" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2B2 B2A2"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck42" type="truck_truck" depart="1344.00" departLane="best" departSpeed="max">
+    <vehicle id="truck42" type="truck_truck" depart="806.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="73.06" probability="1.00000000" edges="D0D1 D1C1 C1C2 C2C3 C3D3 D3D2 D2D1 D1C1 C1B1 B1B0"/>
+            <route cost="29.56" probability="1.00000000" edges="B4B3 B3C3 C3D3 D3E3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck43" type="truck_truck" depart="1376.00" departLane="best" departSpeed="max">
+    <vehicle id="truck43" type="truck_truck" depart="825.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.73" probability="1.00000000" edges="C4C3 C3C2 C2C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
+            <route cost="36.77" probability="1.00000000" edges="A1B1 B1C1 C1C2 C2C3 C3C4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck44" type="truck_truck" depart="1408.00" departLane="best" departSpeed="max">
+    <vehicle id="truck44" type="truck_truck" depart="844.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.88" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2C3 C3B3 B3B2 B2B1 B1C1 C1D1 D1E1"/>
+            <route cost="28.83" probability="1.00000000" edges="A3B3 B3C3 C3D3 D3E3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck45" type="truck_truck" depart="1440.00" departLane="best" departSpeed="max">
+    <vehicle id="truck45" type="truck_truck" depart="864.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="50.22" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1C2 C2C3 C3C4"/>
+            <route cost="36.65" probability="1.00000000" edges="C4C3 C3D3 D3D2 D2D1 D1D0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck46" type="truck_truck" depart="1472.00" departLane="best" departSpeed="max">
+    <vehicle id="truck46" type="truck_truck" depart="883.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.73" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2B2 B2B1 B1C1 C1D1 D1E1"/>
+            <route cost="36.65" probability="1.00000000" edges="E2D2 D2C2 C2C3 C3B3 B3A3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck47" type="truck_truck" depart="1504.00" departLane="best" departSpeed="max">
+    <vehicle id="truck47" type="truck_truck" depart="902.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="57.43" probability="1.00000000" edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
+            <route cost="35.78" probability="1.00000000" edges="C4C3 C3D3 D3D2 D2D1 D1C1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck48" type="truck_truck" depart="1536.00" departLane="best" departSpeed="max">
+    <vehicle id="truck48" type="truck_truck" depart="921.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="73.18" probability="1.00000000" edges="E3D3 D3D2 D2D1 D1C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D4"/>
+            <route cost="28.83" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3C4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck49" type="truck_truck" depart="1568.00" departLane="best" departSpeed="max">
+    <vehicle id="truck49" type="truck_truck" depart="940.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.15" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3B2 B2B1 B1C1 C1C2 C2C3 C3D3 D3E3"/>
+            <route cost="28.71" probability="1.00000000" edges="B0B1 B1C1 C1D1 D1E1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck50" type="truck_truck" depart="1600.00" departLane="best" departSpeed="max">
+    <vehicle id="truck50" type="truck_truck" depart="960.00" departLane="best">
         <routeDistribution last="0">
-            <route cost="66.94" probability="1.00000000" edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
+            <route cost="35.90" probability="1.00000000" edges="B3C3 C3D3 D3D2 D2D1 D1E1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck51" type="truck_truck" depart="1632.00" departLane="best" departSpeed="max">
+    <vehicle id="truck51" type="truck_truck" depart="979.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="50.22" probability="1.00000000" edges="A3B3 B3C3 C3D3 D3D2 D2C2 C2B2 B2A2"/>
+            <route cost="29.56" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1A1"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck52" type="truck_truck" depart="1664.00" departLane="best" departSpeed="max">
+    <vehicle id="truck52" type="truck_truck" depart="998.40" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.15" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3B3 B3B2 B2B1 B1C1 C1D1 D1E1"/>
+            <route cost="28.83" probability="1.00000000" edges="D0D1 D1D2 D2D3 D3D4"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck53" type="truck_truck" depart="1696.00" departLane="best" departSpeed="max">
+    <vehicle id="truck53" type="truck_truck" depart="1017.60" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="66.94" probability="1.00000000" edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1D2 D2C2 C2C3 C3C4"/>
+            <route cost="28.71" probability="1.00000000" edges="A3B3 B3B2 B2B1 B1B0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck54" type="truck_truck" depart="1728.00" departLane="best" departSpeed="max">
+    <vehicle id="truck54" type="truck_truck" depart="1036.80" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="59.01" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
+            <route cost="43.98" probability="1.00000000" edges="D0D1 D1D2 D2D3 D3C3 C3B3 B3A3"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck55" type="truck_truck" depart="1760.00" departLane="best" departSpeed="max">
+    <vehicle id="truck55" type="truck_truck" depart="1056.00" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="74.03" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2B2 B2B1 B1C1 C1C2 C2C3 C3D3 D3E3"/>
+            <route cost="29.56" probability="1.00000000" edges="E1D1 D1C1 C1B1 B1B0"/>
         </routeDistribution>
     </vehicle>
-    <vehicle id="truck56" type="truck_truck" depart="1792.00" departLane="best" departSpeed="max">
+    <vehicle id="truck56" type="truck_truck" depart="1075.20" departLane="best" departSpeed="max">
         <routeDistribution last="0">
-            <route cost="58.04" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1C1 C1C2 C2C3 C3D3 D3D4"/>
+            <route cost="36.77" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3B3 B3A3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck57" type="truck_truck" depart="1094.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="43.98" probability="1.00000000" edges="D0D1 D1D2 D2D3 D3C3 C3B3 B3A3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck58" type="truck_truck" depart="1113.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="36.77" probability="1.00000000" edges="A2B2 B2C2 C2D2 D2D3 D3D4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck59" type="truck_truck" depart="1132.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="35.92" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3C4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck60" type="truck_truck" depart="1152.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.81" probability="1.00000000" edges="E2D2 D2C2 C2B2 B2B1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck61" type="truck_truck" depart="1171.20" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="29.56" probability="1.00000000" edges="A3B3 B3C3 C3D3 D3D4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck62" type="truck_truck" depart="1190.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="A1B1 B1C1 C1D1 D1E1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck63" type="truck_truck" depart="1209.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.71" probability="1.00000000" edges="D4D3 D3C3 C3B3 B3A3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck64" type="truck_truck" depart="1228.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="43.86" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2B2 B2B1 B1B0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck65" type="truck_truck" depart="1248.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="35.92" probability="1.00000000" edges="B0B1 B1B2 B2C2 C2D2 D2E2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck66" type="truck_truck" depart="1267.20" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3A3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck67" type="truck_truck" depart="1286.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="36.77" probability="1.00000000" edges="E2D2 D2C2 C2B2 B2B1 B1B0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck68" type="truck_truck" depart="1305.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="36.65" probability="1.00000000" edges="E3D3 D3D2 D2C2 C2B2 B2A2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck69" type="truck_truck" depart="1324.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="E3D3 D3C3 C3B3 B3A3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck70" type="truck_truck" depart="1344.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3C4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck71" type="truck_truck" depart="1363.20" departLane="best">
+        <routeDistribution last="0">
+            <route cost="20.87" probability="1.00000000" edges="B1C1 C1D1 D1E1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck72" type="truck_truck" depart="1382.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="43.98" probability="1.00000000" edges="A1B1 B1C1 C1D1 D1D2 D2D3 D3D4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck73" type="truck_truck" depart="1401.60" departLane="best">
+        <routeDistribution last="0">
+            <route cost="36.62" probability="1.00000000" edges="D3C3 C3C2 C2D2 D2D1 D1D0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck74" type="truck_truck" depart="1420.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="B4B3 B3B2 B2B1 B1B0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck75" type="truck_truck" depart="1440.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="43.86" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck76" type="truck_truck" depart="1459.20" departLane="best">
+        <routeDistribution last="0">
+            <route cost="28.69" probability="1.00000000" edges="B3C3 C3D3 D3D2 D2E2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck77" type="truck_truck" depart="1478.40" departLane="best">
+        <routeDistribution last="0">
+            <route cost="28.69" probability="1.00000000" edges="B3B2 B2C2 C2C1 C1C0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck78" type="truck_truck" depart="1497.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="36.77" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3B3 B3A3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck79" type="truck_truck" depart="1516.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="35.92" probability="1.00000000" edges="A3B3 B3C3 C3C2 C2C1 C1C0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck80" type="truck_truck" depart="1536.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="C0C1 C1C2 C2C3 C3C4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck81" type="truck_truck" depart="1555.20" departLane="best">
+        <routeDistribution last="0">
+            <route cost="28.81" probability="1.00000000" edges="C1D1 D1D2 D2D3 D3D4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck82" type="truck_truck" depart="1574.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="35.92" probability="1.00000000" edges="D4D3 D3D2 D2C2 C2B2 B2A2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck83" type="truck_truck" depart="1593.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="20.87" probability="1.00000000" edges="A2B2 B2C2 C2D2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck84" type="truck_truck" depart="1612.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="43.86" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck85" type="truck_truck" depart="1632.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="29.56" probability="1.00000000" edges="D4D3 D3D2 D2D1 D1E1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck86" type="truck_truck" depart="1651.20" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="35.90" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1B2 B2B3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck87" type="truck_truck" depart="1670.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="29.56" probability="1.00000000" edges="E1D1 D1C1 C1B1 B1B0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck88" type="truck_truck" depart="1689.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="29.56" probability="1.00000000" edges="D0D1 D1C1 C1B1 B1A1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck89" type="truck_truck" depart="1708.80" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.83" probability="1.00000000" edges="A3B3 B3C3 C3D3 D3E3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck90" type="truck_truck" depart="1728.00" departLane="best">
+        <routeDistribution last="0">
+            <route cost="27.96" probability="1.00000000" edges="B1B2 B2C2 C2D2 D2E2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck91" type="truck_truck" depart="1747.20" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="28.71" probability="1.00000000" edges="D0D1 D1D2 D2D3 D3E3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck92" type="truck_truck" depart="1766.40" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="35.92" probability="1.00000000" edges="E1D1 D1C1 C1C2 C2C3 C3C4"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="truck93" type="truck_truck" depart="1785.60" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="43.98" probability="1.00000000" edges="D0D1 D1D2 D2D3 D3C3 C3B3 B3A3"/>
         </routeDistribution>
     </vehicle>
 </routes>

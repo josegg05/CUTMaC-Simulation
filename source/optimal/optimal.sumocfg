@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="optimal3.net.xml"/>
+        <net-file value="optimal.net.xml"/>
         <route-files value="optimal.passenger.rou.xml,optimal.truck.rou.xml,optimal.bus.rou.xml,optimal.motorcycle.rou.xml,optimal.bicycle.rou.xml"/>
         <additional-files value="e2.add.xml"/>
     </input>
