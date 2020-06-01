@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 05/27/20 20:29:13 by Eclipse SUMO duarouter Version 1.6.0
+<!-- generated on 05/31/20 02:17:10 by Eclipse SUMO duarouter Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -32,460 +32,340 @@
     <vehicle id="moto0" type="moto_motorcycle" depart="0.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="moto1" type="moto_motorcycle" depart="11.80" departLane="best">
+    <vehicle id="moto1" type="moto_motorcycle" depart="16.00" departLane="best">
         <route edges="B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto2" type="moto_motorcycle" depart="23.60" departLane="best">
+    <vehicle id="moto2" type="moto_motorcycle" depart="32.00" departLane="best">
         <route edges="D2C2 C2C1 C1D1 D1D0"/>
     </vehicle>
-    <vehicle id="moto3" type="moto_motorcycle" depart="35.40" departLane="best" departSpeed="max">
+    <vehicle id="moto3" type="moto_motorcycle" depart="48.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="moto4" type="moto_motorcycle" depart="47.20" departLane="best">
+    <vehicle id="moto4" type="moto_motorcycle" depart="64.00" departLane="best">
         <route edges="C1C2 C2B2 B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="moto5" type="moto_motorcycle" depart="59.00" departLane="best">
+    <vehicle id="moto5" type="moto_motorcycle" depart="80.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3"/>
     </vehicle>
-    <vehicle id="moto6" type="moto_motorcycle" depart="70.80" departLane="best" departSpeed="max">
+    <vehicle id="moto6" type="moto_motorcycle" depart="96.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2B3"/>
     </vehicle>
-    <vehicle id="moto7" type="moto_motorcycle" depart="82.60" departLane="best" departSpeed="max">
+    <vehicle id="moto7" type="moto_motorcycle" depart="112.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1D2 D2D3 D3C3 C3B3"/>
     </vehicle>
-    <vehicle id="moto8" type="moto_motorcycle" depart="94.40" departLane="best">
+    <vehicle id="moto8" type="moto_motorcycle" depart="128.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="moto9" type="moto_motorcycle" depart="106.20" departLane="best">
+    <vehicle id="moto9" type="moto_motorcycle" depart="144.00" departLane="best">
         <route edges="D3C3 C3C2 C2C1 C1B1 B1A1"/>
     </vehicle>
-    <vehicle id="moto10" type="moto_motorcycle" depart="118.00" departLane="best">
+    <vehicle id="moto10" type="moto_motorcycle" depart="160.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="moto11" type="moto_motorcycle" depart="129.80" departLane="best" departSpeed="max">
+    <vehicle id="moto11" type="moto_motorcycle" depart="176.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3B2 B2A2"/>
     </vehicle>
-    <vehicle id="moto12" type="moto_motorcycle" depart="141.60" departLane="best" departSpeed="max">
+    <vehicle id="moto12" type="moto_motorcycle" depart="192.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2C2 C2B2 B2B3 B3C3"/>
     </vehicle>
-    <vehicle id="moto13" type="moto_motorcycle" depart="153.40" departLane="best" departSpeed="max">
+    <vehicle id="moto13" type="moto_motorcycle" depart="208.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3C2 C2C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="moto14" type="moto_motorcycle" depart="165.20" departLane="best" departSpeed="max">
+    <vehicle id="moto14" type="moto_motorcycle" depart="224.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C4"/>
     </vehicle>
-    <vehicle id="moto15" type="moto_motorcycle" depart="177.00" departLane="best">
+    <vehicle id="moto15" type="moto_motorcycle" depart="240.00" departLane="best">
         <route edges="D3C3 C3C2 C2C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="moto16" type="moto_motorcycle" depart="188.80" departLane="best">
+    <vehicle id="moto16" type="moto_motorcycle" depart="256.00" departLane="best">
         <route edges="C2D2 D2D3 D3E3"/>
     </vehicle>
-    <vehicle id="moto17" type="moto_motorcycle" depart="200.60" departLane="best" departSpeed="max">
+    <vehicle id="moto17" type="moto_motorcycle" depart="272.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="moto18" type="moto_motorcycle" depart="212.40" departLane="best">
+    <vehicle id="moto18" type="moto_motorcycle" depart="288.00" departLane="best">
         <route edges="D3D2 D2C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="moto19" type="moto_motorcycle" depart="224.20" departLane="best" departSpeed="max">
+    <vehicle id="moto19" type="moto_motorcycle" depart="304.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="moto20" type="moto_motorcycle" depart="236.00" departLane="best">
+    <vehicle id="moto20" type="moto_motorcycle" depart="320.00" departLane="best">
         <route edges="D1C1 C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="moto21" type="moto_motorcycle" depart="247.80" departLane="best">
+    <vehicle id="moto21" type="moto_motorcycle" depart="336.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3B3 B3B2"/>
     </vehicle>
-    <vehicle id="moto22" type="moto_motorcycle" depart="259.60" departLane="best" departSpeed="max">
+    <vehicle id="moto22" type="moto_motorcycle" depart="352.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B3 B3A3"/>
     </vehicle>
-    <vehicle id="moto23" type="moto_motorcycle" depart="271.40" departLane="best" departSpeed="max">
+    <vehicle id="moto23" type="moto_motorcycle" depart="368.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2"/>
     </vehicle>
-    <vehicle id="moto24" type="moto_motorcycle" depart="283.20" departLane="best" departSpeed="max">
+    <vehicle id="moto24" type="moto_motorcycle" depart="384.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2C1 C1B1"/>
     </vehicle>
-    <vehicle id="moto25" type="moto_motorcycle" depart="295.00" departLane="best" departSpeed="max">
+    <vehicle id="moto25" type="moto_motorcycle" depart="400.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto26" type="moto_motorcycle" depart="306.80" departLane="best">
+    <vehicle id="moto26" type="moto_motorcycle" depart="416.00" departLane="best">
         <route edges="B2C2 C2D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto27" type="moto_motorcycle" depart="318.60" departLane="best" departSpeed="max">
+    <vehicle id="moto27" type="moto_motorcycle" depart="432.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2C3 C3C4"/>
     </vehicle>
-    <vehicle id="moto28" type="moto_motorcycle" depart="330.40" departLane="best">
+    <vehicle id="moto28" type="moto_motorcycle" depart="448.00" departLane="best">
         <route edges="B1B2 B2C2 C2C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="moto29" type="moto_motorcycle" depart="342.20" departLane="best" departSpeed="max">
+    <vehicle id="moto29" type="moto_motorcycle" depart="464.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1C1 C1C0"/>
     </vehicle>
-    <vehicle id="moto30" type="moto_motorcycle" depart="354.00" departLane="best" departSpeed="max">
+    <vehicle id="moto30" type="moto_motorcycle" depart="480.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2C3 C3D3"/>
     </vehicle>
-    <vehicle id="moto31" type="moto_motorcycle" depart="365.80" departLane="best">
+    <vehicle id="moto31" type="moto_motorcycle" depart="496.00" departLane="best">
         <route edges="C3B3 B3B2 B2C2 C2D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="moto32" type="moto_motorcycle" depart="377.60" departLane="best" departSpeed="max">
+    <vehicle id="moto32" type="moto_motorcycle" depart="512.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2"/>
     </vehicle>
-    <vehicle id="moto33" type="moto_motorcycle" depart="389.40" departLane="best">
+    <vehicle id="moto33" type="moto_motorcycle" depart="528.00" departLane="best">
         <route edges="B2B1 B1A1"/>
     </vehicle>
-    <vehicle id="moto34" type="moto_motorcycle" depart="401.20" departLane="best" departSpeed="max">
+    <vehicle id="moto34" type="moto_motorcycle" depart="544.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3A3"/>
     </vehicle>
-    <vehicle id="moto35" type="moto_motorcycle" depart="413.00" departLane="best">
+    <vehicle id="moto35" type="moto_motorcycle" depart="560.00" departLane="best">
         <route edges="B2B1 B1C1 C1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto36" type="moto_motorcycle" depart="424.80" departLane="best" departSpeed="max">
+    <vehicle id="moto36" type="moto_motorcycle" depart="576.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="moto37" type="moto_motorcycle" depart="436.60" departLane="best" departSpeed="max">
+    <vehicle id="moto37" type="moto_motorcycle" depart="592.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C0"/>
     </vehicle>
-    <vehicle id="moto38" type="moto_motorcycle" depart="448.40" departLane="best" departSpeed="max">
+    <vehicle id="moto38" type="moto_motorcycle" depart="608.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1C2 C2B2"/>
     </vehicle>
-    <vehicle id="moto39" type="moto_motorcycle" depart="460.20" departLane="best">
+    <vehicle id="moto39" type="moto_motorcycle" depart="624.00" departLane="best">
         <route edges="B2C2 C2C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="moto40" type="moto_motorcycle" depart="472.00" departLane="best">
+    <vehicle id="moto40" type="moto_motorcycle" depart="640.00" departLane="best">
         <route edges="C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="moto41" type="moto_motorcycle" depart="483.80" departLane="best">
+    <vehicle id="moto41" type="moto_motorcycle" depart="656.00" departLane="best">
         <route edges="C3D3 D3D2"/>
     </vehicle>
-    <vehicle id="moto42" type="moto_motorcycle" depart="495.60" departLane="best">
+    <vehicle id="moto42" type="moto_motorcycle" depart="672.00" departLane="best">
         <route edges="C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto43" type="moto_motorcycle" depart="507.40" departLane="best" departSpeed="max">
+    <vehicle id="moto43" type="moto_motorcycle" depart="688.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2C2 C2C3"/>
     </vehicle>
-    <vehicle id="moto44" type="moto_motorcycle" depart="519.20" departLane="best" departSpeed="max">
+    <vehicle id="moto44" type="moto_motorcycle" depart="704.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="moto45" type="moto_motorcycle" depart="531.00" departLane="best" departSpeed="max">
+    <vehicle id="moto45" type="moto_motorcycle" depart="720.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3D3"/>
     </vehicle>
-    <vehicle id="moto46" type="moto_motorcycle" depart="542.80" departLane="best">
+    <vehicle id="moto46" type="moto_motorcycle" depart="736.00" departLane="best">
         <route edges="D3C3 C3C2 C2D2 D2D1 D1C1 C1C2"/>
     </vehicle>
-    <vehicle id="moto47" type="moto_motorcycle" depart="554.60" departLane="best" departSpeed="max">
+    <vehicle id="moto47" type="moto_motorcycle" depart="752.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2C1 C1C0"/>
     </vehicle>
-    <vehicle id="moto48" type="moto_motorcycle" depart="566.40" departLane="best" departSpeed="max">
+    <vehicle id="moto48" type="moto_motorcycle" depart="768.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3C2 C2D2"/>
     </vehicle>
-    <vehicle id="moto49" type="moto_motorcycle" depart="578.20" departLane="best" departSpeed="max">
+    <vehicle id="moto49" type="moto_motorcycle" depart="784.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="moto50" type="moto_motorcycle" depart="590.00" departLane="best" departSpeed="max">
+    <vehicle id="moto50" type="moto_motorcycle" depart="800.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="moto51" type="moto_motorcycle" depart="601.80" departLane="best" departSpeed="max">
+    <vehicle id="moto51" type="moto_motorcycle" depart="816.00" departLane="best" departSpeed="max">
         <route edges="D0D1 D1C1 C1C2 C2D2"/>
     </vehicle>
-    <vehicle id="moto52" type="moto_motorcycle" depart="613.60" departLane="best">
+    <vehicle id="moto52" type="moto_motorcycle" depart="832.00" departLane="best">
         <route edges="B2C2 C2C3 C3D3"/>
     </vehicle>
-    <vehicle id="moto53" type="moto_motorcycle" depart="625.40" departLane="best" departSpeed="max">
+    <vehicle id="moto53" type="moto_motorcycle" depart="848.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1C1 C1C2"/>
     </vehicle>
-    <vehicle id="moto54" type="moto_motorcycle" depart="637.20" departLane="best">
+    <vehicle id="moto54" type="moto_motorcycle" depart="864.00" departLane="best">
         <route edges="C1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto55" type="moto_motorcycle" depart="649.00" departLane="best" departSpeed="max">
+    <vehicle id="moto55" type="moto_motorcycle" depart="880.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1C1 C1C2 C2C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="moto56" type="moto_motorcycle" depart="660.80" departLane="best">
+    <vehicle id="moto56" type="moto_motorcycle" depart="896.00" departLane="best">
         <route edges="C2C3 C3B3 B3B2 B2B1"/>
     </vehicle>
-    <vehicle id="moto57" type="moto_motorcycle" depart="672.60" departLane="best" departSpeed="max">
+    <vehicle id="moto57" type="moto_motorcycle" depart="912.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2E2"/>
     </vehicle>
-    <vehicle id="moto58" type="moto_motorcycle" depart="684.40" departLane="best">
+    <vehicle id="moto58" type="moto_motorcycle" depart="928.00" departLane="best">
         <route edges="B3C3 C3D3"/>
     </vehicle>
-    <vehicle id="moto59" type="moto_motorcycle" depart="696.20" departLane="best" departSpeed="max">
+    <vehicle id="moto59" type="moto_motorcycle" depart="944.00" departLane="best" departSpeed="max">
         <route edges="C4C3 C3C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="moto60" type="moto_motorcycle" depart="708.00" departLane="best">
+    <vehicle id="moto60" type="moto_motorcycle" depart="960.00" departLane="best">
         <route edges="D2D1 D1C1 C1C2 C2D2"/>
     </vehicle>
-    <vehicle id="moto61" type="moto_motorcycle" depart="719.80" departLane="best">
+    <vehicle id="moto61" type="moto_motorcycle" depart="976.00" departLane="best">
         <route edges="D2D3 D3C3 C3C2 C2D2"/>
     </vehicle>
-    <vehicle id="moto62" type="moto_motorcycle" depart="731.60" departLane="best" departSpeed="max">
+    <vehicle id="moto62" type="moto_motorcycle" depart="992.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="moto63" type="moto_motorcycle" depart="743.40" departLane="best" departSpeed="max">
+    <vehicle id="moto63" type="moto_motorcycle" depart="1008.00" departLane="best" departSpeed="max">
         <route edges="A1B1 B1C1 C1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto64" type="moto_motorcycle" depart="755.20" departLane="best" departSpeed="max">
+    <vehicle id="moto64" type="moto_motorcycle" depart="1024.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2D3"/>
     </vehicle>
-    <vehicle id="moto65" type="moto_motorcycle" depart="767.00" departLane="best">
+    <vehicle id="moto65" type="moto_motorcycle" depart="1040.00" departLane="best">
         <route edges="B3C3 C3C2 C2B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="moto66" type="moto_motorcycle" depart="778.80" departLane="best" departSpeed="max">
+    <vehicle id="moto66" type="moto_motorcycle" depart="1056.00" departLane="best" departSpeed="max">
         <route edges="E1D1 D1D2 D2D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto67" type="moto_motorcycle" depart="790.60" departLane="best" departSpeed="max">
+    <vehicle id="moto67" type="moto_motorcycle" depart="1072.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3C3 C3C2 C2C1"/>
     </vehicle>
-    <vehicle id="moto68" type="moto_motorcycle" depart="802.40" departLane="best" departSpeed="max">
+    <vehicle id="moto68" type="moto_motorcycle" depart="1088.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="moto69" type="moto_motorcycle" depart="814.20" departLane="best">
+    <vehicle id="moto69" type="moto_motorcycle" depart="1104.00" departLane="best">
         <route edges="D2D1 D1C1 C1C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="moto70" type="moto_motorcycle" depart="826.00" departLane="best">
+    <vehicle id="moto70" type="moto_motorcycle" depart="1120.00" departLane="best">
         <route edges="C2B2 B2B1 B1C1 C1C2 C2C3 C3B3"/>
     </vehicle>
-    <vehicle id="moto71" type="moto_motorcycle" depart="837.80" departLane="best">
+    <vehicle id="moto71" type="moto_motorcycle" depart="1136.00" departLane="best">
         <route edges="B2C2 C2D2 D2E2"/>
     </vehicle>
-    <vehicle id="moto72" type="moto_motorcycle" depart="849.60" departLane="best">
+    <vehicle id="moto72" type="moto_motorcycle" depart="1152.00" departLane="best">
         <route edges="C1C2 C2C3 C3B3 B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto73" type="moto_motorcycle" depart="861.40" departLane="best">
+    <vehicle id="moto73" type="moto_motorcycle" depart="1168.00" departLane="best">
         <route edges="C2D2 D2D1 D1E1"/>
     </vehicle>
-    <vehicle id="moto74" type="moto_motorcycle" depart="873.20" departLane="best">
+    <vehicle id="moto74" type="moto_motorcycle" depart="1184.00" departLane="best">
         <route edges="B1C1 C1C2 C2B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="moto75" type="moto_motorcycle" depart="885.00" departLane="best" departSpeed="max">
+    <vehicle id="moto75" type="moto_motorcycle" depart="1200.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2D1 D1C1"/>
     </vehicle>
-    <vehicle id="moto76" type="moto_motorcycle" depart="896.80" departLane="best">
+    <vehicle id="moto76" type="moto_motorcycle" depart="1216.00" departLane="best">
         <route edges="C1D1 D1D2 D2C2 C2C3"/>
     </vehicle>
-    <vehicle id="moto77" type="moto_motorcycle" depart="908.60" departLane="best" departSpeed="max">
+    <vehicle id="moto77" type="moto_motorcycle" depart="1232.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto78" type="moto_motorcycle" depart="920.40" departLane="best" departSpeed="max">
+    <vehicle id="moto78" type="moto_motorcycle" depart="1248.00" departLane="best" departSpeed="max">
         <route edges="B4B3 B3C3 C3C4"/>
     </vehicle>
-    <vehicle id="moto79" type="moto_motorcycle" depart="932.20" departLane="best">
+    <vehicle id="moto79" type="moto_motorcycle" depart="1264.00" departLane="best">
         <route edges="B2B3 B3C3 C3C2 C2C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto80" type="moto_motorcycle" depart="944.00" departLane="best" departSpeed="max">
+    <vehicle id="moto80" type="moto_motorcycle" depart="1280.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2B3 B3C3 C3D3"/>
     </vehicle>
-    <vehicle id="moto81" type="moto_motorcycle" depart="955.80" departLane="best">
+    <vehicle id="moto81" type="moto_motorcycle" depart="1296.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2C3 C3D3 D3D2"/>
     </vehicle>
-    <vehicle id="moto82" type="moto_motorcycle" depart="967.60" departLane="best" departSpeed="max">
+    <vehicle id="moto82" type="moto_motorcycle" depart="1312.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2 C2B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="moto83" type="moto_motorcycle" depart="979.40" departLane="best">
+    <vehicle id="moto83" type="moto_motorcycle" depart="1328.00" departLane="best">
         <route edges="B2B3 B3C3 C3D3 D3D2 D2D1 D1D0"/>
     </vehicle>
-    <vehicle id="moto84" type="moto_motorcycle" depart="991.20" departLane="best">
+    <vehicle id="moto84" type="moto_motorcycle" depart="1344.00" departLane="best">
         <route edges="B2B1 B1C1 C1C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="moto85" type="moto_motorcycle" depart="1003.00" departLane="best" departSpeed="max">
+    <vehicle id="moto85" type="moto_motorcycle" depart="1360.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="moto86" type="moto_motorcycle" depart="1014.80" departLane="best">
+    <vehicle id="moto86" type="moto_motorcycle" depart="1376.00" departLane="best">
         <route edges="C2B2 B2B3 B3C3 C3D3 D3D2 D2C2"/>
     </vehicle>
-    <vehicle id="moto87" type="moto_motorcycle" depart="1026.60" departLane="best">
+    <vehicle id="moto87" type="moto_motorcycle" depart="1392.00" departLane="best">
         <route edges="D3C3 C3C2 C2B2 B2B3"/>
     </vehicle>
-    <vehicle id="moto88" type="moto_motorcycle" depart="1038.40" departLane="best" departSpeed="max">
+    <vehicle id="moto88" type="moto_motorcycle" depart="1408.00" departLane="best" departSpeed="max">
         <route edges="A3B3 B3B2 B2B1 B1C1 C1C2"/>
     </vehicle>
-    <vehicle id="moto89" type="moto_motorcycle" depart="1050.20" departLane="best">
+    <vehicle id="moto89" type="moto_motorcycle" depart="1424.00" departLane="best">
         <route edges="C1C2 C2B2"/>
     </vehicle>
-    <vehicle id="moto90" type="moto_motorcycle" depart="1062.00" departLane="best">
+    <vehicle id="moto90" type="moto_motorcycle" depart="1440.00" departLane="best">
         <route edges="D1D2 D2C2 C2C1 C1D1 D1D0"/>
     </vehicle>
-    <vehicle id="moto91" type="moto_motorcycle" depart="1073.80" departLane="best" departSpeed="max">
+    <vehicle id="moto91" type="moto_motorcycle" depart="1456.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2D1 D1C1 C1B1 B1B2"/>
     </vehicle>
-    <vehicle id="moto92" type="moto_motorcycle" depart="1085.60" departLane="best">
+    <vehicle id="moto92" type="moto_motorcycle" depart="1472.00" departLane="best">
         <route edges="C1B1 B1B2 B2B3 B3C3"/>
     </vehicle>
-    <vehicle id="moto93" type="moto_motorcycle" depart="1097.40" departLane="best" departSpeed="max">
+    <vehicle id="moto93" type="moto_motorcycle" depart="1488.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3C3 C3B3 B3A3"/>
     </vehicle>
-    <vehicle id="moto94" type="moto_motorcycle" depart="1109.20" departLane="best">
+    <vehicle id="moto94" type="moto_motorcycle" depart="1504.00" departLane="best">
         <route edges="B1C1 C1D1"/>
     </vehicle>
-    <vehicle id="moto95" type="moto_motorcycle" depart="1121.00" departLane="best">
+    <vehicle id="moto95" type="moto_motorcycle" depart="1520.00" departLane="best">
         <route edges="C1C2 C2C3 C3B3 B3B2"/>
     </vehicle>
-    <vehicle id="moto96" type="moto_motorcycle" depart="1132.80" departLane="best">
+    <vehicle id="moto96" type="moto_motorcycle" depart="1536.00" departLane="best">
         <route edges="B2B3 B3C3 C3D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto97" type="moto_motorcycle" depart="1144.60" departLane="best">
+    <vehicle id="moto97" type="moto_motorcycle" depart="1552.00" departLane="best">
         <route edges="C1D1 D1D2 D2E2"/>
     </vehicle>
-    <vehicle id="moto98" type="moto_motorcycle" depart="1156.40" departLane="best">
+    <vehicle id="moto98" type="moto_motorcycle" depart="1568.00" departLane="best">
         <route edges="C3B3 B3B2 B2B1 B1B0"/>
     </vehicle>
-    <vehicle id="moto99" type="moto_motorcycle" depart="1168.20" departLane="best" departSpeed="max">
+    <vehicle id="moto99" type="moto_motorcycle" depart="1584.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D2 D2E2"/>
     </vehicle>
-    <vehicle id="moto100" type="moto_motorcycle" depart="1180.00" departLane="best" departSpeed="max">
+    <vehicle id="moto100" type="moto_motorcycle" depart="1600.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3D4"/>
     </vehicle>
-    <vehicle id="moto101" type="moto_motorcycle" depart="1191.80" departLane="best" departSpeed="max">
+    <vehicle id="moto101" type="moto_motorcycle" depart="1616.00" departLane="best" departSpeed="max">
         <route edges="D4D3 D3D2 D2C2 C2B2 B2A2"/>
     </vehicle>
-    <vehicle id="moto102" type="moto_motorcycle" depart="1203.60" departLane="best">
+    <vehicle id="moto102" type="moto_motorcycle" depart="1632.00" departLane="best">
         <route edges="C2C1 C1B1 B1B2 B2C2"/>
     </vehicle>
-    <vehicle id="moto103" type="moto_motorcycle" depart="1215.40" departLane="best">
+    <vehicle id="moto103" type="moto_motorcycle" depart="1648.00" departLane="best">
         <route edges="C1B1 B1B0"/>
     </vehicle>
-    <vehicle id="moto104" type="moto_motorcycle" depart="1227.20" departLane="best" departSpeed="max">
+    <vehicle id="moto104" type="moto_motorcycle" depart="1664.00" departLane="best" departSpeed="max">
         <route edges="C0C1 C1C2 C2C3 C3D3 D3E3"/>
     </vehicle>
-    <vehicle id="moto105" type="moto_motorcycle" depart="1239.00" departLane="best">
+    <vehicle id="moto105" type="moto_motorcycle" depart="1680.00" departLane="best">
         <route edges="B2C2 C2C3 C3D3 D3D2 D2C2"/>
     </vehicle>
-    <vehicle id="moto106" type="moto_motorcycle" depart="1250.80" departLane="best">
+    <vehicle id="moto106" type="moto_motorcycle" depart="1696.00" departLane="best">
         <route edges="C1D1 D1D2 D2C2 C2B2 B2B1 B1C1 C1C2"/>
     </vehicle>
-    <vehicle id="moto107" type="moto_motorcycle" depart="1262.60" departLane="best" departSpeed="max">
+    <vehicle id="moto107" type="moto_motorcycle" depart="1712.00" departLane="best" departSpeed="max">
         <route edges="E2D2 D2D3 D3E3"/>
     </vehicle>
-    <vehicle id="moto108" type="moto_motorcycle" depart="1274.40" departLane="best">
+    <vehicle id="moto108" type="moto_motorcycle" depart="1728.00" departLane="best">
         <route edges="C3B3 B3B2 B2B1 B1C1 C1D1 D1D2"/>
     </vehicle>
-    <vehicle id="moto109" type="moto_motorcycle" depart="1286.20" departLane="best" departSpeed="max">
+    <vehicle id="moto109" type="moto_motorcycle" depart="1744.00" departLane="best" departSpeed="max">
         <route edges="B0B1 B1B2 B2B3 B3B4"/>
     </vehicle>
-    <vehicle id="moto110" type="moto_motorcycle" depart="1298.00" departLane="best" departSpeed="max">
+    <vehicle id="moto110" type="moto_motorcycle" depart="1760.00" departLane="best" departSpeed="max">
         <route edges="E3D3 D3C3 C3C2"/>
     </vehicle>
-    <vehicle id="moto111" type="moto_motorcycle" depart="1309.80" departLane="best">
+    <vehicle id="moto111" type="moto_motorcycle" depart="1776.00" departLane="best">
         <route edges="C3B3 B3B2 B2B1 B1C1 C1D1 D1E1"/>
     </vehicle>
-    <vehicle id="moto112" type="moto_motorcycle" depart="1321.60" departLane="best" departSpeed="max">
+    <vehicle id="moto112" type="moto_motorcycle" depart="1792.00" departLane="best" departSpeed="max">
         <route edges="A2B2 B2C2 C2C3 C3C4"/>
-    </vehicle>
-    <vehicle id="moto113" type="moto_motorcycle" depart="1333.40" departLane="best">
-        <route edges="C2C3 C3D3 D3D2 D2E2"/>
-    </vehicle>
-    <vehicle id="moto114" type="moto_motorcycle" depart="1345.20" departLane="best" departSpeed="max">
-        <route edges="B0B1 B1B2 B2B3 B3C3 C3D3 D3E3"/>
-    </vehicle>
-    <vehicle id="moto115" type="moto_motorcycle" depart="1357.00" departLane="best" departSpeed="max">
-        <route edges="A2B2 B2B1"/>
-    </vehicle>
-    <vehicle id="moto116" type="moto_motorcycle" depart="1368.80" departLane="best">
-        <route edges="C3D3 D3D2 D2D1 D1D0"/>
-    </vehicle>
-    <vehicle id="moto117" type="moto_motorcycle" depart="1380.60" departLane="best">
-        <route edges="B2B3 B3C3 C3C2 C2B2 B2B1 B1C1"/>
-    </vehicle>
-    <vehicle id="moto118" type="moto_motorcycle" depart="1392.40" departLane="best" departSpeed="max">
-        <route edges="E1D1 D1C1 C1C2 C2C3 C3B3 B3A3"/>
-    </vehicle>
-    <vehicle id="moto119" type="moto_motorcycle" depart="1404.20" departLane="best">
-        <route edges="C3D3 D3D2 D2C2 C2C3 C3C4"/>
-    </vehicle>
-    <vehicle id="moto120" type="moto_motorcycle" depart="1416.00" departLane="best">
-        <route edges="C1C2 C2C3 C3C4"/>
-    </vehicle>
-    <vehicle id="moto121" type="moto_motorcycle" depart="1427.80" departLane="best">
-        <route edges="C2D2 D2D3 D3D4"/>
-    </vehicle>
-    <vehicle id="moto122" type="moto_motorcycle" depart="1439.60" departLane="best">
-        <route edges="B1C1 C1D1 D1D2"/>
-    </vehicle>
-    <vehicle id="moto123" type="moto_motorcycle" depart="1451.40" departLane="best">
-        <route edges="B2B3 B3C3 C3C2 C2C1 C1C0"/>
-    </vehicle>
-    <vehicle id="moto124" type="moto_motorcycle" depart="1463.20" departLane="best" departSpeed="max">
-        <route edges="D0D1 D1C1 C1B1 B1B2 B2B3 B3B4"/>
-    </vehicle>
-    <vehicle id="moto125" type="moto_motorcycle" depart="1475.00" departLane="best" departSpeed="max">
-        <route edges="B4B3 B3B2 B2B1 B1C1 C1D1 D1E1"/>
-    </vehicle>
-    <vehicle id="moto126" type="moto_motorcycle" depart="1486.80" departLane="best" departSpeed="max">
-        <route edges="A2B2 B2C2 C2C1 C1D1"/>
-    </vehicle>
-    <vehicle id="moto127" type="moto_motorcycle" depart="1498.60" departLane="best" departSpeed="max">
-        <route edges="E3D3 D3D2 D2C2 C2C3 C3D3 D3E3"/>
-    </vehicle>
-    <vehicle id="moto128" type="moto_motorcycle" depart="1510.40" departLane="best" departSpeed="max">
-        <route edges="A2B2 B2C2"/>
-    </vehicle>
-    <vehicle id="moto129" type="moto_motorcycle" depart="1522.20" departLane="best">
-        <route edges="B2C2 C2D2 D2D3 D3D4"/>
-    </vehicle>
-    <vehicle id="moto130" type="moto_motorcycle" depart="1534.00" departLane="best" departSpeed="max">
-        <route edges="E1D1 D1D2 D2D3 D3C3"/>
-    </vehicle>
-    <vehicle id="moto131" type="moto_motorcycle" depart="1545.80" departLane="best" departSpeed="max">
-        <route edges="C0C1 C1C2 C2B2 B2A2"/>
-    </vehicle>
-    <vehicle id="moto132" type="moto_motorcycle" depart="1557.60" departLane="best" departSpeed="max">
-        <route edges="D4D3 D3D2 D2D1 D1D0"/>
-    </vehicle>
-    <vehicle id="moto133" type="moto_motorcycle" depart="1569.40" departLane="best" departSpeed="max">
-        <route edges="C4C3 C3D3 D3E3"/>
-    </vehicle>
-    <vehicle id="moto134" type="moto_motorcycle" depart="1581.20" departLane="best" departSpeed="max">
-        <route edges="D0D1 D1C1 C1B1 B1A1"/>
-    </vehicle>
-    <vehicle id="moto135" type="moto_motorcycle" depart="1593.00" departLane="best">
-        <route edges="D3D2 D2C2 C2B2 B2B3 B3B4"/>
-    </vehicle>
-    <vehicle id="moto136" type="moto_motorcycle" depart="1604.80" departLane="best" departSpeed="max">
-        <route edges="D0D1 D1D2 D2D3 D3D4"/>
-    </vehicle>
-    <vehicle id="moto137" type="moto_motorcycle" depart="1616.60" departLane="best" departSpeed="max">
-        <route edges="B0B1 B1C1"/>
-    </vehicle>
-    <vehicle id="moto138" type="moto_motorcycle" depart="1628.40" departLane="best" departSpeed="max">
-        <route edges="A3B3 B3B2 B2C2 C2C3 C3B3"/>
-    </vehicle>
-    <vehicle id="moto139" type="moto_motorcycle" depart="1640.20" departLane="best">
-        <route edges="B3B2 B2C2 C2C3 C3C4"/>
-    </vehicle>
-    <vehicle id="moto140" type="moto_motorcycle" depart="1652.00" departLane="best">
-        <route edges="D1D2 D2C2 C2B2 B2B3"/>
-    </vehicle>
-    <vehicle id="moto141" type="moto_motorcycle" depart="1663.80" departLane="best" departSpeed="max">
-        <route edges="C4C3 C3B3 B3A3"/>
-    </vehicle>
-    <vehicle id="moto142" type="moto_motorcycle" depart="1675.60" departLane="best">
-        <route edges="C2C1 C1B1 B1B2 B2B3 B3C3 C3D3 D3D2"/>
-    </vehicle>
-    <vehicle id="moto143" type="moto_motorcycle" depart="1687.40" departLane="best" departSpeed="max">
-        <route edges="D4D3 D3D2 D2D1 D1C1 C1B1 B1B2"/>
-    </vehicle>
-    <vehicle id="moto144" type="moto_motorcycle" depart="1699.20" departLane="best">
-        <route edges="C1C2 C2C3 C3B3 B3B2"/>
-    </vehicle>
-    <vehicle id="moto145" type="moto_motorcycle" depart="1711.00" departLane="best" departSpeed="max">
-        <route edges="A1B1 B1C1 C1D1 D1D2 D2C2"/>
-    </vehicle>
-    <vehicle id="moto146" type="moto_motorcycle" depart="1722.80" departLane="best" departSpeed="max">
-        <route edges="C4C3 C3B3 B3A3"/>
-    </vehicle>
-    <vehicle id="moto147" type="moto_motorcycle" depart="1734.60" departLane="best">
-        <route edges="D2C2 C2C3 C3B3"/>
-    </vehicle>
-    <vehicle id="moto148" type="moto_motorcycle" depart="1746.40" departLane="best">
-        <route edges="C1C2 C2B2 B2B1 B1A1"/>
-    </vehicle>
-    <vehicle id="moto149" type="moto_motorcycle" depart="1758.20" departLane="best" departSpeed="max">
-        <route edges="A2B2 B2C2 C2D2 D2D3 D3C3"/>
-    </vehicle>
-    <vehicle id="moto150" type="moto_motorcycle" depart="1770.00" departLane="best" departSpeed="max">
-        <route edges="E1D1 D1C1 C1C2 C2C3 C3B3"/>
-    </vehicle>
-    <vehicle id="moto151" type="moto_motorcycle" depart="1781.80" departLane="best" departSpeed="max">
-        <route edges="D4D3 D3C3 C3C2"/>
-    </vehicle>
-    <vehicle id="moto152" type="moto_motorcycle" depart="1793.60" departLane="best" departSpeed="max">
-        <route edges="B0B1 B1B2 B2A2"/>
     </vehicle>
 </routes>
