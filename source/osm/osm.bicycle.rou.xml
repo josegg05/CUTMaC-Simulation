@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Tue Jun  2 10:25:52 2020 by Eclipse SUMO duarouter Version 1.6.0
+<!-- generated on Tue Jun  2 15:50:46 2020 by Eclipse SUMO duarouter Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -32,871 +32,943 @@
     <vehicle id="bike0" type="bike_bicycle" depart="0.00" departLane="best">
         <route edges="578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 -641705065 -419814433#4 -419814433#2 -419814433#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike1" type="bike_bicycle" depart="5.39" departLane="best">
+    <vehicle id="bike1" type="bike_bicycle" depart="5.00" departLane="best">
         <route edges="-578942372#1"/>
     </vehicle>
-    <vehicle id="bike2" type="bike_bicycle" depart="10.77" departLane="best">
+    <vehicle id="bike2" type="bike_bicycle" depart="10.00" departLane="best">
         <route edges="578942367#0 578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 578942357"/>
     </vehicle>
-    <vehicle id="bike4" type="bike_bicycle" depart="21.54" departLane="best" departSpeed="max">
+    <vehicle id="bike4" type="bike_bicycle" depart="20.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 -578934700#1 578934700#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike5" type="bike_bicycle" depart="26.93" departLane="best" departSpeed="max">
+    <vehicle id="bike5" type="bike_bicycle" depart="25.00" departLane="best" departSpeed="max">
         <route edges="-578942364 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 578934689"/>
     </vehicle>
-    <vehicle id="bike7" type="bike_bicycle" depart="37.70" departLane="best">
+    <vehicle id="bike7" type="bike_bicycle" depart="35.00" departLane="best">
         <route edges="578934722 -578934723 578934724#2 -578934726 -419814433#2 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike8" type="bike_bicycle" depart="43.09" departLane="best" departSpeed="max">
+    <vehicle id="bike8" type="bike_bicycle" depart="40.00" departLane="best" departSpeed="max">
         <route edges="-578942364 419814433#4 641705064#0 436291031 436291062 578934717#0 578934717#1"/>
     </vehicle>
-    <vehicle id="bike9" type="bike_bicycle" depart="48.48" departLane="best" departSpeed="max">
+    <vehicle id="bike9" type="bike_bicycle" depart="45.00" departLane="best" departSpeed="max">
         <route edges="578942375 436291020#2 436291019 642751754#0 -184711458 -89927838#0 89927838#0 -184711460"/>
     </vehicle>
-    <vehicle id="bike10" type="bike_bicycle" depart="53.86" departLane="best" departSpeed="max">
+    <vehicle id="bike10" type="bike_bicycle" depart="50.00" departLane="best" departSpeed="max">
         <route edges="578942375 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 -578942358 578942360#1"/>
     </vehicle>
-    <vehicle id="bike11" type="bike_bicycle" depart="59.25" departLane="best">
+    <vehicle id="bike11" type="bike_bicycle" depart="55.00" departLane="best">
         <route edges="-5962129#4 -5962129#3 -5962129#2 419814433#2 578934726 578934724#0 578934723 -578934723"/>
     </vehicle>
-    <vehicle id="bike12" type="bike_bicycle" depart="64.63" departLane="best">
+    <vehicle id="bike12" type="bike_bicycle" depart="60.00" departLane="best">
         <route edges="642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3"/>
     </vehicle>
-    <vehicle id="bike13" type="bike_bicycle" depart="70.02" departLane="best" departSpeed="max">
+    <vehicle id="bike13" type="bike_bicycle" depart="65.00" departLane="best" departSpeed="max">
         <route edges="-578934699 578934700#1 -578934700#1"/>
     </vehicle>
-    <vehicle id="bike14" type="bike_bicycle" depart="75.41" departLane="best">
+    <vehicle id="bike14" type="bike_bicycle" depart="70.00" departLane="best">
         <route edges="5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 578934718#0"/>
     </vehicle>
-    <vehicle id="bike15" type="bike_bicycle" depart="80.79" departLane="best" departSpeed="max">
+    <vehicle id="bike15" type="bike_bicycle" depart="75.00" departLane="best" departSpeed="max">
         <route edges="578942375 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 578942364"/>
     </vehicle>
-    <vehicle id="bike17" type="bike_bicycle" depart="91.57" departLane="best">
+    <vehicle id="bike17" type="bike_bicycle" depart="85.00" departLane="best">
         <route edges="36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 -419814433#2 -419814433#1 -578934700#1 578934700#1"/>
     </vehicle>
-    <vehicle id="bike18" type="bike_bicycle" depart="96.95" departLane="best">
+    <vehicle id="bike18" type="bike_bicycle" depart="90.00" departLane="best">
         <route edges="5955850#0 5955850#1 -578934709#0 578934709#0 -5955850#1 -5955850#0 5962129#0 419814433#2 419814433#4 641705064#0 578934719"/>
     </vehicle>
-    <vehicle id="bike19" type="bike_bicycle" depart="102.34" departLane="best">
+    <vehicle id="bike19" type="bike_bicycle" depart="95.00" departLane="best">
         <route edges="6024091#2 578934712 578934713#0 578934713#1"/>
     </vehicle>
-    <vehicle id="bike20" type="bike_bicycle" depart="107.72" departLane="best">
+    <vehicle id="bike20" type="bike_bicycle" depart="100.00" departLane="best">
         <route edges="578942360#1 578942361#1 578942360#0 578942358 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0 -578605861#0"/>
     </vehicle>
-    <vehicle id="bike21" type="bike_bicycle" depart="113.11" departLane="best">
+    <vehicle id="bike21" type="bike_bicycle" depart="105.00" departLane="best">
         <route edges="-578942365 578942371#0 578942371#1 -578942370 641705063#3 641705065 634644489 -89927838#3 -89927838#0"/>
     </vehicle>
-    <vehicle id="bike23" type="bike_bicycle" depart="123.88" departLane="best">
+    <vehicle id="bike23" type="bike_bicycle" depart="115.00" departLane="best">
         <route edges="-578934700#1 578934700#1 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965 -5962129#4"/>
     </vehicle>
-    <vehicle id="bike24" type="bike_bicycle" depart="129.27" departLane="best">
+    <vehicle id="bike24" type="bike_bicycle" depart="120.00" departLane="best">
         <route edges="578934718#1 578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 634644489 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8"/>
     </vehicle>
-    <vehicle id="bike25" type="bike_bicycle" depart="134.65" departLane="best">
+    <vehicle id="bike25" type="bike_bicycle" depart="125.00" departLane="best">
         <route edges="36054466#0 36054466#1 -578942365 -578942367#2 -578942367#1 -578942367#0 -578942371#2"/>
     </vehicle>
-    <vehicle id="bike26" type="bike_bicycle" depart="140.04" departLane="best">
+    <vehicle id="bike26" type="bike_bicycle" depart="130.00" departLane="best">
         <route edges="-578942372#0 578942371#0 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1"/>
     </vehicle>
-    <vehicle id="bike27" type="bike_bicycle" depart="145.43" departLane="best">
+    <vehicle id="bike27" type="bike_bicycle" depart="135.00" departLane="best">
         <route edges="578934722 -578934723 578934724#2 578934724#0 -578934719 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934718#1"/>
     </vehicle>
-    <vehicle id="bike28" type="bike_bicycle" depart="150.81" departLane="best" departSpeed="max">
+    <vehicle id="bike28" type="bike_bicycle" depart="140.00" departLane="best" departSpeed="max">
         <route edges="-578942331 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 578942364"/>
     </vehicle>
-    <vehicle id="bike29" type="bike_bicycle" depart="156.20" departLane="best">
+    <vehicle id="bike29" type="bike_bicycle" depart="145.00" departLane="best">
         <route edges="-578934726 -419814433#2 -419814433#1 -419814433#0 419814433#0 419814433#1 419814433#2"/>
     </vehicle>
-    <vehicle id="bike30" type="bike_bicycle" depart="161.59" departLane="best">
+    <vehicle id="bike30" type="bike_bicycle" depart="150.00" departLane="best">
         <route edges="89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 578934726"/>
     </vehicle>
-    <vehicle id="bike32" type="bike_bicycle" depart="172.36" departLane="best">
+    <vehicle id="bike32" type="bike_bicycle" depart="160.00" departLane="best">
         <route edges="5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370"/>
     </vehicle>
-    <vehicle id="bike33" type="bike_bicycle" depart="177.74" departLane="best">
+    <vehicle id="bike33" type="bike_bicycle" depart="165.00" departLane="best">
         <route edges="-578942365 578942371#0 578942371#1 -578942370 641705063#3 -419814433#4 -419814433#2 -419814433#1"/>
     </vehicle>
-    <vehicle id="bike34" type="bike_bicycle" depart="183.13" departLane="best" departSpeed="max">
+    <vehicle id="bike34" type="bike_bicycle" depart="170.00" departLane="best" departSpeed="max">
         <route edges="-5955850#2 -5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965 -5962129#4 -5962129#3 -5962129#2"/>
     </vehicle>
-    <vehicle id="bike35" type="bike_bicycle" depart="188.52" departLane="best">
+    <vehicle id="bike35" type="bike_bicycle" depart="175.00" departLane="best">
         <route edges="-578942358 578942360#1 578942361#1 578942360#0 578942358 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372"/>
     </vehicle>
-    <vehicle id="bike36" type="bike_bicycle" depart="193.90" departLane="best">
+    <vehicle id="bike36" type="bike_bicycle" depart="180.00" departLane="best">
         <route edges="6024091#5 642337372 642337373 234953562 634644489 278328405#0 278328405#1"/>
     </vehicle>
-    <vehicle id="bike37" type="bike_bicycle" depart="199.29" departLane="best">
+    <vehicle id="bike37" type="bike_bicycle" depart="185.00" departLane="best">
         <route edges="578934723 -578934723 578934724#2 578934724#0 -578934719 436291031 436291062 436291064#1 642337372 642337373 436291011"/>
     </vehicle>
-    <vehicle id="bike38" type="bike_bicycle" depart="204.68" departLane="best">
+    <vehicle id="bike38" type="bike_bicycle" depart="190.00" departLane="best">
         <route edges="641705065 634644489 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 436291031"/>
     </vehicle>
-    <vehicle id="bike39" type="bike_bicycle" depart="210.06" departLane="best">
+    <vehicle id="bike39" type="bike_bicycle" depart="195.00" departLane="best">
         <route edges="-578942371#2 -578942371#1 -578942371#0 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 578942357 -578942357 -593766965"/>
     </vehicle>
-    <vehicle id="bike40" type="bike_bicycle" depart="215.45" departLane="best" departSpeed="max">
+    <vehicle id="bike40" type="bike_bicycle" depart="200.00" departLane="best" departSpeed="max">
         <route edges="578934692 642337374#1 642337373 234953562 -641705065 -419814433#4 -419814433#2 -5962129#1"/>
     </vehicle>
-    <vehicle id="bike41" type="bike_bicycle" depart="220.83" departLane="best" departSpeed="max">
+    <vehicle id="bike41" type="bike_bicycle" depart="205.00" departLane="best" departSpeed="max">
         <route edges="578934709#0 -5955850#1 6024091#2 6024091#3 6024091#5 642337372 642337373 234953562 634644489"/>
     </vehicle>
-    <vehicle id="bike42" type="bike_bicycle" depart="226.22" departLane="best">
+    <vehicle id="bike42" type="bike_bicycle" depart="210.00" departLane="best">
         <route edges="36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 578942369#1 -578942372#1"/>
     </vehicle>
-    <vehicle id="bike43" type="bike_bicycle" depart="231.61" departLane="best">
+    <vehicle id="bike43" type="bike_bicycle" depart="215.00" departLane="best">
         <route edges="gneE1 -593766965 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 578934690"/>
     </vehicle>
-    <vehicle id="bike44" type="bike_bicycle" depart="236.99" departLane="best" departSpeed="max">
+    <vehicle id="bike44" type="bike_bicycle" depart="220.00" departLane="best" departSpeed="max">
         <route edges="-578934699 578934700#1 419814433#1 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0 -578605861#0"/>
     </vehicle>
-    <vehicle id="bike45" type="bike_bicycle" depart="242.38" departLane="best" departSpeed="max">
+    <vehicle id="bike45" type="bike_bicycle" depart="225.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 -5955850#0 5962129#0 419814433#2 578934726 578934724#0 578934723"/>
     </vehicle>
-    <vehicle id="bike46" type="bike_bicycle" depart="247.77" departLane="best">
+    <vehicle id="bike46" type="bike_bicycle" depart="230.00" departLane="best">
         <route edges="578942372#0 578942368#0 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291016#0 436291016#4 436291016#9"/>
     </vehicle>
-    <vehicle id="bike48" type="bike_bicycle" depart="258.54" departLane="best">
+    <vehicle id="bike48" type="bike_bicycle" depart="240.00" departLane="best">
         <route edges="gneE1 -593766965 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 578934691#1"/>
     </vehicle>
-    <vehicle id="bike49" type="bike_bicycle" depart="263.92" departLane="best">
+    <vehicle id="bike49" type="bike_bicycle" depart="245.00" departLane="best">
         <route edges="89922370#5 641705063#0 641705063#1 36054466#5 36054466#6 36054466#7 36054466#8 578942362 5962129#3"/>
     </vehicle>
-    <vehicle id="bike50" type="bike_bicycle" depart="269.31" departLane="best">
+    <vehicle id="bike50" type="bike_bicycle" depart="250.00" departLane="best">
         <route edges="-419814433#1 -419814433#0 419814433#0 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 36054466#5 36054466#6 36054466#7 578942363"/>
     </vehicle>
-    <vehicle id="bike51" type="bike_bicycle" depart="274.70" departLane="best">
+    <vehicle id="bike51" type="bike_bicycle" depart="255.00" departLane="best">
         <route edges="578942354#0 578942354#1 -578942355 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291016#0 436291016#4 578934698"/>
     </vehicle>
-    <vehicle id="bike52" type="bike_bicycle" depart="280.08" departLane="best">
+    <vehicle id="bike52" type="bike_bicycle" depart="260.00" departLane="best">
         <route edges="-578942372#0 578942371#0 578942371#1 -578942370 641705063#3 -419814433#4 578934726"/>
     </vehicle>
-    <vehicle id="bike53" type="bike_bicycle" depart="285.47" departLane="best" departSpeed="max">
+    <vehicle id="bike53" type="bike_bicycle" depart="265.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 436291020#0 436291020#2 436291019"/>
     </vehicle>
-    <vehicle id="bike55" type="bike_bicycle" depart="296.24" departLane="best">
+    <vehicle id="bike55" type="bike_bicycle" depart="275.00" departLane="best">
         <route edges="6024091#5 642337372 642337373 234953562 -641705065 -419814433#4 -419814433#2 -5962129#1"/>
     </vehicle>
-    <vehicle id="bike56" type="bike_bicycle" depart="301.63" departLane="best" departSpeed="max">
+    <vehicle id="bike56" type="bike_bicycle" depart="280.00" departLane="best" departSpeed="max">
         <route edges="436291021#0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 -578942367#0"/>
     </vehicle>
-    <vehicle id="bike57" type="bike_bicycle" depart="307.01" departLane="best">
+    <vehicle id="bike57" type="bike_bicycle" depart="285.00" departLane="best">
         <route edges="641705064#0 578934719 578934724#2 -578934726 -419814433#2 5962129#2 5962129#3 5962129#4 5962129#5"/>
     </vehicle>
-    <vehicle id="bike58" type="bike_bicycle" depart="312.40" departLane="best">
+    <vehicle id="bike58" type="bike_bicycle" depart="290.00" departLane="best">
         <route edges="-593766965 -5962129#4 -5962129#3 -5962129#2 419814433#2 578934726 578934724#0 578934724#2"/>
     </vehicle>
-    <vehicle id="bike59" type="bike_bicycle" depart="317.79" departLane="best">
+    <vehicle id="bike59" type="bike_bicycle" depart="295.00" departLane="best">
         <route edges="578934713#0 578934713#1 -578934712 6024091#3 6024091#5 642337372 642337373 234953562 -641705065 641705064#0 578934719 578934723 -578934723"/>
     </vehicle>
-    <vehicle id="bike60" type="bike_bicycle" depart="323.17" departLane="best">
+    <vehicle id="bike60" type="bike_bicycle" depart="300.00" departLane="best">
         <route edges="578942369#0 -578942367#0 -578942371#2 -578942370 641705063#3 -419814433#4 -419814433#2 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike61" type="bike_bicycle" depart="328.56" departLane="best">
+    <vehicle id="bike61" type="bike_bicycle" depart="305.00" departLane="best">
         <route edges="578942371#0 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 578934691#1"/>
     </vehicle>
-    <vehicle id="bike62" type="bike_bicycle" depart="333.94" departLane="best">
+    <vehicle id="bike62" type="bike_bicycle" depart="310.00" departLane="best">
         <route edges="-184711458 89927838#3 36054466#0 36054466#1"/>
     </vehicle>
-    <vehicle id="bike63" type="bike_bicycle" depart="339.33" departLane="best">
+    <vehicle id="bike63" type="bike_bicycle" depart="315.00" departLane="best">
         <route edges="-419814433#2 -5962129#1 5955850#0 6024091#2 6024091#3 6024091#5 642337372 641705146#0"/>
     </vehicle>
-    <vehicle id="bike64" type="bike_bicycle" depart="344.72" departLane="best">
+    <vehicle id="bike64" type="bike_bicycle" depart="320.00" departLane="best">
         <route edges="623099335 578934722 -578934723 578934724#2 -578934726 -419814433#2 -5962129#1 5955850#0"/>
     </vehicle>
-    <vehicle id="bike65" type="bike_bicycle" depart="350.10" departLane="best">
+    <vehicle id="bike65" type="bike_bicycle" depart="325.00" departLane="best">
         <route edges="-5955850#0 5962129#0 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0 -578605861#2"/>
     </vehicle>
-    <vehicle id="bike66" type="bike_bicycle" depart="355.49" departLane="best">
+    <vehicle id="bike66" type="bike_bicycle" depart="330.00" departLane="best">
         <route edges="623099335 578934722 -578934723 578934724#2 578934724#0 -578934719 436291031 436291062 436291064#1 642337372 642337373"/>
     </vehicle>
-    <vehicle id="bike69" type="bike_bicycle" depart="371.65" departLane="best">
+    <vehicle id="bike69" type="bike_bicycle" depart="345.00" departLane="best">
         <route edges="578942369#1 578942372#2 -578942371#2 -578942370 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 578934718#2 -578934717#0"/>
     </vehicle>
-    <vehicle id="bike70" type="bike_bicycle" depart="377.03" departLane="best">
+    <vehicle id="bike70" type="bike_bicycle" depart="350.00" departLane="best">
         <route edges="436291018 641705063#0 641705063#1 641705063#2 641705063#3 -419814433#4 -419814433#2 -419814433#1 -578934700#1 578934700#1"/>
     </vehicle>
-    <vehicle id="bike71" type="bike_bicycle" depart="382.42" departLane="best">
+    <vehicle id="bike71" type="bike_bicycle" depart="355.00" departLane="best">
         <route edges="-578942371#2 -578942371#1 -578942371#0 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5"/>
     </vehicle>
-    <vehicle id="bike72" type="bike_bicycle" depart="387.81" departLane="best" departSpeed="max">
+    <vehicle id="bike72" type="bike_bicycle" depart="360.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942371#2 -578942371#2"/>
     </vehicle>
-    <vehicle id="bike74" type="bike_bicycle" depart="398.58" departLane="best" departSpeed="max">
+    <vehicle id="bike74" type="bike_bicycle" depart="370.00" departLane="best" departSpeed="max">
         <route edges="-578942357 gneE0 593766961 436291018 436291020#0 436291020#2 436291019 278328405#1"/>
     </vehicle>
-    <vehicle id="bike75" type="bike_bicycle" depart="403.96" departLane="best">
+    <vehicle id="bike75" type="bike_bicycle" depart="375.00" departLane="best">
         <route edges="gneE1 -593766965 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705065 634644489 36054466#0 578942331"/>
     </vehicle>
-    <vehicle id="bike76" type="bike_bicycle" depart="409.35" departLane="best">
+    <vehicle id="bike76" type="bike_bicycle" depart="380.00" departLane="best">
         <route edges="419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 578934690"/>
     </vehicle>
-    <vehicle id="bike77" type="bike_bicycle" depart="414.74" departLane="best">
+    <vehicle id="bike77" type="bike_bicycle" depart="385.00" departLane="best">
         <route edges="-578934717#0 436291064#1 642337372 642337373 234953562 634644489 36054466#0 36054466#1 -578942365 -578942367#2 -578942367#1 -578942367#0 -578942372#2"/>
     </vehicle>
-    <vehicle id="bike78" type="bike_bicycle" depart="420.12" departLane="best">
+    <vehicle id="bike78" type="bike_bicycle" depart="390.00" departLane="best">
         <route edges="-5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 578934717#0"/>
     </vehicle>
-    <vehicle id="bike79" type="bike_bicycle" depart="425.51" departLane="best">
+    <vehicle id="bike79" type="bike_bicycle" depart="395.00" departLane="best">
         <route edges="-578942365 578942372#0 578942372#1 -578942372#1"/>
     </vehicle>
-    <vehicle id="bike81" type="bike_bicycle" depart="436.28" departLane="best">
+    <vehicle id="bike81" type="bike_bicycle" depart="405.00" departLane="best">
         <route edges="-578942365 -578942367#2 578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1"/>
     </vehicle>
-    <vehicle id="bike82" type="bike_bicycle" depart="441.67" departLane="best">
+    <vehicle id="bike82" type="bike_bicycle" depart="410.00" departLane="best">
         <route edges="5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 -578605862#0"/>
     </vehicle>
-    <vehicle id="bike83" type="bike_bicycle" depart="447.05" departLane="best">
+    <vehicle id="bike83" type="bike_bicycle" depart="415.00" departLane="best">
         <route edges="-578942367#1 578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 578942355 578942354#0 578942354#1"/>
     </vehicle>
-    <vehicle id="bike84" type="bike_bicycle" depart="452.44" departLane="best">
+    <vehicle id="bike84" type="bike_bicycle" depart="420.00" departLane="best">
         <route edges="-578942358 578942360#1 578942361#1 578942360#0 578942358 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 -578934718#0"/>
     </vehicle>
-    <vehicle id="bike85" type="bike_bicycle" depart="457.83" departLane="best">
+    <vehicle id="bike85" type="bike_bicycle" depart="425.00" departLane="best">
         <route edges="642337373 436291011 436291010 436291016#0 5955850#0 6024091#2 578934712 578934713#0"/>
     </vehicle>
-    <vehicle id="bike86" type="bike_bicycle" depart="463.21" departLane="best">
+    <vehicle id="bike86" type="bike_bicycle" depart="430.00" departLane="best">
         <route edges="436291018 641705063#0 641705063#1 641705063#2 578942370 -578942371#1 578942371#1"/>
     </vehicle>
-    <vehicle id="bike87" type="bike_bicycle" depart="468.60" departLane="best" departSpeed="max">
+    <vehicle id="bike87" type="bike_bicycle" depart="435.00" departLane="best" departSpeed="max">
         <route edges="578942375 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 -578942365 -578942367#2"/>
     </vehicle>
-    <vehicle id="bike88" type="bike_bicycle" depart="473.99" departLane="best" departSpeed="max">
+    <vehicle id="bike88" type="bike_bicycle" depart="440.00" departLane="best" departSpeed="max">
         <route edges="-578934699 578934700#1 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018"/>
     </vehicle>
-    <vehicle id="bike89" type="bike_bicycle" depart="479.37" departLane="best" departSpeed="max">
+    <vehicle id="bike89" type="bike_bicycle" depart="445.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1"/>
     </vehicle>
-    <vehicle id="bike90" type="bike_bicycle" depart="484.76" departLane="best">
+    <vehicle id="bike90" type="bike_bicycle" depart="450.00" departLane="best">
         <route edges="578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 578942355"/>
     </vehicle>
-    <vehicle id="bike91" type="bike_bicycle" depart="490.14" departLane="best" departSpeed="max">
+    <vehicle id="bike91" type="bike_bicycle" depart="455.00" departLane="best" departSpeed="max">
         <route edges="89927838#0 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 -419814433#2 -419814433#1 -578934700#1"/>
     </vehicle>
-    <vehicle id="bike92" type="bike_bicycle" depart="495.53" departLane="best">
+    <vehicle id="bike92" type="bike_bicycle" depart="460.00" departLane="best">
         <route edges="36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 -578942371#1 -578942371#0 578942365 36054466#3"/>
     </vehicle>
-    <vehicle id="bike93" type="bike_bicycle" depart="500.92" departLane="best">
+    <vehicle id="bike93" type="bike_bicycle" depart="465.00" departLane="best">
         <route edges="6024091#2 6024091#3 6024091#5 642337372 642337373 436291011 436291010 436291016#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965"/>
     </vehicle>
-    <vehicle id="bike94" type="bike_bicycle" depart="506.30" departLane="best" departSpeed="max">
+    <vehicle id="bike94" type="bike_bicycle" depart="470.00" departLane="best" departSpeed="max">
         <route edges="-578942344 89922370#5 436291020#0 436291020#2 436291019 278328405#1 436291029"/>
     </vehicle>
-    <vehicle id="bike95" type="bike_bicycle" depart="511.69" departLane="best" departSpeed="max">
+    <vehicle id="bike95" type="bike_bicycle" depart="475.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965 -5962129#4"/>
     </vehicle>
-    <vehicle id="bike96" type="bike_bicycle" depart="517.07" departLane="best">
+    <vehicle id="bike96" type="bike_bicycle" depart="480.00" departLane="best">
         <route edges="-578942370 641705063#3 641705064#0"/>
     </vehicle>
-    <vehicle id="bike97" type="bike_bicycle" depart="522.46" departLane="best">
+    <vehicle id="bike97" type="bike_bicycle" depart="485.00" departLane="best">
         <route edges="436291010 436291016#0 5962129#0 5962129#2 5962129#3"/>
     </vehicle>
-    <vehicle id="bike98" type="bike_bicycle" depart="527.85" departLane="best" departSpeed="max">
+    <vehicle id="bike98" type="bike_bicycle" depart="490.00" departLane="best" departSpeed="max">
         <route edges="578605862#0 578605861#0 -578605861#0"/>
     </vehicle>
-    <vehicle id="bike99" type="bike_bicycle" depart="533.23" departLane="best">
+    <vehicle id="bike99" type="bike_bicycle" depart="495.00" departLane="best">
         <route edges="gneE1 -593766965 -5962129#4 -5962129#3 -5962129#2 -5962129#1 5955850#0 5955850#1"/>
     </vehicle>
-    <vehicle id="bike100" type="bike_bicycle" depart="538.62" departLane="best" departSpeed="max">
+    <vehicle id="bike100" type="bike_bicycle" depart="500.00" departLane="best" departSpeed="max">
         <route edges="89922370#0 89922370#5 641705063#0 641705063#1 641705063#2 641705063#3 641705065"/>
     </vehicle>
-    <vehicle id="bike101" type="bike_bicycle" depart="544.01" departLane="best">
+    <vehicle id="bike101" type="bike_bicycle" depart="505.00" departLane="best">
         <route edges="5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 578942355 578942354#0 578942354#1 -578942355"/>
     </vehicle>
-    <vehicle id="bike102" type="bike_bicycle" depart="549.39" departLane="best">
+    <vehicle id="bike102" type="bike_bicycle" depart="510.00" departLane="best">
         <route edges="436291020#0 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 -578942365 578942372#0 -578942372#0"/>
     </vehicle>
-    <vehicle id="bike103" type="bike_bicycle" depart="554.78" departLane="best">
+    <vehicle id="bike103" type="bike_bicycle" depart="515.00" departLane="best">
         <route edges="36054466#7 36054466#8 578942362 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0 -578605861#2"/>
     </vehicle>
-    <vehicle id="bike104" type="bike_bicycle" depart="560.16" departLane="best">
+    <vehicle id="bike104" type="bike_bicycle" depart="520.00" departLane="best">
         <route edges="36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705065 634644489 -89927838#3 -89927838#0 89927838#0 89927838#3"/>
     </vehicle>
-    <vehicle id="bike105" type="bike_bicycle" depart="565.55" departLane="best">
+    <vehicle id="bike105" type="bike_bicycle" depart="525.00" departLane="best">
         <route edges="-578942371#2 -578942371#1 578942371#1"/>
     </vehicle>
-    <vehicle id="bike106" type="bike_bicycle" depart="570.94" departLane="best">
+    <vehicle id="bike106" type="bike_bicycle" depart="530.00" departLane="best">
         <route edges="436291013 436291011 436291010 436291016#0 436291016#4 436291016#9"/>
     </vehicle>
-    <vehicle id="bike107" type="bike_bicycle" depart="576.32" departLane="best">
+    <vehicle id="bike107" type="bike_bicycle" depart="535.00" departLane="best">
         <route edges="642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766960 593766962#0 -593766962#1 -593766960 gneE1"/>
     </vehicle>
-    <vehicle id="bike109" type="bike_bicycle" depart="587.10" departLane="best">
+    <vehicle id="bike109" type="bike_bicycle" depart="545.00" departLane="best">
         <route edges="-578934723 578934724#2 -578934726 419814433#4 641705065 634644489 -89927838#3"/>
     </vehicle>
-    <vehicle id="bike110" type="bike_bicycle" depart="592.48" departLane="best" departSpeed="max">
+    <vehicle id="bike110" type="bike_bicycle" depart="550.00" departLane="best" departSpeed="max">
         <route edges="89922370#0 89922370#5 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934716"/>
     </vehicle>
-    <vehicle id="bike113" type="bike_bicycle" depart="608.64" departLane="best">
+    <vehicle id="bike113" type="bike_bicycle" depart="565.00" departLane="best">
         <route edges="436291031 436291016#0 5962129#0"/>
     </vehicle>
-    <vehicle id="bike114" type="bike_bicycle" depart="614.03" departLane="best">
+    <vehicle id="bike114" type="bike_bicycle" depart="570.00" departLane="best">
         <route edges="-578934723 578934724#2 578934724#0 -578934719 436291031 436291062 436291064#1 642361032"/>
     </vehicle>
-    <vehicle id="bike116" type="bike_bicycle" depart="624.80" departLane="best" departSpeed="max">
+    <vehicle id="bike116" type="bike_bicycle" depart="580.00" departLane="best" departSpeed="max">
         <route edges="578934711 6024091#5 642337372 642337373 436291011 436291010 436291016#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 578942357"/>
     </vehicle>
-    <vehicle id="bike117" type="bike_bicycle" depart="630.19" departLane="best">
+    <vehicle id="bike117" type="bike_bicycle" depart="585.00" departLane="best">
         <route edges="-578942367#0 -578942371#2 -578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike118" type="bike_bicycle" depart="635.57" departLane="best">
+    <vehicle id="bike118" type="bike_bicycle" depart="590.00" departLane="best">
         <route edges="641705063#0 641705063#1 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 578942357 -578942357 -593766965"/>
     </vehicle>
-    <vehicle id="bike119" type="bike_bicycle" depart="640.96" departLane="best" departSpeed="max">
+    <vehicle id="bike119" type="bike_bicycle" depart="595.00" departLane="best" departSpeed="max">
         <route edges="578934711 6024091#5 642337372 642337373 234953562 -641705065 641705064#0 578934719 578934723 623099335 578934722"/>
     </vehicle>
-    <vehicle id="bike120" type="bike_bicycle" depart="646.34" departLane="best" departSpeed="max">
+    <vehicle id="bike120" type="bike_bicycle" depart="600.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 419814433#2 419814433#4 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934716"/>
     </vehicle>
-    <vehicle id="bike121" type="bike_bicycle" depart="651.73" departLane="best" departSpeed="max">
+    <vehicle id="bike121" type="bike_bicycle" depart="605.00" departLane="best" departSpeed="max">
         <route edges="573865733#1 436291013 436291011 436291010 436291062 436291064#1 642337372 641705146#0 641705146#1"/>
     </vehicle>
-    <vehicle id="bike122" type="bike_bicycle" depart="657.12" departLane="best" departSpeed="max">
+    <vehicle id="bike122" type="bike_bicycle" depart="610.00" departLane="best" departSpeed="max">
         <route edges="-578942357 gneE0 593766961 436291018 641705063#0 641705063#1 36054466#5 36054466#6 36054466#7 578942363"/>
     </vehicle>
-    <vehicle id="bike123" type="bike_bicycle" depart="662.50" departLane="best">
+    <vehicle id="bike123" type="bike_bicycle" depart="615.00" departLane="best">
         <route edges="-578942367#1 -578942367#0 -578942371#2 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 642337373 436291011"/>
     </vehicle>
-    <vehicle id="bike124" type="bike_bicycle" depart="667.89" departLane="best">
+    <vehicle id="bike124" type="bike_bicycle" depart="620.00" departLane="best">
         <route edges="578934726 578934724#0 -578934719 436291031 436291062 436291064#1 642337372 642337373 234953562"/>
     </vehicle>
-    <vehicle id="bike125" type="bike_bicycle" depart="673.27" departLane="best" departSpeed="max">
+    <vehicle id="bike125" type="bike_bicycle" depart="625.00" departLane="best" departSpeed="max">
         <route edges="-5955850#2 -5955850#1 6024091#2 6024091#3 6024091#5 642337372 642337373 234953562 634644489 36054466#0 36054466#1 -578942365 578942372#0 578942368#0"/>
     </vehicle>
-    <vehicle id="bike127" type="bike_bicycle" depart="684.05" departLane="best">
+    <vehicle id="bike127" type="bike_bicycle" depart="635.00" departLane="best">
         <route edges="gneE1"/>
     </vehicle>
-    <vehicle id="bike129" type="bike_bicycle" depart="694.82" departLane="best">
+    <vehicle id="bike129" type="bike_bicycle" depart="645.00" departLane="best">
         <route edges="-578942371#2 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0"/>
     </vehicle>
-    <vehicle id="bike130" type="bike_bicycle" depart="700.21" departLane="best">
+    <vehicle id="bike130" type="bike_bicycle" depart="650.00" departLane="best">
         <route edges="623099335 578934722 -578934723 578934724#2 -578934726 -419814433#2 -5962129#1 5955850#0 6024091#2 6024091#3"/>
     </vehicle>
-    <vehicle id="bike131" type="bike_bicycle" depart="705.59" departLane="best">
+    <vehicle id="bike131" type="bike_bicycle" depart="655.00" departLane="best">
         <route edges="36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 578934719 578934724#2 -578934726"/>
     </vehicle>
-    <vehicle id="bike132" type="bike_bicycle" depart="710.98" departLane="best">
+    <vehicle id="bike132" type="bike_bicycle" depart="660.00" departLane="best">
         <route edges="5955850#1 -578934709#0 578934709#0 -5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 36054466#5 578942361#0"/>
     </vehicle>
-    <vehicle id="bike133" type="bike_bicycle" depart="716.36" departLane="best">
+    <vehicle id="bike133" type="bike_bicycle" depart="665.00" departLane="best">
         <route edges="578934713#1 -578934712 6024091#3 6024091#5 642337372 642337373 234953562 634644489 -89927838#3 -89927838#0 89927838#0 89927838#3"/>
     </vehicle>
-    <vehicle id="bike134" type="bike_bicycle" depart="721.75" departLane="best">
+    <vehicle id="bike134" type="bike_bicycle" depart="670.00" departLane="best">
         <route edges="578934723 -578934723 578934724#2 -578934726 419814433#4 641705065 634644489 -89927838#3 -184711460"/>
     </vehicle>
-    <vehicle id="bike135" type="bike_bicycle" depart="727.14" departLane="best">
+    <vehicle id="bike135" type="bike_bicycle" depart="675.00" departLane="best">
         <route edges="593766960 593766962#0 -593766962#1 -593766960 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705065 634644489 -89927838#3"/>
     </vehicle>
-    <vehicle id="bike136" type="bike_bicycle" depart="732.52" departLane="best">
+    <vehicle id="bike136" type="bike_bicycle" depart="680.00" departLane="best">
         <route edges="578934724#2 578934724#0 -578934719 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1"/>
     </vehicle>
-    <vehicle id="bike137" type="bike_bicycle" depart="737.91" departLane="best">
+    <vehicle id="bike137" type="bike_bicycle" depart="685.00" departLane="best">
         <route edges="-578934718#0 578934718#2 -578934717#0 436291064#1 642337372 642337373 436291011 436291010 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike138" type="bike_bicycle" depart="743.30" departLane="best" departSpeed="max">
+    <vehicle id="bike138" type="bike_bicycle" depart="690.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 -5955850#0 5962129#0 -419814433#1 -578934700#1 578934700#1"/>
     </vehicle>
-    <vehicle id="bike139" type="bike_bicycle" depart="748.68" departLane="best">
+    <vehicle id="bike139" type="bike_bicycle" depart="695.00" departLane="best">
         <route edges="-578942372#1 578942368#0 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934718#1"/>
     </vehicle>
-    <vehicle id="bike140" type="bike_bicycle" depart="754.07" departLane="best">
+    <vehicle id="bike140" type="bike_bicycle" depart="700.00" departLane="best">
         <route edges="578942361#1 578942360#0 578942358 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 -578942371#1"/>
     </vehicle>
-    <vehicle id="bike141" type="bike_bicycle" depart="759.45" departLane="best">
+    <vehicle id="bike141" type="bike_bicycle" depart="705.00" departLane="best">
         <route edges="578934718#1 578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 634644489 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 578942362 -5962129#2"/>
     </vehicle>
-    <vehicle id="bike142" type="bike_bicycle" depart="764.84" departLane="best">
+    <vehicle id="bike142" type="bike_bicycle" depart="710.00" departLane="best">
         <route edges="436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1"/>
     </vehicle>
-    <vehicle id="bike143" type="bike_bicycle" depart="770.23" departLane="best">
+    <vehicle id="bike143" type="bike_bicycle" depart="715.00" departLane="best">
         <route edges="5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965 -5962129#4 -5962129#3 -5962129#2 -5962129#1 436291016#4 436291016#9 -578934698"/>
     </vehicle>
-    <vehicle id="bike144" type="bike_bicycle" depart="775.61" departLane="best" departSpeed="max">
+    <vehicle id="bike144" type="bike_bicycle" depart="720.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965 -5962129#4"/>
     </vehicle>
-    <vehicle id="bike145" type="bike_bicycle" depart="781.00" departLane="best">
+    <vehicle id="bike145" type="bike_bicycle" depart="725.00" departLane="best">
         <route edges="-184711458 89927838#3 36054466#0 36054466#1 -578942365 -578942367#2 -578942367#1 578942369#1"/>
     </vehicle>
-    <vehicle id="bike146" type="bike_bicycle" depart="786.38" departLane="best">
+    <vehicle id="bike146" type="bike_bicycle" depart="730.00" departLane="best">
         <route edges="578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 -641705065 -419814433#4 -419814433#2 -5962129#1"/>
     </vehicle>
-    <vehicle id="bike147" type="bike_bicycle" depart="791.77" departLane="best">
+    <vehicle id="bike147" type="bike_bicycle" depart="735.00" departLane="best">
         <route edges="578942367#1 578942368#1 578942371#1 -578942370 641705063#3 -419814433#4 -419814433#2 -419814433#1 -578934700#1 578934700#1"/>
     </vehicle>
-    <vehicle id="bike148" type="bike_bicycle" depart="797.16" departLane="best">
+    <vehicle id="bike148" type="bike_bicycle" depart="740.00" departLane="best">
         <route edges="419814433#1 419814433#2 419814433#4 641705065 634644489 -89927838#3 -184711460"/>
     </vehicle>
-    <vehicle id="bike150" type="bike_bicycle" depart="807.93" departLane="best">
+    <vehicle id="bike150" type="bike_bicycle" depart="750.00" departLane="best">
         <route edges="641705063#3 -419814433#4 -419814433#2 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike151" type="bike_bicycle" depart="813.32" departLane="best">
+    <vehicle id="bike151" type="bike_bicycle" depart="755.00" departLane="best">
         <route edges="5955850#1 -578934709#0 578934709#0 -5955850#1 -5955850#0 5962129#0 419814433#2 419814433#4 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934716"/>
     </vehicle>
-    <vehicle id="bike152" type="bike_bicycle" depart="818.70" departLane="best">
+    <vehicle id="bike152" type="bike_bicycle" depart="760.00" departLane="best">
         <route edges="-578934718#2 578934718#2 -578934717#0"/>
     </vehicle>
-    <vehicle id="bike153" type="bike_bicycle" depart="824.09" departLane="best">
+    <vehicle id="bike153" type="bike_bicycle" depart="765.00" departLane="best">
         <route edges="-5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0"/>
     </vehicle>
-    <vehicle id="bike154" type="bike_bicycle" depart="829.47" departLane="best">
+    <vehicle id="bike154" type="bike_bicycle" depart="770.00" departLane="best">
         <route edges="578942372#1 -578942372#1 -578942372#0 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 578942362 5962129#3"/>
     </vehicle>
-    <vehicle id="bike155" type="bike_bicycle" depart="834.86" departLane="best">
+    <vehicle id="bike155" type="bike_bicycle" depart="775.00" departLane="best">
         <route edges="641705063#2 578942370 578942371#2 -578942371#2"/>
     </vehicle>
-    <vehicle id="bike156" type="bike_bicycle" depart="840.25" departLane="best">
+    <vehicle id="bike156" type="bike_bicycle" depart="780.00" departLane="best">
         <route edges="-578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0 5955850#1 -578934709#0"/>
     </vehicle>
-    <vehicle id="bike157" type="bike_bicycle" depart="845.63" departLane="best">
+    <vehicle id="bike157" type="bike_bicycle" depart="785.00" departLane="best">
         <route edges="578942371#1 -578942370 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934716 6024091#5"/>
     </vehicle>
-    <vehicle id="bike158" type="bike_bicycle" depart="851.02" departLane="best">
+    <vehicle id="bike158" type="bike_bicycle" depart="790.00" departLane="best">
         <route edges="36054466#8 578942362 -5962129#2 419814433#2 578934726 578934724#0 578934723 623099335 578934722"/>
     </vehicle>
-    <vehicle id="bike159" type="bike_bicycle" depart="856.41" departLane="best">
+    <vehicle id="bike159" type="bike_bicycle" depart="795.00" departLane="best">
         <route edges="-578934723 578934724#2 578934724#0 -578934719 436291031 436291062 436291064#1 642337372 641705146#0"/>
     </vehicle>
-    <vehicle id="bike160" type="bike_bicycle" depart="861.79" departLane="best">
+    <vehicle id="bike160" type="bike_bicycle" depart="800.00" departLane="best">
         <route edges="6024091#2 6024091#3 6024091#5 642337372 642337373 234953562 634644489 278328405#0 642751754#0 642751754#1"/>
     </vehicle>
-    <vehicle id="bike161" type="bike_bicycle" depart="867.18" departLane="best" departSpeed="max">
+    <vehicle id="bike161" type="bike_bicycle" depart="805.00" departLane="best" departSpeed="max">
         <route edges="578942375 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 6024091#3"/>
     </vehicle>
-    <vehicle id="bike162" type="bike_bicycle" depart="872.56" departLane="best">
+    <vehicle id="bike162" type="bike_bicycle" depart="810.00" departLane="best">
         <route edges="-419814433#4 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 -578942367#2 -578942367#1 -578942367#0 578942367#0"/>
     </vehicle>
-    <vehicle id="bike163" type="bike_bicycle" depart="877.95" departLane="best">
+    <vehicle id="bike163" type="bike_bicycle" depart="815.00" departLane="best">
         <route edges="-5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0"/>
     </vehicle>
-    <vehicle id="bike164" type="bike_bicycle" depart="883.34" departLane="best">
+    <vehicle id="bike164" type="bike_bicycle" depart="820.00" departLane="best">
         <route edges="578942372#2 578942367#0 578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4"/>
     </vehicle>
-    <vehicle id="bike165" type="bike_bicycle" depart="888.72" departLane="best" departSpeed="max">
+    <vehicle id="bike165" type="bike_bicycle" depart="825.00" departLane="best" departSpeed="max">
         <route edges="578942375 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 578942362 -5962129#2"/>
     </vehicle>
-    <vehicle id="bike166" type="bike_bicycle" depart="894.11" departLane="best">
+    <vehicle id="bike166" type="bike_bicycle" depart="830.00" departLane="best">
         <route edges="578942371#2 -578942371#2 -578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0 5955850#1 -578934709#0"/>
     </vehicle>
-    <vehicle id="bike167" type="bike_bicycle" depart="899.49" departLane="best">
+    <vehicle id="bike167" type="bike_bicycle" depart="835.00" departLane="best">
         <route edges="6024091#5 642337372 642337373 436291011 436291010 436291016#0 5962129#0 5962129#2 5962129#3"/>
     </vehicle>
-    <vehicle id="bike168" type="bike_bicycle" depart="904.88" departLane="best" departSpeed="max">
+    <vehicle id="bike168" type="bike_bicycle" depart="840.00" departLane="best" departSpeed="max">
         <route edges="-578942364 -419814433#2 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961"/>
     </vehicle>
-    <vehicle id="bike169" type="bike_bicycle" depart="910.27" departLane="best">
+    <vehicle id="bike169" type="bike_bicycle" depart="845.00" departLane="best">
         <route edges="436291016#0 5962129#0 419814433#2 419814433#4 641705065 634644489 278328405#0"/>
     </vehicle>
-    <vehicle id="bike170" type="bike_bicycle" depart="915.65" departLane="best">
+    <vehicle id="bike170" type="bike_bicycle" depart="850.00" departLane="best">
         <route edges="578942372#1 578942372#2 -578942372#2"/>
     </vehicle>
-    <vehicle id="bike171" type="bike_bicycle" depart="921.04" departLane="best">
+    <vehicle id="bike171" type="bike_bicycle" depart="855.00" departLane="best">
         <route edges="-419814433#4 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 578942371#0 578942371#1 -578942370"/>
     </vehicle>
-    <vehicle id="bike172" type="bike_bicycle" depart="926.43" departLane="best">
+    <vehicle id="bike172" type="bike_bicycle" depart="860.00" departLane="best">
         <route edges="-5962129#2 419814433#2 -419814433#2 5962129#2 5962129#3 5962129#4"/>
     </vehicle>
-    <vehicle id="bike173" type="bike_bicycle" depart="931.81" departLane="best" departSpeed="max">
+    <vehicle id="bike173" type="bike_bicycle" depart="865.00" departLane="best" departSpeed="max">
         <route edges="89922370#0 89922370#5 641705063#0 641705063#1 36054466#5 578942361#0 578942361#1 578942360#0 578942358 -5962129#4"/>
     </vehicle>
-    <vehicle id="bike175" type="bike_bicycle" depart="942.58" departLane="best" departSpeed="max">
+    <vehicle id="bike175" type="bike_bicycle" depart="875.00" departLane="best" departSpeed="max">
         <route edges="89927838#0 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 436291031 436291016#0 436291016#4 578934698"/>
     </vehicle>
-    <vehicle id="bike176" type="bike_bicycle" depart="947.97" departLane="best" departSpeed="max">
+    <vehicle id="bike176" type="bike_bicycle" depart="880.00" departLane="best" departSpeed="max">
         <route edges="642337374#0 642337374#1 642337373 436291011 436291010 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike177" type="bike_bicycle" depart="953.36" departLane="best">
+    <vehicle id="bike177" type="bike_bicycle" depart="885.00" departLane="best">
         <route edges="89922370#5 641705063#0 641705063#1 641705063#2 578942370 578942369#0 -578942367#0"/>
     </vehicle>
-    <vehicle id="bike178" type="bike_bicycle" depart="958.74" departLane="best" departSpeed="max">
+    <vehicle id="bike178" type="bike_bicycle" depart="890.00" departLane="best" departSpeed="max">
         <route edges="89922370#0 89922370#5 641705063#0 641705063#1 36054466#5 36054466#6 36054466#7 36054466#8 578942362 -5962129#2"/>
     </vehicle>
-    <vehicle id="bike179" type="bike_bicycle" depart="964.13" departLane="best" departSpeed="max">
+    <vehicle id="bike179" type="bike_bicycle" depart="895.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 436291020#0 436291020#2 436291019"/>
     </vehicle>
-    <vehicle id="bike180" type="bike_bicycle" depart="969.52" departLane="best">
+    <vehicle id="bike180" type="bike_bicycle" depart="900.00" departLane="best">
         <route edges="578942365 36054466#3 36054466#4 641705063#2 641705063#3 641705065 634644489 278328405#0 278328405#1"/>
     </vehicle>
-    <vehicle id="bike181" type="bike_bicycle" depart="974.90" departLane="best">
+    <vehicle id="bike181" type="bike_bicycle" depart="905.00" departLane="best">
         <route edges="578934713#0 578934713#1 -578934712 6024091#3 6024091#5 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 578934690"/>
     </vehicle>
-    <vehicle id="bike182" type="bike_bicycle" depart="980.29" departLane="best">
+    <vehicle id="bike182" type="bike_bicycle" depart="910.00" departLane="best">
         <route edges="36054466#4 641705063#2 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 578934712 578934713#0 578934713#1"/>
     </vehicle>
-    <vehicle id="bike183" type="bike_bicycle" depart="985.67" departLane="best">
+    <vehicle id="bike183" type="bike_bicycle" depart="915.00" departLane="best">
         <route edges="-578942371#0 578942365 36054466#3 36054466#4 36054466#5 578942361#0 578942361#1"/>
     </vehicle>
-    <vehicle id="bike184" type="bike_bicycle" depart="991.06" departLane="best">
+    <vehicle id="bike184" type="bike_bicycle" depart="920.00" departLane="best">
         <route edges="-184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705065"/>
     </vehicle>
-    <vehicle id="bike186" type="bike_bicycle" depart="1001.83" departLane="best">
+    <vehicle id="bike186" type="bike_bicycle" depart="930.00" departLane="best">
         <route edges="578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 578942355"/>
     </vehicle>
-    <vehicle id="bike188" type="bike_bicycle" depart="1012.61" departLane="best">
+    <vehicle id="bike188" type="bike_bicycle" depart="940.00" departLane="best">
         <route edges="578934724#2 -578934726 -419814433#2 5962129#2 5962129#3 36054466#10"/>
     </vehicle>
-    <vehicle id="bike189" type="bike_bicycle" depart="1017.99" departLane="best" departSpeed="max">
+    <vehicle id="bike189" type="bike_bicycle" depart="945.00" departLane="best" departSpeed="max">
         <route edges="-5955850#2 -5955850#1 -5955850#0 5962129#0"/>
     </vehicle>
-    <vehicle id="bike190" type="bike_bicycle" depart="1023.38" departLane="best">
+    <vehicle id="bike190" type="bike_bicycle" depart="950.00" departLane="best">
         <route edges="578942362 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 642337373 234953562"/>
     </vehicle>
-    <vehicle id="bike191" type="bike_bicycle" depart="1028.76" departLane="best">
+    <vehicle id="bike191" type="bike_bicycle" depart="955.00" departLane="best">
         <route edges="-5955850#1 -5955850#0 436291016#4 436291016#9 436291016#10"/>
     </vehicle>
-    <vehicle id="bike192" type="bike_bicycle" depart="1034.15" departLane="best">
+    <vehicle id="bike192" type="bike_bicycle" depart="960.00" departLane="best">
         <route edges="36054466#7 36054466#8 578942362 -5962129#2 419814433#2 419814433#4 641705065 634644489 -89927838#3"/>
     </vehicle>
-    <vehicle id="bike193" type="bike_bicycle" depart="1039.54" departLane="best" departSpeed="max">
+    <vehicle id="bike193" type="bike_bicycle" depart="965.00" departLane="best" departSpeed="max">
         <route edges="-578934717#1 -578934717#0 436291064#1 642337372 642337373 436291011 436291010 436291016#0 436291016#4"/>
     </vehicle>
-    <vehicle id="bike194" type="bike_bicycle" depart="1044.92" departLane="best" departSpeed="max">
+    <vehicle id="bike194" type="bike_bicycle" depart="970.00" departLane="best" departSpeed="max">
         <route edges="642337374#0 642337374#1 642337373 436291011 436291010 436291016#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 578942357"/>
     </vehicle>
-    <vehicle id="bike195" type="bike_bicycle" depart="1050.31" departLane="best">
+    <vehicle id="bike195" type="bike_bicycle" depart="975.00" departLane="best">
         <route edges="641705063#3 641705064#0 578934719"/>
     </vehicle>
-    <vehicle id="bike196" type="bike_bicycle" depart="1055.69" departLane="best">
+    <vehicle id="bike196" type="bike_bicycle" depart="980.00" departLane="best">
         <route edges="-593766965 -5962129#4 -5962129#3 -5962129#2 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike197" type="bike_bicycle" depart="1061.08" departLane="best">
+    <vehicle id="bike197" type="bike_bicycle" depart="985.00" departLane="best">
         <route edges="-184711458 -89927838#0"/>
     </vehicle>
-    <vehicle id="bike198" type="bike_bicycle" depart="1066.47" departLane="best">
+    <vehicle id="bike198" type="bike_bicycle" depart="990.00" departLane="best">
         <route edges="419814433#1 419814433#2 419814433#4 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934716"/>
     </vehicle>
-    <vehicle id="bike199" type="bike_bicycle" depart="1071.85" departLane="best">
+    <vehicle id="bike199" type="bike_bicycle" depart="995.00" departLane="best">
         <route edges="578934723 -578934723 578934724#2 578934724#0 -578934719 436291031 436291062"/>
     </vehicle>
-    <vehicle id="bike200" type="bike_bicycle" depart="1077.24" departLane="best">
+    <vehicle id="bike200" type="bike_bicycle" depart="1000.00" departLane="best">
         <route edges="436291010 436291062 436291064#1 642337372 642337373 234953562 634644489 36054466#0 36054466#1 -578942365 578942372#0 -578942372#0"/>
     </vehicle>
-    <vehicle id="bike201" type="bike_bicycle" depart="1082.63" departLane="best">
+    <vehicle id="bike201" type="bike_bicycle" depart="1005.00" departLane="best">
         <route edges="436291018 641705063#0"/>
     </vehicle>
-    <vehicle id="bike202" type="bike_bicycle" depart="1088.01" departLane="best">
+    <vehicle id="bike202" type="bike_bicycle" depart="1010.00" departLane="best">
         <route edges="578942372#1 -578942372#1 -578942372#0 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 -578942358"/>
     </vehicle>
-    <vehicle id="bike204" type="bike_bicycle" depart="1098.78" departLane="best">
+    <vehicle id="bike204" type="bike_bicycle" depart="1020.00" departLane="best">
         <route edges="578934718#1 578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 634644489 36054466#0 36054466#1 36054466#3"/>
     </vehicle>
-    <vehicle id="bike205" type="bike_bicycle" depart="1104.17" departLane="best">
+    <vehicle id="bike205" type="bike_bicycle" depart="1025.00" departLane="best">
         <route edges="593766960 593766962#0 -593766962#1 -593766960 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 578942367#1 578942367#2"/>
     </vehicle>
-    <vehicle id="bike206" type="bike_bicycle" depart="1109.56" departLane="best">
+    <vehicle id="bike206" type="bike_bicycle" depart="1030.00" departLane="best">
         <route edges="578942335 -593766960 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942371#2 -578942372#2"/>
     </vehicle>
-    <vehicle id="bike207" type="bike_bicycle" depart="1114.94" departLane="best">
+    <vehicle id="bike207" type="bike_bicycle" depart="1035.00" departLane="best">
         <route edges="-578942355 641705063#1 641705063#2 641705063#3 -419814433#4 -419814433#2 -419814433#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike208" type="bike_bicycle" depart="1120.33" departLane="best">
+    <vehicle id="bike208" type="bike_bicycle" depart="1040.00" departLane="best">
         <route edges="-578942367#2 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0"/>
     </vehicle>
-    <vehicle id="bike209" type="bike_bicycle" depart="1125.72" departLane="best">
+    <vehicle id="bike209" type="bike_bicycle" depart="1045.00" departLane="best">
         <route edges="5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2"/>
     </vehicle>
-    <vehicle id="bike210" type="bike_bicycle" depart="1131.10" departLane="best">
+    <vehicle id="bike210" type="bike_bicycle" depart="1050.00" departLane="best">
         <route edges="36054466#9 -5962129#3 -5962129#2 419814433#2 578934726 578934724#0"/>
     </vehicle>
-    <vehicle id="bike211" type="bike_bicycle" depart="1136.49" departLane="best" departSpeed="max">
+    <vehicle id="bike211" type="bike_bicycle" depart="1055.00" departLane="best" departSpeed="max">
         <route edges="-578942344 89922370#5 641705063#0 641705063#1 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 -578942358 578942360#1"/>
     </vehicle>
-    <vehicle id="bike212" type="bike_bicycle" depart="1141.87" departLane="best" departSpeed="max">
+    <vehicle id="bike212" type="bike_bicycle" depart="1060.00" departLane="best" departSpeed="max">
         <route edges="436291021#0 gneE1 -593766965"/>
     </vehicle>
-    <vehicle id="bike213" type="bike_bicycle" depart="1147.26" departLane="best">
+    <vehicle id="bike213" type="bike_bicycle" depart="1065.00" departLane="best">
         <route edges="578934723 -578934723 578934724#2 -578934726 419814433#4 641705065 634644489 -89927838#3 -184711460"/>
     </vehicle>
-    <vehicle id="bike214" type="bike_bicycle" depart="1152.65" departLane="best">
+    <vehicle id="bike214" type="bike_bicycle" depart="1070.00" departLane="best">
         <route edges="578942368#0 -578942367#1 578942369#1"/>
     </vehicle>
-    <vehicle id="bike215" type="bike_bicycle" depart="1158.03" departLane="best" departSpeed="max">
+    <vehicle id="bike215" type="bike_bicycle" depart="1075.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 -5955850#0 436291016#4 436291016#9"/>
     </vehicle>
-    <vehicle id="bike216" type="bike_bicycle" depart="1163.42" departLane="best" departSpeed="max">
+    <vehicle id="bike216" type="bike_bicycle" depart="1080.00" departLane="best" departSpeed="max">
         <route edges="-578942334 578942335 -593766960 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642361032"/>
     </vehicle>
-    <vehicle id="bike217" type="bike_bicycle" depart="1168.80" departLane="best" departSpeed="max">
+    <vehicle id="bike217" type="bike_bicycle" depart="1085.00" departLane="best" departSpeed="max">
         <route edges="573865733#1 436291013 436291011 436291010 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0 -578605861#0"/>
     </vehicle>
-    <vehicle id="bike218" type="bike_bicycle" depart="1174.19" departLane="best">
+    <vehicle id="bike218" type="bike_bicycle" depart="1090.00" departLane="best">
         <route edges="-578942370 641705063#3 641705064#0 436291031 436291016#0 5962129#0"/>
     </vehicle>
-    <vehicle id="bike219" type="bike_bicycle" depart="1179.58" departLane="best">
+    <vehicle id="bike219" type="bike_bicycle" depart="1095.00" departLane="best">
         <route edges="436291016#0 5962129#0 419814433#2 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 578942372#0 578942372#1"/>
     </vehicle>
-    <vehicle id="bike220" type="bike_bicycle" depart="1184.96" departLane="best">
+    <vehicle id="bike220" type="bike_bicycle" depart="1100.00" departLane="best">
         <route edges="578934726 578934724#0 578934724#2 -578934726 419814433#4 641705065 634644489 -89927838#3 -89927838#0 89927838#0 89927838#3"/>
     </vehicle>
-    <vehicle id="bike222" type="bike_bicycle" depart="1195.74" departLane="best">
+    <vehicle id="bike222" type="bike_bicycle" depart="1110.00" departLane="best">
         <route edges="641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 578934718#2"/>
     </vehicle>
-    <vehicle id="bike223" type="bike_bicycle" depart="1201.12" departLane="best">
+    <vehicle id="bike223" type="bike_bicycle" depart="1115.00" departLane="best">
         <route edges="578942362 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 578934689"/>
     </vehicle>
-    <vehicle id="bike224" type="bike_bicycle" depart="1206.51" departLane="best">
+    <vehicle id="bike224" type="bike_bicycle" depart="1120.00" departLane="best">
         <route edges="5955850#0 5955850#1 -578934709#0 578934709#0 -5955850#1 -5955850#0 5962129#0 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike225" type="bike_bicycle" depart="1211.89" departLane="best">
+    <vehicle id="bike225" type="bike_bicycle" depart="1125.00" departLane="best">
         <route edges="641705063#1 641705063#2 578942370 578942369#0 578942367#1"/>
     </vehicle>
-    <vehicle id="bike226" type="bike_bicycle" depart="1217.28" departLane="best">
+    <vehicle id="bike226" type="bike_bicycle" depart="1130.00" departLane="best">
         <route edges="436291018 641705063#0 641705063#1 641705063#2 641705063#3 -419814433#4 -419814433#2 -5962129#1"/>
     </vehicle>
-    <vehicle id="bike227" type="bike_bicycle" depart="1222.67" departLane="best">
+    <vehicle id="bike227" type="bike_bicycle" depart="1135.00" departLane="best">
         <route edges="-578942370 641705063#3 641705064#0 578934719 578934724#2"/>
     </vehicle>
-    <vehicle id="bike228" type="bike_bicycle" depart="1228.05" departLane="best">
+    <vehicle id="bike228" type="bike_bicycle" depart="1140.00" departLane="best">
         <route edges="578942369#1 578942372#2 -578942371#2 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0"/>
     </vehicle>
-    <vehicle id="bike229" type="bike_bicycle" depart="1233.44" departLane="best">
+    <vehicle id="bike229" type="bike_bicycle" depart="1145.00" departLane="best">
         <route edges="578934718#0 578934716 6024091#5 642337372 642337373 234953562 634644489 36054466#0 36054466#1 36054466#3 36054466#4 36054466#5 578942361#0 578942361#1 578942360#0 578942358 -5962129#4"/>
     </vehicle>
-    <vehicle id="bike231" type="bike_bicycle" depart="1244.21" departLane="best">
+    <vehicle id="bike231" type="bike_bicycle" depart="1155.00" departLane="best">
         <route edges="-578942372#0 578942371#0 578942371#1 -578942370 641705063#3 641705065 634644489 36054466#0"/>
     </vehicle>
-    <vehicle id="bike233" type="bike_bicycle" depart="1254.98" departLane="best">
+    <vehicle id="bike233" type="bike_bicycle" depart="1165.00" departLane="best">
         <route edges="-578942367#0 578942367#0 578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 578942361#0 578942361#1 578942360#0"/>
     </vehicle>
-    <vehicle id="bike234" type="bike_bicycle" depart="1260.37" departLane="best">
+    <vehicle id="bike234" type="bike_bicycle" depart="1170.00" departLane="best">
         <route edges="578942360#1 578942361#1 578942360#0 578942358 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 -578605862#0"/>
     </vehicle>
-    <vehicle id="bike235" type="bike_bicycle" depart="1265.76" departLane="best">
+    <vehicle id="bike235" type="bike_bicycle" depart="1175.00" departLane="best">
         <route edges="36054466#8 578942362 -5962129#2 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike236" type="bike_bicycle" depart="1271.14" departLane="best" departSpeed="max">
+    <vehicle id="bike236" type="bike_bicycle" depart="1180.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 -578942371#1"/>
     </vehicle>
-    <vehicle id="bike237" type="bike_bicycle" depart="1276.53" departLane="best" departSpeed="max">
+    <vehicle id="bike237" type="bike_bicycle" depart="1185.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1"/>
     </vehicle>
-    <vehicle id="bike238" type="bike_bicycle" depart="1281.91" departLane="best" departSpeed="max">
+    <vehicle id="bike238" type="bike_bicycle" depart="1190.00" departLane="best" departSpeed="max">
         <route edges="578934709#0 -5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 -578942358 578942360#1"/>
     </vehicle>
-    <vehicle id="bike239" type="bike_bicycle" depart="1287.30" departLane="best">
+    <vehicle id="bike239" type="bike_bicycle" depart="1195.00" departLane="best">
         <route edges="5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0"/>
     </vehicle>
-    <vehicle id="bike240" type="bike_bicycle" depart="1292.69" departLane="best">
+    <vehicle id="bike240" type="bike_bicycle" depart="1200.00" departLane="best">
         <route edges="36054466#3 36054466#4 641705063#2 641705063#3 641705065 634644489 -89927838#3 -184711460"/>
     </vehicle>
-    <vehicle id="bike241" type="bike_bicycle" depart="1298.07" departLane="best">
+    <vehicle id="bike241" type="bike_bicycle" depart="1205.00" departLane="best">
         <route edges="-89927838#3 -89927838#0 89927838#0 89927838#3 36054466#0 36054466#1 -578942365 578942372#0 578942368#0"/>
     </vehicle>
-    <vehicle id="bike243" type="bike_bicycle" depart="1308.85" departLane="best" departSpeed="max">
+    <vehicle id="bike243" type="bike_bicycle" depart="1215.00" departLane="best" departSpeed="max">
         <route edges="419814433#0 419814433#1 419814433#2 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 -578942367#2 578942367#2"/>
     </vehicle>
-    <vehicle id="bike245" type="bike_bicycle" depart="1319.62" departLane="best" departSpeed="max">
+    <vehicle id="bike245" type="bike_bicycle" depart="1225.00" departLane="best" departSpeed="max">
         <route edges="-578942364 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 578942372#0 578942372#1 -578942372#1"/>
     </vehicle>
-    <vehicle id="bike246" type="bike_bicycle" depart="1325.00" departLane="best">
+    <vehicle id="bike246" type="bike_bicycle" depart="1230.00" departLane="best">
         <route edges="419814433#2 -419814433#2 -419814433#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike247" type="bike_bicycle" depart="1330.39" departLane="best">
+    <vehicle id="bike247" type="bike_bicycle" depart="1235.00" departLane="best">
         <route edges="-5962129#3 -5962129#2 419814433#2 -419814433#2 5962129#2 5962129#3 5962129#4 5962129#5 578942357"/>
     </vehicle>
-    <vehicle id="bike248" type="bike_bicycle" depart="1335.78" departLane="best">
+    <vehicle id="bike248" type="bike_bicycle" depart="1240.00" departLane="best">
         <route edges="36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 578942355 578942354#0 578942354#1 -578942355"/>
     </vehicle>
-    <vehicle id="bike250" type="bike_bicycle" depart="1346.55" departLane="best">
+    <vehicle id="bike250" type="bike_bicycle" depart="1250.00" departLane="best">
         <route edges="578934717#0 -578934718#2 578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 -641705065 -419814433#4 -419814433#2 -419814433#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike251" type="bike_bicycle" depart="1351.94" departLane="best">
+    <vehicle id="bike251" type="bike_bicycle" depart="1255.00" departLane="best">
         <route edges="36054466#5 36054466#6 36054466#7 36054466#8 578942362 -5962129#2 -5962129#1 5955850#0 6024091#2 578934712"/>
     </vehicle>
-    <vehicle id="bike253" type="bike_bicycle" depart="1362.71" departLane="best">
+    <vehicle id="bike253" type="bike_bicycle" depart="1265.00" departLane="best">
         <route edges="-578934718#0 578934718#2 -578934717#0 436291064#1 642337372 642337373 234953562 -641705065 641705064#0 436291031"/>
     </vehicle>
-    <vehicle id="bike255" type="bike_bicycle" depart="1373.48" departLane="best">
+    <vehicle id="bike255" type="bike_bicycle" depart="1275.00" departLane="best">
         <route edges="-578942358 578942360#1 578942361#1 578942360#0 578942358 -5962129#4 36054466#10"/>
     </vehicle>
-    <vehicle id="bike256" type="bike_bicycle" depart="1378.87" departLane="best">
+    <vehicle id="bike256" type="bike_bicycle" depart="1280.00" departLane="best">
         <route edges="578942369#0 578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 578942362 -5962129#2 419814433#2"/>
     </vehicle>
-    <vehicle id="bike257" type="bike_bicycle" depart="1384.25" departLane="best">
+    <vehicle id="bike257" type="bike_bicycle" depart="1285.00" departLane="best">
         <route edges="578942368#0 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0"/>
     </vehicle>
-    <vehicle id="bike259" type="bike_bicycle" depart="1395.03" departLane="best">
+    <vehicle id="bike259" type="bike_bicycle" depart="1295.00" departLane="best">
         <route edges="-419814433#2 -419814433#1 -578934700#1 578934699"/>
     </vehicle>
-    <vehicle id="bike260" type="bike_bicycle" depart="1400.41" departLane="best">
+    <vehicle id="bike260" type="bike_bicycle" depart="1300.00" departLane="best">
         <route edges="gneE1 578942357 -578942357 gneE0 593766961 436291018 641705063#0 641705063#1 36054466#5"/>
     </vehicle>
-    <vehicle id="bike261" type="bike_bicycle" depart="1405.80" departLane="best">
+    <vehicle id="bike261" type="bike_bicycle" depart="1305.00" departLane="best">
         <route edges="578934722 -578934723 578934724#2 -578934726 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 578942371#0"/>
     </vehicle>
-    <vehicle id="bike262" type="bike_bicycle" depart="1411.18" departLane="best">
+    <vehicle id="bike262" type="bike_bicycle" depart="1310.00" departLane="best">
         <route edges="578934723 -578934723 578934724#2 -578934726 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 578942372#0 578942368#0"/>
     </vehicle>
-    <vehicle id="bike263" type="bike_bicycle" depart="1416.57" departLane="best">
+    <vehicle id="bike263" type="bike_bicycle" depart="1315.00" departLane="best">
         <route edges="642337374#1 642337373 234953562 634644489 36054466#0 36054466#1 -578942365 578942371#0 -578942371#0"/>
     </vehicle>
-    <vehicle id="bike264" type="bike_bicycle" depart="1421.96" departLane="best">
+    <vehicle id="bike264" type="bike_bicycle" depart="1320.00" departLane="best">
         <route edges="-419814433#2 -419814433#1 -419814433#0 419814433#0 419814433#1 419814433#2 578934726 578934724#0 578934723 -578934723"/>
     </vehicle>
-    <vehicle id="bike265" type="bike_bicycle" depart="1427.34" departLane="best" departSpeed="max">
+    <vehicle id="bike265" type="bike_bicycle" depart="1325.00" departLane="best" departSpeed="max">
         <route edges="-578934717#1 -578934717#0 436291064#1 642337372 642337373 436291011 436291010 436291016#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 578942355 578942354#0 578942354#1"/>
     </vehicle>
-    <vehicle id="bike266" type="bike_bicycle" depart="1432.73" departLane="best" departSpeed="max">
+    <vehicle id="bike266" type="bike_bicycle" depart="1330.00" departLane="best" departSpeed="max">
         <route edges="578934692 642337374#1 642337373 234953562 634644489 36054466#0 36054466#1 -578942365 578942372#0 -578942372#0"/>
     </vehicle>
-    <vehicle id="bike267" type="bike_bicycle" depart="1438.11" departLane="best">
+    <vehicle id="bike267" type="bike_bicycle" depart="1335.00" departLane="best">
         <route edges="578942360#0 578942358 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 578942369#1"/>
     </vehicle>
-    <vehicle id="bike268" type="bike_bicycle" depart="1443.50" departLane="best" departSpeed="max">
+    <vehicle id="bike268" type="bike_bicycle" depart="1340.00" departLane="best" departSpeed="max">
         <route edges="-578942331 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934718#1"/>
     </vehicle>
-    <vehicle id="bike269" type="bike_bicycle" depart="1448.89" departLane="best">
+    <vehicle id="bike269" type="bike_bicycle" depart="1345.00" departLane="best">
         <route edges="578942367#2 -578942367#2 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike270" type="bike_bicycle" depart="1454.27" departLane="best">
+    <vehicle id="bike270" type="bike_bicycle" depart="1350.00" departLane="best">
         <route edges="593766960 593766962#0 -593766962#1 -593766960 593766961 436291018 436291020#0 436291020#2 436291019 642751754#0"/>
     </vehicle>
-    <vehicle id="bike271" type="bike_bicycle" depart="1459.66" departLane="best" departSpeed="max">
+    <vehicle id="bike271" type="bike_bicycle" depart="1355.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 -5955850#0 5962129#0 -419814433#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike272" type="bike_bicycle" depart="1465.05" departLane="best">
+    <vehicle id="bike272" type="bike_bicycle" depart="1360.00" departLane="best">
         <route edges="-5955850#1 -5955850#0 5962129#0 5962129#2 5962129#3 5962129#4 5962129#5 578942357"/>
     </vehicle>
-    <vehicle id="bike274" type="bike_bicycle" depart="1475.82" departLane="best">
+    <vehicle id="bike274" type="bike_bicycle" depart="1370.00" departLane="best">
         <route edges="578942361#1 578942360#0 578942358 -5962129#4 -5962129#3 -5962129#2 419814433#2 419814433#4 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2"/>
     </vehicle>
-    <vehicle id="bike275" type="bike_bicycle" depart="1481.20" departLane="best">
+    <vehicle id="bike275" type="bike_bicycle" depart="1375.00" departLane="best">
         <route edges="578942355 578942354#0 578942354#1 -578942355 641705063#1 641705063#2 641705063#3 641705064#0 578934719 578934723"/>
     </vehicle>
-    <vehicle id="bike276" type="bike_bicycle" depart="1486.59" departLane="best">
+    <vehicle id="bike276" type="bike_bicycle" depart="1380.00" departLane="best">
         <route edges="-578934700#1 578934700#1 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370"/>
     </vehicle>
-    <vehicle id="bike277" type="bike_bicycle" depart="1491.98" departLane="best">
+    <vehicle id="bike277" type="bike_bicycle" depart="1385.00" departLane="best">
         <route edges="5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 578934718#0"/>
     </vehicle>
-    <vehicle id="bike279" type="bike_bicycle" depart="1502.75" departLane="best">
+    <vehicle id="bike279" type="bike_bicycle" depart="1395.00" departLane="best">
         <route edges="578942371#1 -578942371#1 -578942371#0 578942365 36054466#3 36054466#4 36054466#5"/>
     </vehicle>
-    <vehicle id="bike280" type="bike_bicycle" depart="1508.14" departLane="best">
+    <vehicle id="bike280" type="bike_bicycle" depart="1400.00" departLane="best">
         <route edges="419814433#1"/>
     </vehicle>
-    <vehicle id="bike281" type="bike_bicycle" depart="1513.52" departLane="best">
+    <vehicle id="bike281" type="bike_bicycle" depart="1405.00" departLane="best">
         <route edges="436291031 436291062 436291064#1 642337372 642337373 234953562 634644489 36054466#0 36054466#1 36054466#3 36054466#4"/>
     </vehicle>
-    <vehicle id="bike282" type="bike_bicycle" depart="1518.91" departLane="best">
+    <vehicle id="bike282" type="bike_bicycle" depart="1410.00" departLane="best">
         <route edges="5962129#3 5962129#4 5962129#5 gneE0 593766960 593766962#0"/>
     </vehicle>
-    <vehicle id="bike283" type="bike_bicycle" depart="1524.29" departLane="best" departSpeed="max">
+    <vehicle id="bike283" type="bike_bicycle" depart="1415.00" departLane="best" departSpeed="max">
         <route edges="-578934709#1 -5955850#1 6024091#2 6024091#3 6024091#5 642361032"/>
     </vehicle>
-    <vehicle id="bike284" type="bike_bicycle" depart="1529.68" departLane="best">
+    <vehicle id="bike284" type="bike_bicycle" depart="1420.00" departLane="best">
         <route edges="578934718#1 578934718#2 -578934717#0 436291064#1 642337372 642337373 436291011 436291010 436291016#0 5955850#0"/>
     </vehicle>
-    <vehicle id="bike285" type="bike_bicycle" depart="1535.07" departLane="best">
+    <vehicle id="bike285" type="bike_bicycle" depart="1425.00" departLane="best">
         <route edges="578942360#1 578942361#1 578942360#0 578942358 5962129#5 gneE0 593766961 436291018 436291020#0 436291020#2 436291019"/>
     </vehicle>
-    <vehicle id="bike286" type="bike_bicycle" depart="1540.45" departLane="best">
+    <vehicle id="bike286" type="bike_bicycle" depart="1430.00" departLane="best">
         <route edges="578942367#0 -578942367#0 -578942371#2 -578942370 641705063#3 641705065 634644489 278328405#0 642751754#0"/>
     </vehicle>
-    <vehicle id="bike287" type="bike_bicycle" depart="1545.84" departLane="best">
+    <vehicle id="bike287" type="bike_bicycle" depart="1435.00" departLane="best">
         <route edges="-578942372#0 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 5962129#5 gneE0 593766960"/>
     </vehicle>
-    <vehicle id="bike288" type="bike_bicycle" depart="1551.22" departLane="best">
+    <vehicle id="bike288" type="bike_bicycle" depart="1440.00" departLane="best">
         <route edges="578605861#1 578605861#2"/>
     </vehicle>
-    <vehicle id="bike289" type="bike_bicycle" depart="1556.61" departLane="best">
+    <vehicle id="bike289" type="bike_bicycle" depart="1445.00" departLane="best">
         <route edges="419814433#2 419814433#4 641705065 634644489 36054466#0 36054466#1 -578942365 -578942367#2 578942367#2 578942365"/>
     </vehicle>
-    <vehicle id="bike290" type="bike_bicycle" depart="1562.00" departLane="best">
+    <vehicle id="bike290" type="bike_bicycle" depart="1450.00" departLane="best">
         <route edges="-578942372#0 578942371#0 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291016#0 5962129#0"/>
     </vehicle>
-    <vehicle id="bike292" type="bike_bicycle" depart="1572.77" departLane="best">
+    <vehicle id="bike292" type="bike_bicycle" depart="1460.00" departLane="best">
         <route edges="623099335 578934722 -578934723 578934724#2 -578934726 -419814433#2 5962129#2 5962129#3 5962129#4 5962129#5 578942357 -578942357 -593766965"/>
     </vehicle>
-    <vehicle id="bike294" type="bike_bicycle" depart="1583.54" departLane="best">
+    <vehicle id="bike294" type="bike_bicycle" depart="1470.00" departLane="best">
         <route edges="36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 -419814433#2 -419814433#1 -419814433#0"/>
     </vehicle>
-    <vehicle id="bike295" type="bike_bicycle" depart="1588.93" departLane="best">
+    <vehicle id="bike295" type="bike_bicycle" depart="1475.00" departLane="best">
         <route edges="5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 -578942367#0"/>
     </vehicle>
-    <vehicle id="bike296" type="bike_bicycle" depart="1594.31" departLane="best">
+    <vehicle id="bike296" type="bike_bicycle" depart="1480.00" departLane="best">
         <route edges="-578942358 578942360#1 578942361#1 578942360#0 578942358 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 578942369#1 -578942372#1 578942372#1"/>
     </vehicle>
-    <vehicle id="bike297" type="bike_bicycle" depart="1599.70" departLane="best">
+    <vehicle id="bike297" type="bike_bicycle" depart="1485.00" departLane="best">
         <route edges="-5962129#4 -5962129#3 -5962129#2 -5962129#1 5955850#0 6024091#2 6024091#3"/>
     </vehicle>
-    <vehicle id="bike298" type="bike_bicycle" depart="1605.09" departLane="best">
+    <vehicle id="bike298" type="bike_bicycle" depart="1490.00" departLane="best">
         <route edges="578942360#0 578942358 -5962129#4"/>
     </vehicle>
-    <vehicle id="bike301" type="bike_bicycle" depart="1621.25" departLane="best">
+    <vehicle id="bike301" type="bike_bicycle" depart="1505.00" departLane="best">
         <route edges="436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 -578942365 -578942367#2 578942368#1"/>
     </vehicle>
-    <vehicle id="bike302" type="bike_bicycle" depart="1626.63" departLane="best">
+    <vehicle id="bike302" type="bike_bicycle" depart="1510.00" departLane="best">
         <route edges="578942355 578942354#0 578942354#1 -578942355 641705063#1 641705063#2 641705063#3 641705065 634644489 36054466#0 578942331"/>
     </vehicle>
-    <vehicle id="bike303" type="bike_bicycle" depart="1632.02" departLane="best">
+    <vehicle id="bike303" type="bike_bicycle" depart="1515.00" departLane="best">
         <route edges="436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 -578942365 578942372#0"/>
     </vehicle>
-    <vehicle id="bike304" type="bike_bicycle" depart="1637.40" departLane="best" departSpeed="max">
+    <vehicle id="bike304" type="bike_bicycle" depart="1520.00" departLane="best" departSpeed="max">
         <route edges="-578934699 578934700#1 419814433#1 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942369#0 578942369#1 -578942372#1"/>
     </vehicle>
-    <vehicle id="bike305" type="bike_bicycle" depart="1642.79" departLane="best">
+    <vehicle id="bike305" type="bike_bicycle" depart="1525.00" departLane="best">
         <route edges="578942355 578942354#0 578942354#1 -578942355 641705063#1 641705063#2 641705063#3 641705065 634644489 278328405#0"/>
     </vehicle>
-    <vehicle id="bike306" type="bike_bicycle" depart="1648.18" departLane="best" departSpeed="max">
+    <vehicle id="bike306" type="bike_bicycle" depart="1530.00" departLane="best" departSpeed="max">
         <route edges="578934709#0 -5955850#1 6024091#2 6024091#3 6024091#5 642337372 641705146#0 641705146#1 -578605862#2 578605861#0"/>
     </vehicle>
-    <vehicle id="bike308" type="bike_bicycle" depart="1658.95" departLane="best">
+    <vehicle id="bike308" type="bike_bicycle" depart="1540.00" departLane="best">
         <route edges="578942367#2 578942365 36054466#3 36054466#4 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 36054466#10"/>
     </vehicle>
-    <vehicle id="bike309" type="bike_bicycle" depart="1664.33" departLane="best">
+    <vehicle id="bike309" type="bike_bicycle" depart="1545.00" departLane="best">
         <route edges="578942360#1 578942361#1 578942360#0 578942358 -5962129#4 -5962129#3"/>
     </vehicle>
-    <vehicle id="bike310" type="bike_bicycle" depart="1669.72" departLane="best">
+    <vehicle id="bike310" type="bike_bicycle" depart="1550.00" departLane="best">
         <route edges="-578942371#0 578942371#0 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike311" type="bike_bicycle" depart="1675.11" departLane="best" departSpeed="max">
+    <vehicle id="bike311" type="bike_bicycle" depart="1555.00" departLane="best" departSpeed="max">
         <route edges="-578942344 89922370#5 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike313" type="bike_bicycle" depart="1685.88" departLane="best" departSpeed="max">
+    <vehicle id="bike313" type="bike_bicycle" depart="1565.00" departLane="best" departSpeed="max">
         <route edges="-578942344 89922370#5 641705063#0 641705063#1 641705063#2 578942370 578942369#0 578942369#1 -578942372#1 -578942372#0"/>
     </vehicle>
-    <vehicle id="bike314" type="bike_bicycle" depart="1691.27" departLane="best">
+    <vehicle id="bike314" type="bike_bicycle" depart="1570.00" departLane="best">
         <route edges="436291020#0 436291020#2 436291019 642751754#0 -184711458 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 -419814433#4 578942364"/>
     </vehicle>
-    <vehicle id="bike315" type="bike_bicycle" depart="1696.65" departLane="best" departSpeed="max">
+    <vehicle id="bike315" type="bike_bicycle" depart="1575.00" departLane="best" departSpeed="max">
         <route edges="89927838#0 89927838#3 36054466#0 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 578934691#1"/>
     </vehicle>
-    <vehicle id="bike316" type="bike_bicycle" depart="1702.04" departLane="best">
+    <vehicle id="bike316" type="bike_bicycle" depart="1580.00" departLane="best">
         <route edges="-593766960 gneE1 -593766965 -5962129#4 -5962129#3 -5962129#2 -419814433#1 -578934700#1"/>
     </vehicle>
-    <vehicle id="bike317" type="bike_bicycle" depart="1707.42" departLane="best" departSpeed="max">
+    <vehicle id="bike317" type="bike_bicycle" depart="1585.00" departLane="best" departSpeed="max">
         <route edges="-578942344 89922370#5 641705063#0 641705063#1 641705063#2 578942370 578942371#2 -578942372#2"/>
     </vehicle>
-    <vehicle id="bike320" type="bike_bicycle" depart="1723.58" departLane="best">
+    <vehicle id="bike320" type="bike_bicycle" depart="1600.00" departLane="best">
         <route edges="89922370#5 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291016#0 5955850#0 5955850#1 578934709#1"/>
     </vehicle>
-    <vehicle id="bike321" type="bike_bicycle" depart="1728.97" departLane="best">
+    <vehicle id="bike321" type="bike_bicycle" depart="1605.00" departLane="best">
         <route edges="578942358 -5962129#4 -5962129#3 -5962129#2 -5962129#1 5955850#0 6024091#2 578934712 578934713#0 578934713#1 -578934712"/>
     </vehicle>
-    <vehicle id="bike322" type="bike_bicycle" depart="1734.36" departLane="best">
+    <vehicle id="bike322" type="bike_bicycle" depart="1610.00" departLane="best">
         <route edges="6024091#3 6024091#5 642337372 641705146#0 641705146#1 -578605862#2 578605862#2"/>
     </vehicle>
-    <vehicle id="bike323" type="bike_bicycle" depart="1739.74" departLane="best">
+    <vehicle id="bike323" type="bike_bicycle" depart="1615.00" departLane="best">
         <route edges="6024091#5 642337372 642337373 436291011 436291010 436291016#0 5955850#0 6024091#2 578934712 578934713#0 578934713#1"/>
     </vehicle>
-    <vehicle id="bike325" type="bike_bicycle" depart="1750.51" departLane="best" departSpeed="max">
+    <vehicle id="bike325" type="bike_bicycle" depart="1625.00" departLane="best" departSpeed="max">
         <route edges="-578942334 578942335 -593766960 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578605861#0 -578605861#2 -578605861#1"/>
     </vehicle>
-    <vehicle id="bike326" type="bike_bicycle" depart="1755.90" departLane="best" departSpeed="max">
+    <vehicle id="bike326" type="bike_bicycle" depart="1630.00" departLane="best" departSpeed="max">
         <route edges="642337374#0 642337374#1 641705146#0 641705146#1 -578605862#2 578605861#0 578605861#1"/>
     </vehicle>
-    <vehicle id="bike330" type="bike_bicycle" depart="1777.45" departLane="best" departSpeed="max">
+    <vehicle id="bike330" type="bike_bicycle" depart="1650.00" departLane="best" departSpeed="max">
         <route edges="578934692 642337374#1 642337373 234953562"/>
     </vehicle>
-    <vehicle id="bike331" type="bike_bicycle" depart="1782.83" departLane="best">
+    <vehicle id="bike331" type="bike_bicycle" depart="1655.00" departLane="best">
         <route edges="gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 6024091#3 -578934711"/>
     </vehicle>
-    <vehicle id="bike332" type="bike_bicycle" depart="1788.22" departLane="best">
+    <vehicle id="bike332" type="bike_bicycle" depart="1660.00" departLane="best">
         <route edges="578942369#1 578942372#2 -578942371#2 -578942370 641705063#3 641705064#0 436291031 436291062 578934717#0 -578934718#2 -578934718#1 578934718#1"/>
     </vehicle>
-    <vehicle id="bike333" type="bike_bicycle" depart="1793.60" departLane="best">
+    <vehicle id="bike333" type="bike_bicycle" depart="1665.00" departLane="best">
         <route edges="578942372#0 578942372#1 578942372#2 -578942372#2"/>
     </vehicle>
-    <vehicle id="bike334" type="bike_bicycle" depart="1798.99" departLane="best" departSpeed="max">
+    <vehicle id="bike334" type="bike_bicycle" depart="1670.00" departLane="best" departSpeed="max">
         <route edges="573865733#1 436291013 234953562 634644489 278328405#0 278328405#1 436291029"/>
+    </vehicle>
+    <vehicle id="bike335" type="bike_bicycle" depart="1675.00" departLane="best">
+        <route edges="436291010 436291016#0 5962129#0 5962129#2 5962129#3"/>
+    </vehicle>
+    <vehicle id="bike336" type="bike_bicycle" depart="1680.00" departLane="best">
+        <route edges="gneE0 593766961 436291018 436291020#0 436291020#2 436291019 642751754#0 -184711458 89927838#3 278328405#0"/>
+    </vehicle>
+    <vehicle id="bike337" type="bike_bicycle" depart="1685.00" departLane="best">
+        <route edges="578934717#0 -578934718#2 578934718#2"/>
+    </vehicle>
+    <vehicle id="bike338" type="bike_bicycle" depart="1690.00" departLane="best">
+        <route edges="578942367#1 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 642337373"/>
+    </vehicle>
+    <vehicle id="bike339" type="bike_bicycle" depart="1695.00" departLane="best" departSpeed="max">
+        <route edges="-578942357 gneE0 593766961 436291018 641705063#0 641705063#1 641705063#2 578942370 578942371#2 -578942371#2"/>
+    </vehicle>
+    <vehicle id="bike340" type="bike_bicycle" depart="1700.00" departLane="best">
+        <route edges="578934724#0 578934723 -578934723"/>
+    </vehicle>
+    <vehicle id="bike341" type="bike_bicycle" depart="1705.00" departLane="best" departSpeed="max">
+        <route edges="-578942331 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2"/>
+    </vehicle>
+    <vehicle id="bike342" type="bike_bicycle" depart="1710.00" departLane="best">
+        <route edges="-184711458 89927838#3 278328405#0 278328405#1 436291029"/>
+    </vehicle>
+    <vehicle id="bike343" type="bike_bicycle" depart="1715.00" departLane="best" departSpeed="max">
+        <route edges="578934711 6024091#5 642337372 642337373 234953562 634644489 -89927838#3 -89927838#0"/>
+    </vehicle>
+    <vehicle id="bike344" type="bike_bicycle" depart="1720.00" departLane="best">
+        <route edges="-578942367#0 578942367#0 578942367#1 578942367#2 578942365 36054466#3 36054466#4 36054466#5 578942361#0 578942361#1"/>
+    </vehicle>
+    <vehicle id="bike345" type="bike_bicycle" depart="1725.00" departLane="best">
+        <route edges="578942360#1 578942361#1 578942360#0 578942358 5962129#5 gneE0 593766961 436291018 436291020#0 436291020#2 436291019 278328405#1 436291029"/>
+    </vehicle>
+    <vehicle id="bike346" type="bike_bicycle" depart="1730.00" departLane="best">
+        <route edges="578942355 578942354#0 578942354#1 -578942355 641705063#1 641705063#2 641705063#3 641705065"/>
+    </vehicle>
+    <vehicle id="bike347" type="bike_bicycle" depart="1735.00" departLane="best">
+        <route edges="578942371#2 -578942371#2 -578942370 641705063#3 641705064#0 578934719 578934723"/>
+    </vehicle>
+    <vehicle id="bike348" type="bike_bicycle" depart="1740.00" departLane="best">
+        <route edges="578934724#0 -578934719 436291031 436291062 436291064#1 642337372 641705146#0"/>
+    </vehicle>
+    <vehicle id="bike349" type="bike_bicycle" depart="1745.00" departLane="best" departSpeed="max">
+        <route edges="419814433#0 -578934700#1 578934699"/>
+    </vehicle>
+    <vehicle id="bike350" type="bike_bicycle" depart="1750.00" departLane="best">
+        <route edges="578934722 -578934723 578934724#2 -578934726 -419814433#2 5962129#2 5962129#3 5962129#4 5962129#5 gneE0 593766961 436291018 641705063#0 641705063#1"/>
+    </vehicle>
+    <vehicle id="bike351" type="bike_bicycle" depart="1755.00" departLane="best">
+        <route edges="5955850#0 6024091#2 6024091#3 6024091#5 642337372 641705146#0 641705146#1 -578605862#2"/>
+    </vehicle>
+    <vehicle id="bike352" type="bike_bicycle" depart="1760.00" departLane="best" departSpeed="max">
+        <route edges="-578942331 36054466#1 36054466#3 36054466#4 641705063#2 641705063#3 641705065 634644489 278328405#0"/>
+    </vehicle>
+    <vehicle id="bike353" type="bike_bicycle" depart="1765.00" departLane="best">
+        <route edges="578942368#0 578942368#1 578942371#1 -578942370 641705063#3 641705064#0 436291031 436291016#0 5955850#0 6024091#2 578934712 578934713#0"/>
+    </vehicle>
+    <vehicle id="bike354" type="bike_bicycle" depart="1770.00" departLane="best" departSpeed="max">
+        <route edges="-593766962#1 -593766960 gneE1 -593766965 -5962129#4 -5962129#3 -5962129#2 -5962129#1 5955850#0 6024091#2 578934712 578934713#0 578934713#1 -578934712"/>
+    </vehicle>
+    <vehicle id="bike355" type="bike_bicycle" depart="1775.00" departLane="best">
+        <route edges="578942355 578942354#0 578942354#1 -578942355 641705063#1 36054466#5 36054466#6 36054466#7 36054466#8 36054466#9 5962129#4 -578942358 578942360#1"/>
+    </vehicle>
+    <vehicle id="bike356" type="bike_bicycle" depart="1780.00" departLane="best" departSpeed="max">
+        <route edges="642337374#0 642337374#1 641705146#0 578934689"/>
+    </vehicle>
+    <vehicle id="bike357" type="bike_bicycle" depart="1785.00" departLane="best" departSpeed="max">
+        <route edges="436291021#0 593766961 436291018 641705063#0 641705063#1 641705063#2 641705063#3 641705064#0 436291031 436291062 436291064#1 642337372 641705146#0 641705146#1 -578605862#2 578934691#0 -578934691#0"/>
+    </vehicle>
+    <vehicle id="bike359" type="bike_bicycle" depart="1795.00" departLane="best" departSpeed="max">
+        <route edges="-5955850#2 -5955850#1 -5955850#0"/>
     </vehicle>
 </routes>

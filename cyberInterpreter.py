@@ -293,7 +293,7 @@ def run():
 
         # print(traci.trafficlight.getCompleteRedYellowGreenDefinition(tls_list[0]))
         traci.simulationStep()
-        time_step += 1.0
+        time_step += 0.0
         while time.perf_counter() < time_0 + time_step:  # --> DON'T SEND MSGS TO THE NODES IN THIS PART
             # TLS management
             # print("Phase:", traci.trafficlight.getPhase(tls_list[0]))
@@ -340,7 +340,7 @@ if __name__ == "__main__":
     # first, generate the route file for this simulation
     # generate_routefile()
 
-    while run_num < 5:
+    while run_num < 1:
         msg_dic = []
         # this is the normal way of using traci. sumo is started as a
         # subprocess and then the python script connects and runs
