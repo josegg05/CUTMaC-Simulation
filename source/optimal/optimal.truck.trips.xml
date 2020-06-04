@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on Thu Jun  4 00:42:50 2020 by Eclipse SUMO duarouter Version 1.6.0
+<!-- generated on Thu Jun  4 08:51:01 2020 by Eclipse SUMO duarouter Version 1.6.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
@@ -30,63 +30,62 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
     <vType id="truck_truck" vClass="truck"/>
     <trip id="truck0" type="truck_truck" depart="0.00" departLane="best" departSpeed="max" from="D4D3" to="D2E2" via="B1B2"/>
-    <trip id="truck1" type="truck_truck" depart="30.00" departLane="best" departSpeed="max" from="B0B1" to="B1B0" via="B3C3"/>
-    <trip id="truck2" type="truck_truck" depart="60.00" departLane="best" departSpeed="max" from="C0C1" to="D3E3" via="B3B2"/>
-    <trip id="truck3" type="truck_truck" depart="90.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B1B2"/>
-    <trip id="truck4" type="truck_truck" depart="120.00" departLane="best" departSpeed="max" from="A3B3" to="B1B0" via="D3D2"/>
-    <trip id="truck5" type="truck_truck" depart="150.00" departLane="best" departSpeed="max" from="B0B1" to="D1D0" via="C3B3"/>
-    <trip id="truck6" type="truck_truck" depart="180.00" departLane="best" departSpeed="max" from="E2D2" to="D1E1" via="B2C2"/>
-    <trip id="truck7" type="truck_truck" depart="210.00" departLane="best" departSpeed="max" from="A1B1" to="B3B4" via="D1C1"/>
-    <trip id="truck8" type="truck_truck" depart="240.00" departLane="best" departSpeed="max" from="E3D3" to="D3E3" via="B2C2"/>
-    <trip id="truck9" type="truck_truck" depart="270.00" departLane="best" departSpeed="max" from="C0C1" to="D1D0" via="D3C3"/>
-    <trip id="truck10" type="truck_truck" depart="300.00" departLane="best" departSpeed="max" from="B4B3" to="B3B4" via="B1B2"/>
-    <trip id="truck11" type="truck_truck" depart="330.00" departLane="best" departSpeed="max" from="E3D3" to="D2E2" via="B3C3"/>
-    <trip id="truck12" type="truck_truck" depart="360.00" departLane="best" departSpeed="max" from="B4B3" to="D2E2" via="B1B2"/>
-    <trip id="truck13" type="truck_truck" depart="390.00" departLane="best" departSpeed="max" from="B0B1" to="D2E2" via="B3B2"/>
-    <trip id="truck14" type="truck_truck" depart="420.00" departLane="best" departSpeed="max" from="A2B2" to="C3C4" via="D1D2"/>
-    <trip id="truck15" type="truck_truck" depart="450.00" departLane="best" departSpeed="max" from="B0B1" to="D1D0" via="B3B2"/>
-    <trip id="truck16" type="truck_truck" depart="480.00" departLane="best" departSpeed="max" from="D0D1" to="C1C0" via="D3C3"/>
-    <trip id="truck17" type="truck_truck" depart="510.00" departLane="best" departSpeed="max" from="D4D3" to="D3D4" via="C1D1"/>
-    <trip id="truck18" type="truck_truck" depart="540.00" departLane="best" departSpeed="max" from="D4D3" to="D1E1" via="B1C1"/>
-    <trip id="truck19" type="truck_truck" depart="570.00" departLane="best" departSpeed="max" from="A1B1" to="B3A3" via="D2C2"/>
-    <trip id="truck20" type="truck_truck" depart="600.00" departLane="best" departSpeed="max" from="C0C1" to="D2E2" via="B3C3"/>
-    <trip id="truck21" type="truck_truck" depart="630.00" departLane="best" departSpeed="max" from="D4D3" to="B3B4" via="D1C1"/>
-    <trip id="truck22" type="truck_truck" depart="660.00" departLane="best" departSpeed="max" from="B4B3" to="B1A1" via="D1D2"/>
-    <trip id="truck23" type="truck_truck" depart="690.00" departLane="best" departSpeed="max" from="E2D2" to="B1B0" via="B3B2"/>
-    <trip id="truck24" type="truck_truck" depart="720.00" departLane="best" departSpeed="max" from="C0C1" to="B1A1" via="D3C3"/>
-    <trip id="truck25" type="truck_truck" depart="750.00" departLane="best" departSpeed="max" from="A1B1" to="B2A2" via="D2D1"/>
-    <trip id="truck26" type="truck_truck" depart="780.00" departLane="best" departSpeed="max" from="A3B3" to="B1B0" via="D3C3"/>
-    <trip id="truck27" type="truck_truck" depart="810.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="D1D2"/>
-    <trip id="truck28" type="truck_truck" depart="840.00" departLane="best" departSpeed="max" from="D0D1" to="D1D0" via="B3C3"/>
-    <trip id="truck29" type="truck_truck" depart="870.00" departLane="best" departSpeed="max" from="B4B3" to="D1E1" via="B1B2"/>
-    <trip id="truck30" type="truck_truck" depart="900.00" departLane="best" departSpeed="max" from="A2B2" to="B1A1" via="D2D1"/>
-    <trip id="truck31" type="truck_truck" depart="930.00" departLane="best" departSpeed="max" from="D4D3" to="B3B4" via="D1C1"/>
-    <trip id="truck32" type="truck_truck" depart="960.00" departLane="best" departSpeed="max" from="C4C3" to="B1A1" via="D1D2"/>
-    <trip id="truck33" type="truck_truck" depart="990.00" departLane="best" departSpeed="max" from="A2B2" to="B3B4" via="D1D2"/>
-    <trip id="truck34" type="truck_truck" depart="1020.00" departLane="best" departSpeed="max" from="A3B3" to="B1A1" via="D1D2"/>
-    <trip id="truck35" type="truck_truck" depart="1050.00" departLane="best" departSpeed="max" from="A2B2" to="D1D0" via="D3D2"/>
-    <trip id="truck36" type="truck_truck" depart="1080.00" departLane="best" departSpeed="max" from="B0B1" to="C1C0" via="D3D2"/>
-    <trip id="truck37" type="truck_truck" depart="1110.00" departLane="best" departSpeed="max" from="A3B3" to="B2A2" via="D3C3"/>
-    <trip id="truck38" type="truck_truck" depart="1140.00" departLane="best" departSpeed="max" from="D0D1" to="D3E3" via="B3C3"/>
-    <trip id="truck39" type="truck_truck" depart="1170.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="C1D1"/>
-    <trip id="truck40" type="truck_truck" depart="1200.00" departLane="best" departSpeed="max" from="D4D3" to="C3C4" via="B1B2"/>
-    <trip id="truck41" type="truck_truck" depart="1230.00" departLane="best" departSpeed="max" from="E3D3" to="D3E3" via="B3C3"/>
-    <trip id="truck42" type="truck_truck" depart="1260.00" departLane="best" departSpeed="max" from="D0D1" to="B1B0" via="C3D3"/>
-    <trip id="truck43" type="truck_truck" depart="1290.00" departLane="best" departSpeed="max" from="C4C3" to="C3C4" via="C1D1"/>
-    <trip id="truck44" type="truck_truck" depart="1320.00" departLane="best" departSpeed="max" from="B0B1" to="D1E1" via="B3B2"/>
-    <trip id="truck45" type="truck_truck" depart="1350.00" departLane="best" departSpeed="max" from="D4D3" to="C3C4" via="D1C1"/>
-    <trip id="truck46" type="truck_truck" depart="1380.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B2B1"/>
-    <trip id="truck47" type="truck_truck" depart="1410.00" departLane="best" departSpeed="max" from="B0B1" to="D1D0" via="B3C3"/>
-    <trip id="truck48" type="truck_truck" depart="1440.00" departLane="best" departSpeed="max" from="E3D3" to="D3D4" via="B1B2"/>
-    <trip id="truck49" type="truck_truck" depart="1470.00" departLane="best" departSpeed="max" from="E3D3" to="D3E3" via="B2B1"/>
-    <trip id="truck50" type="truck_truck" depart="1500.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="C1D1"/>
-    <trip id="truck51" type="truck_truck" depart="1530.00" departLane="best" departSpeed="max" from="A3B3" to="B2A2" via="D2C2"/>
-    <trip id="truck52" type="truck_truck" depart="1560.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B3B2"/>
-    <trip id="truck53" type="truck_truck" depart="1590.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="C1D1"/>
-    <trip id="truck54" type="truck_truck" depart="1620.00" departLane="best" departSpeed="max" from="E3D3" to="D1D0" via="B3B2"/>
-    <trip id="truck55" type="truck_truck" depart="1650.00" departLane="best" departSpeed="max" from="D4D3" to="D3E3" via="B1C1"/>
-    <trip id="truck56" type="truck_truck" depart="1680.00" departLane="best" departSpeed="max" from="D4D3" to="D3D4" via="C1C2"/>
-    <trip id="truck57" type="truck_truck" depart="1710.00" departLane="best" departSpeed="max" from="A2B2" to="B2A2" via="D2D1"/>
-    <trip id="truck58" type="truck_truck" depart="1740.00" departLane="best" departSpeed="max" from="D0D1" to="D1D0" via="C3D3"/>
-    <trip id="truck59" type="truck_truck" depart="1770.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B3B2"/>
+    <trip id="truck1" type="truck_truck" depart="31.00" departLane="best" departSpeed="max" from="B0B1" to="B1B0" via="B3C3"/>
+    <trip id="truck2" type="truck_truck" depart="62.00" departLane="best" departSpeed="max" from="C0C1" to="D3E3" via="B3B2"/>
+    <trip id="truck3" type="truck_truck" depart="93.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B1B2"/>
+    <trip id="truck4" type="truck_truck" depart="124.00" departLane="best" departSpeed="max" from="A3B3" to="B1B0" via="D3D2"/>
+    <trip id="truck5" type="truck_truck" depart="155.00" departLane="best" departSpeed="max" from="B0B1" to="D1D0" via="C3B3"/>
+    <trip id="truck6" type="truck_truck" depart="186.00" departLane="best" departSpeed="max" from="E2D2" to="D1E1" via="B2C2"/>
+    <trip id="truck7" type="truck_truck" depart="217.00" departLane="best" departSpeed="max" from="A1B1" to="B3B4" via="D1C1"/>
+    <trip id="truck8" type="truck_truck" depart="248.00" departLane="best" departSpeed="max" from="E3D3" to="D3E3" via="B2C2"/>
+    <trip id="truck9" type="truck_truck" depart="279.00" departLane="best" departSpeed="max" from="C0C1" to="D1D0" via="D3C3"/>
+    <trip id="truck10" type="truck_truck" depart="310.00" departLane="best" departSpeed="max" from="B4B3" to="B3B4" via="B1B2"/>
+    <trip id="truck11" type="truck_truck" depart="341.00" departLane="best" departSpeed="max" from="E3D3" to="D2E2" via="B3C3"/>
+    <trip id="truck12" type="truck_truck" depart="372.00" departLane="best" departSpeed="max" from="B4B3" to="D2E2" via="B1B2"/>
+    <trip id="truck13" type="truck_truck" depart="403.00" departLane="best" departSpeed="max" from="B0B1" to="D2E2" via="B3B2"/>
+    <trip id="truck14" type="truck_truck" depart="434.00" departLane="best" departSpeed="max" from="A2B2" to="C3C4" via="D1D2"/>
+    <trip id="truck15" type="truck_truck" depart="465.00" departLane="best" departSpeed="max" from="B0B1" to="D1D0" via="B3B2"/>
+    <trip id="truck16" type="truck_truck" depart="496.00" departLane="best" departSpeed="max" from="D0D1" to="C1C0" via="D3C3"/>
+    <trip id="truck17" type="truck_truck" depart="527.00" departLane="best" departSpeed="max" from="D4D3" to="D3D4" via="C1D1"/>
+    <trip id="truck18" type="truck_truck" depart="558.00" departLane="best" departSpeed="max" from="D4D3" to="D1E1" via="B1C1"/>
+    <trip id="truck19" type="truck_truck" depart="589.00" departLane="best" departSpeed="max" from="A1B1" to="B3A3" via="D2C2"/>
+    <trip id="truck20" type="truck_truck" depart="620.00" departLane="best" departSpeed="max" from="C0C1" to="D2E2" via="B3C3"/>
+    <trip id="truck21" type="truck_truck" depart="651.00" departLane="best" departSpeed="max" from="D4D3" to="B3B4" via="D1C1"/>
+    <trip id="truck22" type="truck_truck" depart="682.00" departLane="best" departSpeed="max" from="B4B3" to="B1A1" via="D1D2"/>
+    <trip id="truck23" type="truck_truck" depart="713.00" departLane="best" departSpeed="max" from="E2D2" to="B1B0" via="B3B2"/>
+    <trip id="truck24" type="truck_truck" depart="744.00" departLane="best" departSpeed="max" from="C0C1" to="B1A1" via="D3C3"/>
+    <trip id="truck25" type="truck_truck" depart="775.00" departLane="best" departSpeed="max" from="A1B1" to="B2A2" via="D2D1"/>
+    <trip id="truck26" type="truck_truck" depart="806.00" departLane="best" departSpeed="max" from="A3B3" to="B1B0" via="D3C3"/>
+    <trip id="truck27" type="truck_truck" depart="837.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="D1D2"/>
+    <trip id="truck28" type="truck_truck" depart="868.00" departLane="best" departSpeed="max" from="D0D1" to="D1D0" via="B3C3"/>
+    <trip id="truck29" type="truck_truck" depart="899.00" departLane="best" departSpeed="max" from="B4B3" to="D1E1" via="B1B2"/>
+    <trip id="truck30" type="truck_truck" depart="930.00" departLane="best" departSpeed="max" from="A2B2" to="B1A1" via="D2D1"/>
+    <trip id="truck31" type="truck_truck" depart="961.00" departLane="best" departSpeed="max" from="D4D3" to="B3B4" via="D1C1"/>
+    <trip id="truck32" type="truck_truck" depart="992.00" departLane="best" departSpeed="max" from="C4C3" to="B1A1" via="D1D2"/>
+    <trip id="truck33" type="truck_truck" depart="1023.00" departLane="best" departSpeed="max" from="A2B2" to="B3B4" via="D1D2"/>
+    <trip id="truck34" type="truck_truck" depart="1054.00" departLane="best" departSpeed="max" from="A3B3" to="B1A1" via="D1D2"/>
+    <trip id="truck35" type="truck_truck" depart="1085.00" departLane="best" departSpeed="max" from="A2B2" to="D1D0" via="D3D2"/>
+    <trip id="truck36" type="truck_truck" depart="1116.00" departLane="best" departSpeed="max" from="B0B1" to="C1C0" via="D3D2"/>
+    <trip id="truck37" type="truck_truck" depart="1147.00" departLane="best" departSpeed="max" from="A3B3" to="B2A2" via="D3C3"/>
+    <trip id="truck38" type="truck_truck" depart="1178.00" departLane="best" departSpeed="max" from="D0D1" to="D3E3" via="B3C3"/>
+    <trip id="truck39" type="truck_truck" depart="1209.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="C1D1"/>
+    <trip id="truck40" type="truck_truck" depart="1240.00" departLane="best" departSpeed="max" from="D4D3" to="C3C4" via="B1B2"/>
+    <trip id="truck41" type="truck_truck" depart="1271.00" departLane="best" departSpeed="max" from="E3D3" to="D3E3" via="B3C3"/>
+    <trip id="truck42" type="truck_truck" depart="1302.00" departLane="best" departSpeed="max" from="D0D1" to="B1B0" via="C3D3"/>
+    <trip id="truck43" type="truck_truck" depart="1333.00" departLane="best" departSpeed="max" from="C4C3" to="C3C4" via="C1D1"/>
+    <trip id="truck44" type="truck_truck" depart="1364.00" departLane="best" departSpeed="max" from="B0B1" to="D1E1" via="B3B2"/>
+    <trip id="truck45" type="truck_truck" depart="1395.00" departLane="best" departSpeed="max" from="D4D3" to="C3C4" via="D1C1"/>
+    <trip id="truck46" type="truck_truck" depart="1426.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B2B1"/>
+    <trip id="truck47" type="truck_truck" depart="1457.00" departLane="best" departSpeed="max" from="B0B1" to="D1D0" via="B3C3"/>
+    <trip id="truck48" type="truck_truck" depart="1488.00" departLane="best" departSpeed="max" from="E3D3" to="D3D4" via="B1B2"/>
+    <trip id="truck49" type="truck_truck" depart="1519.00" departLane="best" departSpeed="max" from="E3D3" to="D3E3" via="B2B1"/>
+    <trip id="truck50" type="truck_truck" depart="1550.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="C1D1"/>
+    <trip id="truck51" type="truck_truck" depart="1581.00" departLane="best" departSpeed="max" from="A3B3" to="B2A2" via="D2C2"/>
+    <trip id="truck52" type="truck_truck" depart="1612.00" departLane="best" departSpeed="max" from="E1D1" to="D1E1" via="B3B2"/>
+    <trip id="truck53" type="truck_truck" depart="1643.00" departLane="best" departSpeed="max" from="B4B3" to="C3C4" via="C1D1"/>
+    <trip id="truck54" type="truck_truck" depart="1674.00" departLane="best" departSpeed="max" from="E3D3" to="D1D0" via="B3B2"/>
+    <trip id="truck55" type="truck_truck" depart="1705.00" departLane="best" departSpeed="max" from="D4D3" to="D3E3" via="B1C1"/>
+    <trip id="truck56" type="truck_truck" depart="1736.00" departLane="best" departSpeed="max" from="D4D3" to="D3D4" via="C1C2"/>
+    <trip id="truck57" type="truck_truck" depart="1767.00" departLane="best" departSpeed="max" from="A2B2" to="B2A2" via="D2D1"/>
+    <trip id="truck58" type="truck_truck" depart="1798.00" departLane="best" departSpeed="max" from="D0D1" to="D1D0" via="C3D3"/>
 </routes>
