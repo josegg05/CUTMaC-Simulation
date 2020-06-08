@@ -6,25 +6,25 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="osm.net.xml"/>
-        <route-files value="osm.passenger.rou.xml,osm.truck.rou.xml,osm.bus.rou.xml,osm.motorcycle.rou.xml,osm.bicycle.rou.xml"/>
-        <additional-files value="osm.poly.xml,e2.add.xml"/>
+        <net-file value="optimal.net.xml"/>
+        <route-files value="optimal.passenger.rou.xml,optimal.truck.rou.xml,optimal.bus.rou.xml,optimal.motorcycle.rou.xml,optimal.bicycle.rou.xml"/>
+        <additional-files value="e2.add.xml,tls_webster.add.xml"/>
     </input>
 
     <processing>
         <ignore-route-errors value="true"/>
-	<step-method.ballistic value="true"/>
+		<step-method.ballistic value="true"/>
     </processing>
 
     <report>
         <verbose value="true"/>
         <duration-log.statistics value="true"/>
         <no-step-log value="true"/>
-	<log value="result.xml"/>
+        <log value="result.xml"/>
     </report>
 
     <gui_only>
-        <gui-settings-file value="osm.view.xml"/>
+        <gui-settings-file value="optimal.view.xml"/>
     </gui_only>
 
 </configuration>
