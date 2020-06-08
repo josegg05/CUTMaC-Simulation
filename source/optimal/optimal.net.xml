@@ -4,11 +4,11 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <sumo-net-file value="optimal3.net.xml"/>
+        <sumo-net-file value="optimal.net.xml"/>
     </input>
 
     <output>
-        <output-file value="optimal3.net.xml"/>
+        <output-file value="optimal.net.xml"/>
     </output>
 
     <processing>

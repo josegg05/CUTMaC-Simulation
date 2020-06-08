@@ -3461,14 +3461,6 @@
         <phase duration="3"  state="rryyyyyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrr"/>
     </tlLogic>
-    <tlLogic id="intersection/0002/tls" type="static" programID="1" offset="0">
-        <phase duration="37" state="gGrrrrrGgrGrG"/>
-        <phase duration="5"  state="gGrrrrrGgrrrr"/>
-        <phase duration="3"  state="yyrrrrryyrrrr"/>
-        <phase duration="37" state="rrgGGGgrrGrGr"/>
-        <phase duration="5"  state="rrgGGGgrrrrrr"/>
-        <phase duration="3"  state="rryyyyyrrrrrr"/>
-    </tlLogic>
     <tlLogic id="intersection/0003/tls" type="static" programID="0" offset="0">
         <phase duration="20" state="GGrrrrrrrrrr"/>
         <phase duration="3"  state="Gyrrrrrrrrrr"/>
