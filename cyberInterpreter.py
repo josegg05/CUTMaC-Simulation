@@ -95,17 +95,13 @@ def on_connect(client, userdata, flags, rc):
 
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
-    client.subscribe("intersection/0002/tls")
-    client.subscribe("intersection/0003/tls")
-    client.subscribe("intersection/0004/tls")
-    client.subscribe("intersection/0005/tls")
-    client.subscribe("intersection/0006/tls")
-    client.subscribe("intersection/0007/tls")
-    client.subscribe("intersection/0008/tls")
-    client.subscribe("intersection/0009/tls")
-    client.subscribe("intersection/0010/tls")
-    client.subscribe("intersection/0011/tls")
-    client.subscribe("intersection/0012/tls")
+    print("Hello")
+    with open("source/mqtt_tls_ids.txt", "r") as f:
+        for line in f:
+            if line == "\n":
+                break
+            print(line)
+            client.subscribe(line.replace("\n", ""))
 
 
 # The callback for when a PUBLISH message is received from the server.
