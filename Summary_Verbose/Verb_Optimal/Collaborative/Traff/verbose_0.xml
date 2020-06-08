@@ -1,0 +1,32 @@
+***Starting server on port 52359 ***
+Loading net-file from 'source/optimal/optimal.net.xml' ... done (39ms).
+Loading additional-files from 'source/optimal/e2.add.xml' ... done (31ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Teleporting vehicle 'veh248'; waited too long (yield), lane='A1B1_1', time=1548.00.
+Warning: Vehicle 'veh248' ends teleporting on edge 'B1B2', time 1548.00.
+Warning: Teleporting vehicle 'bus66'; waited too long (yield), lane='E2D2_1', time=1958.00.
+Warning: Vehicle 'bus66' ends teleporting on edge 'D2D1', time 1958.00.
+Warning: Teleporting vehicle 'veh324'; waited too long (jam), lane='B2C2_1', time=2088.00.
+Warning: Vehicle 'veh324' ends teleporting on edge 'C2C3', time 2162.00.
+Warning: Teleporting vehicle 'truck50'; waited too long (jam), lane='D2C2_0', time=2216.00.
+Warning: Vehicle 'truck50' ends teleporting on edge 'C2C3', time 2270.00.
+Simulation ended at time: 2699.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 2699119ms
+ Real time factor: 0.999956
+ UPS: 84.082251
+Vehicles: 
+ Inserted: 804
+ Running: 0
+ Waiting: 0
+Teleports: 4 (Jam: 2, Yield: 2)
+Statistics (avg):
+ RouteLength: 491.36
+ Speed: 2.20
+ Duration: 282.27
+ WaitingTime: 199.97
+ TimeLoss: 234.70
+ DepartDelay: 0.68
+

@@ -1,0 +1,35 @@
+***Starting server on port 41295 ***
+Loading net-file from 'source/osm/osm.net.xml' ... done (56ms).
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '0' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '0' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '0' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '0' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '0' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '0' for tl-index 7
+Loading additional-files from 'source/osm/osm.poly.xml' ... done (19ms).
+Loading additional-files from 'source/osm/e2.add.xml' ... done (23ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 1975.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 1975176ms
+ Real time factor: 0.999911
+ UPS: 60.326776
+Vehicles: 
+ Inserted: 947
+ Running: 0
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 554.27
+ Speed: 4.96
+ Duration: 125.82
+ WaitingTime: 45.93
+ TimeLoss: 73.57
+ DepartDelay: 0.42
+

@@ -1,0 +1,40 @@
+***Starting server on port 40085 ***
+Loading net-file from 'source/osm/osm.net.xml' ... done (33ms).
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '0' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '0' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '0' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '0' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '0' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '0' for tl-index 7
+Loading additional-files from 'source/osm/osm.poly.xml' ... done (11ms).
+Loading additional-files from 'source/osm/e2.add.xml' ... done (9ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Teleporting vehicle 'moto198'; waited too long (jam), lane='436291013_2', time=1986.00.
+Warning: Vehicle 'moto198' ends teleporting on edge '436291011', time 1986.00.
+Warning: Teleporting vehicle 'bus94'; waited too long (wrong lane), lane='436291016#0_2', time=2163.00.
+Warning: Vehicle 'bus94' ends teleporting on edge '5962129#0', time 2163.00.
+Simulation ended at time: 2454.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 2454094ms
+ Real time factor: 0.999962
+ UPS: 116.724135
+Vehicles: 
+ Inserted: 1292
+ Running: 0
+ Waiting: 0
+Teleports: 2 (Jam: 1, Wrong Lane: 1)
+Statistics (avg):
+ RouteLength: 546.91
+ Speed: 3.60
+ Duration: 221.71
+ WaitingTime: 123.64
+ TimeLoss: 168.82
+ DepartDelay: 12.72
+
