@@ -1,0 +1,67 @@
+Loading net-file from '.\osm.net.xml' ... done (49ms).
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '0' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '0' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '0' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '0' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '0' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '0' for tl-index 7
+Loading additional-files from '.\osm.poly.xml' ... done (15ms).
+Loading additional-files from '.\e2.add.xml' ... done (34ms).
+Loading additional-files from '.\tls_timed.add.xml' ... 
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '1' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '1' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '1' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '1' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '1' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '1' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '1' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '1' for tl-index 7
+done (67ms).
+Loading additional-files from '.\tlsOffsets.add.xml' ... done (3ms).
+Loading done.
+Simulation version 1.6.0 started with time: 0.00
+Warning: Teleporting vehicle 'truck34'; waited too long (jam), lane='-5955850#2_1', time=949.00.
+Warning: Vehicle 'truck34' ends teleporting on edge '5962129#0', time 993.00.
+Warning: Teleporting vehicle 'veh155'; waited too long (yield), lane='419814433#1_1', time=1058.00.
+Warning: Teleporting vehicle 'veh235'; waited too long (jam), lane='419814433#0_1', time=1065.00.
+Warning: Vehicle 'veh235' ends teleporting on edge '419814433#2', time 1118.00.
+Warning: Vehicle 'veh155' ends teleporting on edge '593766961', time 1160.00.
+Warning: Teleporting vehicle 'moto50'; waited too long (yield), lane='419814433#1_1', time=1378.00.
+Warning: Teleporting vehicle 'veh326'; waited too long (jam), lane='419814433#0_1', time=1389.00.
+Warning: Teleporting vehicle 'bus48'; waited too long (jam), lane='-5955850#2_1', time=1427.00.
+Warning: Teleporting vehicle 'veh238'; waited too long (jam), lane='-5955850#1_1', time=1429.00.
+Warning: Vehicle 'moto50' ends teleporting on edge '5962129#4', time 1448.00.
+Warning: Vehicle 'veh238' ends teleporting on edge '5962129#0', time 1504.00.
+Warning: Vehicle 'veh326' ends teleporting on edge '5962129#4', time 1533.00.
+Warning: Vehicle 'bus48' ends teleporting on edge '5962129#4', time 1597.00.
+Warning: Teleporting vehicle 'veh249'; waited too long (jam), lane='-5955850#2_1', time=1851.00.
+Warning: Teleporting vehicle 'truck37'; waited too long (jam), lane='-5955850#1_1', time=1853.00.
+Warning: Vehicle 'veh249' ends teleporting on edge '-5955850#1', time 1853.00.
+Warning: Vehicle 'truck37' ends teleporting on edge '593766960', time 2123.00.
+Simulation ended at time: 3279.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 9381ms
+ Real time factor: 349.536
+ UPS: 36696.194436
+Vehicles: 
+ Inserted: 1145
+ Running: 0
+ Waiting: 0
+Teleports: 9 (Jam: 7, Yield: 2)
+Statistics (avg):
+ RouteLength: 547.47
+ Speed: 3.37
+ Duration: 300.65
+ WaitingTime: 200.39
+ TimeLoss: 246.47
+ DepartDelay: 68.70
+

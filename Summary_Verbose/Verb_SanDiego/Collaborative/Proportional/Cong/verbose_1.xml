@@ -1,0 +1,44 @@
+***Starting server on port 36949 ***
+Loading net-file from 'source/osm/osm.net.xml' ... done (36ms).
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '0' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '0' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '0' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '0' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '0' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '0' for tl-index 7
+Loading additional-files from 'source/osm/osm.poly.xml' ... done (10ms).
+Loading additional-files from 'source/osm/e2.add.xml' ... done (15ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Teleporting vehicle 'veh416'; waited too long (jam), lane='419814433#0_1', time=1584.00.
+Warning: Vehicle 'veh416' ends teleporting on edge '5962129#2', time 1684.00.
+Warning: Teleporting vehicle 'bus94'; waited too long (yield), lane='436291010_2', time=1712.00.
+Warning: Teleporting vehicle 'veh397'; waited too long (yield), lane='436291010_1', time=1715.00.
+Warning: Vehicle 'veh397' ends teleporting on edge '5962129#0', time 1835.00.
+Warning: Vehicle 'bus94' ends teleporting on edge '5962129#2', time 1962.00.
+Warning: Teleporting vehicle 'bus114'; waited too long (wrong lane), lane='436291016#0_2', time=2330.00.
+Warning: Vehicle 'bus114' ends teleporting on edge '5962129#0', time 2330.00.
+Simulation ended at time: 2576.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 2576132ms
+ Real time factor: 0.999949
+ UPS: 119.221763
+Vehicles: 
+ Inserted: 1292
+ Running: 0
+ Waiting: 0
+Teleports: 4 (Jam: 1, Yield: 2, Wrong Lane: 1)
+Statistics (avg):
+ RouteLength: 546.85
+ Speed: 3.60
+ Duration: 237.72
+ WaitingTime: 138.75
+ TimeLoss: 184.47
+ DepartDelay: 22.93
+

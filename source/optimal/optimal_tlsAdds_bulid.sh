@@ -1,2 +1,3 @@
-python "$SUMO_HOME/tools/tlsCycleAdaptation.py" -n optimal.net.xml -r optimal.passenger.rou.xml optimal.truck.rou.xml optimal.bus.rou.xml optimal.motorcycle.rou.xml optimal.bicycle.rou.xml --o tls_webster.add.xml
-python "$SUMO_HOME/tools/tlsCoordinator.py" -n optimal.net.xml -r optimal.passenger.rou.xml optimal.truck.rou.xml optimal.bus.rou.xml optimal.motorcycle.rou.xml optimal.bicycle.rou.xml --o tlsOffsets.add.xml
+python "$SUMO_HOME/tools/tlsCycleAdaptation.py" -n optimal.net.xml -r optimal.passenger.rou.xml,optimal.truck.rou.xml,optimal.bus.rou.xml,optimal.motorcycle.rou.xml,optimal.bicycle.rou.xml --o tls_webster.add.xml
+#python "$SUMO_HOME/tools/tlsCoordinator.py" -n optimal.net.xml -i True -a tls_timed.add.xml -r optimal.all.rou.xml --o tlsOffsets.add.xml
+python "$SUMO_HOME/tools/tlsCoordinator.py" -n optimal.net.xml -i True -a tls_timed.add.xml -r optimal.passenger.rou.xml --o tlsOffsets.add.xml

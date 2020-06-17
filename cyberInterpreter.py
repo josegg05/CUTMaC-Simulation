@@ -95,13 +95,23 @@ def on_connect(client, userdata, flags, rc):
 
     # Subscribing in on_connect() means that if we lose the connection and
     # reconnect then subscriptions will be renewed.
-    print("Hello")
     with open("source/mqtt_tls_ids.txt", "r") as f:
         for line in f:
-            if line == "\n":
-                break
-            print(line)
-            client.subscribe(line.replace("\n", ""))
+            line_fine = line.rstrip()
+            #print(line_fine)
+            client.subscribe(line_fine)
+
+    # client.subscribe("intersection/0002/tls")
+    # client.subscribe("intersection/0003/tls")
+    # client.subscribe("intersection/0004/tls")
+    # client.subscribe("intersection/0005/tls")
+    # client.subscribe("intersection/0006/tls")
+    # client.subscribe("intersection/0007/tls")
+    # client.subscribe("intersection/0008/tls")
+    # client.subscribe("intersection/0009/tls")
+    # client.subscribe("intersection/0010/tls")
+    # client.subscribe("intersection/0011/tls")
+    # client.subscribe("intersection/0012/tls")
 
 
 # The callback for when a PUBLISH message is received from the server.
@@ -318,6 +328,7 @@ def run():
 
 # this is the main entry point of this script
 if __name__ == "__main__":
+    # time.sleep(900)
     # Define the global variables
     run_num = 0
     start_topic = "intersection/all/start"
@@ -340,7 +351,7 @@ if __name__ == "__main__":
         msg_dic = []
         # this is the normal way of using traci. sumo is started as a
         # subprocess and then the python script connects and runs
-        traci.start([sumoBinary, "-c", "source/optimal/optimal.sumocfg",
+        traci.start([sumoBinary, "-c", "source/osm/osm.sumocfg",
                      #"--tripinfo-output", "log_files/tripinfo_%d.xml" % run_num,
                      "--summary", "log_files/summary_%d.xml" % run_num,
                      "--emission-output", "log_files/emission_%d.xml" % run_num,

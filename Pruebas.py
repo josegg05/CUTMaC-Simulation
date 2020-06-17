@@ -97,4 +97,8 @@ while True:
         count += 1
     print(count)
 
-
+with open("source/mqtt_tls_ids.txt", "r") as f:
+    for line in f:
+        line_fine = line.rstrip()
+        #print(line_fine)
+        print(line.encode())

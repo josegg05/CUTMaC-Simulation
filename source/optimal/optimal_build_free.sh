@@ -4,3 +4,7 @@ python "$SUMO_HOME/tools/randomTrips.py" -n optimal.net.xml --seed 42 --fringe-f
 python "$SUMO_HOME/tools/randomTrips.py" -n optimal.net.xml --seed 42 --fringe-factor 5 -p 6 -o optimal.passenger.trips.xml -e 1800 -r optimal.passenger.rou.xml --vehicle-class passenger --vclass passenger --prefix veh --min-distance 300 --trip-attributes 'departLane="best"' --fringe-start-attributes 'departSpeed="max"' --lanes --validate
 python "$SUMO_HOME/tools/randomTrips.py" -n optimal.net.xml --seed 42 --fringe-factor 5 -p 26 -o optimal.bus.trips.xml -e 1800 -r optimal.bus.rou.xml --vehicle-class bus --vclass bus --prefix bus --min-distance 600 --fringe-start-attributes 'departSpeed="max"' --trip-attributes 'departLane="best"' --validate
 python "$SUMO_HOME/tools/randomTrips.py" -n optimal.net.xml --seed 42 --fringe-factor 5 -p 32 -o optimal.truck.trips.xml -e 1800 -r optimal.truck.rou.xml --vehicle-class truck --vclass truck --prefix truck --min-distance 600 --fringe-start-attributes 'departSpeed="max"' --trip-attributes 'departLane="best"' --validate
+
+python "construct_all_routes.py"
+python "$SUMO_HOME/tools/tlsCycleAdaptation.py" -n optimal.net.xml -r optimal.passenger.rou.xml,optimal.truck.rou.xml,optimal.bus.rou.xml,optimal.motorcycle.rou.xml,optimal.bicycle.rou.xml --o tls_webster.add.xml
+python "$SUMO_HOME/tools/tlsCoordinator.py" -n optimal.net.xml -i True -a tls_timed.add.xml -r optimal.passenger.rou.xml --o tlsOffsets.add.xml

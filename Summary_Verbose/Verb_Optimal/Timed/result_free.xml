@@ -1,0 +1,82 @@
+Loading net-file from '.\optimal.net.xml' ... done (18ms).
+Loading additional-files from '.\e2.add.xml' ... done (27ms).
+Loading additional-files from '.\tls_timed.add.xml' ... done (15ms).
+Loading done.
+Simulation version 1.6.0 started with time: 0.00
+Warning: Teleporting vehicle 'truck41'; waited too long (yield), lane='E3D3_1', time=1744.00.
+Warning: Teleporting vehicle 'truck35'; waited too long (yield), lane='C3D3_0', time=1768.00.
+Warning: Teleporting vehicle 'veh227'; waited too long (yield), lane='B3C3_0', time=1777.00.
+Warning: Vehicle 'veh227' ends teleporting on edge 'C3D3', time 1777.00.
+Warning: Teleporting vehicle 'moto80'; waited too long (yield), lane='B2B3_0', time=1812.00.
+Warning: Teleporting vehicle 'bus45'; waited too long (yield), lane='D3D2_0', time=1815.00.
+Warning: Vehicle 'truck35' ends teleporting on edge 'D3D2', time 1815.00.
+Warning: Vehicle 'truck41' ends teleporting on edge 'D2C2', time 1825.00.
+Warning: Teleporting vehicle 'bus55'; waited too long (yield), lane='D4D3_0', time=1884.00.
+Warning: Teleporting vehicle 'truck31'; waited too long (yield), lane='B1B2_0', time=1888.00.
+Warning: Vehicle 'moto80' ends teleporting on edge 'C3D3', time 1893.00.
+Warning: Teleporting vehicle 'truck42'; waited too long (yield), lane='C2C3_0', time=1896.00.
+Warning: Teleporting vehicle 'veh257'; waited too long (yield), lane='C2B2_0', time=1933.00.
+Warning: Vehicle 'bus45' ends teleporting on edge 'D1C1', time 1956.00.
+Warning: Vehicle 'bus55' ends teleporting on edge 'D2C2', time 1965.00.
+Warning: Vehicle 'truck31' ends teleporting on edge 'B3B4', time 1969.00.
+Warning: Teleporting vehicle 'bus54'; waited too long (yield), lane='C2D2_0', time=2007.00.
+Warning: Vehicle 'veh257' ends teleporting on edge 'B3B4', time 2014.00.
+Warning: Teleporting vehicle 'bus66'; waited too long (yield), lane='E2D2_1', time=2024.00.
+Warning: Vehicle 'bus54' ends teleporting on edge 'D2D1', time 2027.00.
+Warning: Vehicle 'bus66' ends teleporting on edge 'D2D1', time 2031.00.
+Warning: Vehicle 'truck42' ends teleporting on edge 'D2D1', time 2038.00.
+Warning: Teleporting vehicle 'bus28'; waited too long (yield), lane='C3D3_0', time=2074.00.
+Warning: Teleporting vehicle 'bus68'; waited too long (yield), lane='D0D1_1', time=2076.00.
+Warning: Teleporting vehicle 'bus47'; waited too long (yield), lane='B3C3_0', time=2085.00.
+Warning: Vehicle 'bus47' ends teleporting on edge 'C3D3', time 2087.00.
+Warning: Teleporting vehicle 'bus64'; waited too long (yield), lane='A3B3_0', time=2092.00.
+Warning: Vehicle 'bus64' ends teleporting on edge 'B3C3', time 2100.00.
+Warning: Teleporting vehicle 'veh293'; waited too long (yield), lane='B4B3_1', time=2106.00.
+Warning: Teleporting vehicle 'bus41'; waited too long (yield), lane='B2B3_0', time=2117.00.
+Warning: Vehicle 'veh293' ends teleporting on edge 'B3C3', time 2124.00.
+Warning: Vehicle 'bus68' ends teleporting on edge 'C1B1', time 2157.00.
+Warning: Teleporting vehicle 'moto81'; waited too long (yield), lane='C2C3_0', time=2210.00.
+Warning: Vehicle 'bus28' ends teleporting on edge 'D1D0', time 2235.00.
+Warning: Vehicle 'bus41' ends teleporting on edge 'D3E3', time 2246.00.
+Warning: Teleporting vehicle 'bus65'; waited too long (yield), lane='D1C1_0', time=2256.00.
+Warning: Vehicle 'moto81' ends teleporting on edge 'D3D2', time 2291.00.
+Warning: Teleporting vehicle 'truck53'; waited too long (yield), lane='D2C2_0', time=2328.00.
+Warning: Vehicle 'bus65' ends teleporting on edge 'C2C3', time 2337.00.
+Warning: Teleporting vehicle 'veh296'; waited too long (yield), lane='C2D2_0', time=2338.00.
+Warning: Vehicle 'veh296' ends teleporting on edge 'D2D1', time 2338.00.
+Warning: Teleporting vehicle 'veh217'; waited too long (yield), lane='C3D3_0', time=2405.00.
+Warning: Vehicle 'veh217' ends teleporting on edge 'D3D2', time 2405.00.
+Warning: Vehicle 'truck53' ends teleporting on edge 'C3C4', time 2409.00.
+Warning: Teleporting vehicle 'veh289'; waited too long (yield), lane='A3B3_0', time=2415.00.
+Warning: Teleporting vehicle 'bus38'; waited too long (yield), lane='B3C3_0', time=2418.00.
+Warning: Vehicle 'veh289' ends teleporting on edge 'B3C3', time 2418.00.
+Warning: Teleporting vehicle 'veh243'; waited too long (yield), lane='B2B3_0', time=2452.00.
+Warning: Vehicle 'veh243' ends teleporting on edge 'B3C3', time 2452.00.
+Warning: Teleporting vehicle 'bus60'; waited too long (yield), lane='C2B2_0', time=2486.00.
+Warning: Vehicle 'bus60' ends teleporting on edge 'B2B3', time 2486.00.
+Warning: Vehicle 'bus38' ends teleporting on edge 'D3E3', time 2499.00.
+Warning: Teleporting vehicle 'bus49'; waited too long (yield), lane='C2C3_0', time=2514.00.
+Warning: Teleporting vehicle 'veh284'; waited too long (yield), lane='C1C2_0', time=2527.00.
+Warning: Vehicle 'veh284' ends teleporting on edge 'C2C3', time 2527.00.
+Warning: Teleporting vehicle 'bus45'; waited too long (yield), lane='D1C1_0', time=2572.00.
+Warning: Vehicle 'bus45' ends teleporting on edge 'C1C2', time 2573.00.
+Warning: Vehicle 'bus49' ends teleporting on edge 'D3E3', time 2595.00.
+Simulation ended at time: 3396.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 10042ms
+ Real time factor: 338.18
+ UPS: 29587.333201
+Vehicles: 
+ Inserted: 707
+ Running: 0
+ Waiting: 0
+Teleports: 29 (Yield: 29)
+Statistics (avg):
+ RouteLength: 493.88
+ Speed: 2.05
+ Duration: 420.25
+ WaitingTime: 331.60
+ TimeLoss: 370.61
+ DepartDelay: 12.82
+

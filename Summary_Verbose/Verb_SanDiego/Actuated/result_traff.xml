@@ -1,0 +1,47 @@
+Loading net-file from '.\osm.net.xml' ... done (59ms).
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '0' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '0' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '0' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '0' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '0' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '0' for tl-index 7
+Loading additional-files from '.\osm.poly.xml' ... done (18ms).
+Loading additional-files from '.\e2.add.xml' ... done (39ms).
+Loading additional-files from '.\tls_actuated.add.xml' ... 
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '1' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '1' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '1' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '1' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '1' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '1' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '1' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '1' for tl-index 7
+done (51ms).
+Loading done.
+Simulation version 1.6.0 started with time: 0.00
+Simulation ended at time: 2505.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 4178ms
+ Real time factor: 599.569
+ UPS: 49017.711824
+Vehicles: 
+ Inserted: 1145
+ Running: 0
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 547.79
+ Speed: 4.21
+ Duration: 178.86
+ WaitingTime: 86.32
+ TimeLoss: 125.34
+ DepartDelay: 12.80
+

@@ -1,0 +1,34 @@
+Loading net-file from '.\optimal.net.xml' ... done (21ms).
+Loading additional-files from '.\e2.add.xml' ... done (49ms).
+Loading additional-files from '.\tls_webster.add.xml' ... done (6ms).
+Loading done.
+Simulation version 1.6.0 started with time: 0.00
+Warning: Teleporting vehicle 'veh244'; waited too long (yield), lane='D3D2_0', time=1601.00.
+Warning: Vehicle 'veh244' ends teleporting on edge 'D2D1', time 1602.00.
+Warning: Teleporting vehicle 'veh259'; waited too long (yield), lane='E3D3_1', time=1666.00.
+Warning: Vehicle 'veh259' ends teleporting on edge 'D3D2', time 1680.00.
+Warning: Teleporting vehicle 'veh264'; waited too long (yield), lane='D4D3_0', time=1698.00.
+Warning: Vehicle 'veh264' ends teleporting on edge 'D3D2', time 1729.00.
+Warning: Teleporting vehicle 'veh277'; waited too long (yield), lane='B2B3_0', time=2011.00.
+Warning: Vehicle 'veh277' ends teleporting on edge 'B3C3', time 2024.00.
+Warning: Teleporting vehicle 'veh348'; waited too long (yield), lane='A1B1_1', time=2105.00.
+Warning: Vehicle 'veh348' ends teleporting on edge 'B1B2', time 2105.00.
+Simulation ended at time: 2722.00
+Reason: All vehicles have left the simulation.
+Performance: 
+ Duration: 6189ms
+ Real time factor: 439.813
+ UPS: 46712.716109
+Vehicles: 
+ Inserted: 778
+ Running: 0
+ Waiting: 0
+Teleports: 5 (Yield: 5)
+Statistics (avg):
+ RouteLength: 491.30
+ Speed: 2.13
+ Duration: 371.60
+ WaitingTime: 270.95
+ TimeLoss: 324.54
+ DepartDelay: 7.50
+

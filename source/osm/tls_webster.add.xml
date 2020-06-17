@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <additional>
     <tlLogic id="intersection/0002/tls" type="static" programID="a" offset="0">
-        <phase duration="5" state="rrrrrrrGGrrrr"/>
+        <phase duration="7" state="rrrrrrrGGrrrr"/>
         <phase duration="3" state="rrrrrrryyrrrr"/>
         <phase duration="2" state="rrrrrrrrrrrrr"/>
-        <phase duration="5" state="GGrrrrrGrrrrr"/>
+        <phase duration="6" state="GGrrrrrGrrrrr"/>
         <phase duration="3" state="yyrrrrryrrrrr"/>
         <phase duration="2" state="rrrrrrrrrrrrr"/>
         <phase duration="4" state="rrGGGGGrrrrrr"/>
@@ -12,10 +12,10 @@
         <phase duration="2" state="rrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0003/tls" type="static" programID="a" offset="0">
-        <phase duration="4" state="GGrrrrrrrrrr"/>
+        <phase duration="6" state="GGrrrrrrrrrr"/>
         <phase duration="3" state="Gyrrrrrrrrrr"/>
         <phase duration="4" state="Grrrrrrrrrrr"/>
-        <phase duration="10" state="GrGGrrrrrrrr"/>
+        <phase duration="14" state="GrGGrrrrrrrr"/>
         <phase duration="3" state="yryyrrrrrrrr"/>
         <phase duration="2" state="rrrrrrrrrrrr"/>
         <phase duration="4" state="rrrrGGGGrrrr"/>
@@ -23,29 +23,29 @@
         <phase duration="2" state="rrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0004/tls" type="static" programID="a" offset="0">
-        <phase duration="7" state="GGGGrrrrr"/>
+        <phase duration="8" state="GGGGrrrrr"/>
         <phase duration="3" state="yyyyrrrrr"/>
         <phase duration="2" state="rrrrrrrrr"/>
-        <phase duration="5" state="rrrrGGGrr"/>
+        <phase duration="4" state="rrrrGGGrr"/>
         <phase duration="3" state="rrrryyyrr"/>
         <phase duration="2" state="rrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0005/tls" type="static" programID="a" offset="0">
-        <phase duration="7" state="GGGGGrrrrrrr"/>
+        <phase duration="8" state="GGGGGrrrrrrr"/>
         <phase duration="3" state="yyyyyrrrrrrr"/>
         <phase duration="2" state="rrrrrrrrrrrr"/>
-        <phase duration="5" state="rrrrrGGGGGrr"/>
+        <phase duration="4" state="rrrrrGGGGGrr"/>
         <phase duration="3" state="rrrrryyyyyrr"/>
         <phase duration="2" state="rrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0006/tls" type="static" programID="a" offset="0">
-        <phase duration="5" state="rrGGGGrrrrrr"/>
+        <phase duration="9" state="rrGGGGrrrrrr"/>
         <phase duration="3" state="rryyyyrrrrrr"/>
         <phase duration="2" state="rrrrrrrrrrrr"/>
         <phase duration="4" state="rrrrrrGGrrrr"/>
         <phase duration="3" state="rrrrrrGyrrrr"/>
         <phase duration="4" state="rrrrrrGrrrrr"/>
-        <phase duration="6" state="GGrrrrGrrrrr"/>
+        <phase duration="7" state="GGrrrrGrrrrr"/>
         <phase duration="3" state="yyrrrryrrrrr"/>
         <phase duration="2" state="rrrrrrrrrrrr"/>
     </tlLogic>
@@ -82,7 +82,7 @@
         <phase duration="2" state="rrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0011/tls" type="static" programID="a" offset="0">
-        <phase duration="9" state="rrGGGGrr"/>
+        <phase duration="8" state="rrGGGGrr"/>
         <phase duration="3" state="rryyyyrr"/>
         <phase duration="2" state="rrrrrrrr"/>
         <phase duration="4" state="GGrrrrrr"/>
@@ -90,7 +90,7 @@
         <phase duration="2" state="rrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0012/tls" type="static" programID="a" offset="0">
-        <phase duration="9" state="GGGrrrrrr"/>
+        <phase duration="8" state="GGGrrrrrr"/>
         <phase duration="3" state="yyyrrrrrr"/>
         <phase duration="2" state="rrrrrrrrr"/>
         <phase duration="4" state="rrrGGGGrr"/>

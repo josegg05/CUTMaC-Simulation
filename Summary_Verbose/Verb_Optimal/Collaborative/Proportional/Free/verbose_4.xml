@@ -1,0 +1,23 @@
+***Starting server on port 35775 ***
+Loading net-file from 'source/optimal/optimal.net.xml' ... done (37ms).
+Loading additional-files from 'source/optimal/e2.add.xml' ... done (21ms).
+Loading done.
+Simulation started with time: 0.00
+Simulation ended at time: 2128.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 2128106ms
+ Real time factor: 0.99995
+ UPS: 58.672829
+Vehicles: 
+ Inserted: 707
+ Running: 0
+ Waiting: 0
+Statistics (avg):
+ RouteLength: 494.93
+ Speed: 3.11
+ Duration: 176.61
+ WaitingTime: 97.81
+ TimeLoss: 128.84
+ DepartDelay: 0.14
+

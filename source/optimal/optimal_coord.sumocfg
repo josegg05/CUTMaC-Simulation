@@ -8,7 +8,7 @@
     <input>
         <net-file value="optimal.net.xml"/>
         <route-files value="optimal.passenger.rou.xml,optimal.truck.rou.xml,optimal.bus.rou.xml,optimal.motorcycle.rou.xml,optimal.bicycle.rou.xml"/>
-        <additional-files value="e2.add.xml,tlsOffsets.add.xml"/>
+        <additional-files value="e2.add.xml,tls_timed.add.xml,tlsOffsets.add.xml"/>
     </input>
 
     <processing>

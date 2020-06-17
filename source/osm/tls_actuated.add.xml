@@ -34,99 +34,99 @@
 
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <tlLogic id="intersection/0002/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="rrrrrrrGGrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrrrrrGGrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrrrrrryyrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrr"/>
-        <phase duration="20" state="GGrrrrrGrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGrrrrrGrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyrrrrryrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrr"/>
-        <phase duration="20" state="rrGGGGGrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrGGGGGrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rryyyyyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0003/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="GGrrrrrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGrrrrrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="Gyrrrrrrrrrr"/>
         <phase duration="2"  state="Grrrrrrrrrrr"/>
-        <phase duration="20" state="GrGGrrrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GrGGrrrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yryyrrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGGGrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrrGGGGrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrrryyyyrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0004/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="GGGGrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGGGrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyyyrrrrr"/>
         <phase duration="2"  state="rrrrrrrrr"/>
-        <phase duration="20" state="rrrrGGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrrGGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrrryyyrr"/>
         <phase duration="2"  state="rrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0005/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="GGGGGrrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGGGGrrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyyyyrrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrGGGGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrrrGGGGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrrrryyyyyrr"/>
         <phase duration="2"  state="rrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0006/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="rrGGGGrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrGGGGrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rryyyyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrr"/>
-        <phase duration="20" state="rrrrrrGGrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrrrrGGrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrrrrrGyrrrr"/>
         <phase duration="2"  state="rrrrrrGrrrrr"/>
-        <phase duration="20" state="GGrrrrGrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGrrrrGrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyrrrryrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0007/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="GGGrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGGrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyyrrrr"/>
         <phase duration="2"  state="rrrrrrr"/>
-        <phase duration="20" state="rrrGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrryyrr"/>
         <phase duration="2"  state="rrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0008/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="GGGrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGGrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrr"/>
-        <phase duration="20" state="rrrGGGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrGGGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0009/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="rrrrrGGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrrrGGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrrrryyyrr"/>
         <phase duration="2"  state="rrrrrrrrrr"/>
-        <phase duration="20" state="GGGGGrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGGGGrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyyyyrrrrr"/>
         <phase duration="2"  state="rrrrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0010/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="rGGGrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rGGGrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="ryyyrrr"/>
         <phase duration="2"  state="rrrrrrr"/>
-        <phase duration="20" state="Grrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="Grrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yrrrrrr"/>
         <phase duration="2"  state="rrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0011/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="rrGGGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrGGGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rryyyyrr"/>
         <phase duration="2"  state="rrrrrrrr"/>
-        <phase duration="20" state="GGrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrr"/>
     </tlLogic>
     <tlLogic id="intersection/0012/tls" type="actuated" programID="1" offset="0">
-        <phase duration="20" state="GGGrrrrrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="GGGrrrrrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="yyyrrrrrr"/>
         <phase duration="2"  state="rrrrrrrrr"/>
-        <phase duration="20" state="rrrGGGGrr" minDur="4" maxDur="25"/>
+        <phase duration="20" state="rrrGGGGrr" minDur="6" maxDur="22"/>
         <phase duration="3"  state="rrryyyyrr"/>
         <phase duration="2"  state="rrrrrrrrr"/>
     </tlLogic>
