@@ -1,0 +1,125 @@
+***Starting server on port 47889 ***
+Loading net-file from 'source/osm/osm.net.xml' ... done (65ms).
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '0' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '0' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '0' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '0' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '0' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '0' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '0' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '0' for tl-index 7
+Loading additional-files from 'source/osm/osm.poly.xml' ... done (10ms).
+Loading additional-files from 'source/osm/e2.add.xml' ... done (18ms).
+Loading additional-files from 'source/osm/tls_timed.add.xml' ... 
+Warning: Missing green phase in tlLogic 'intersection/0002/tls', program '1' for tl-index 9
+Warning: Missing green phase in tlLogic 'intersection/0003/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0004/tls', program '1' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0005/tls', program '1' for tl-index 10
+Warning: Missing green phase in tlLogic 'intersection/0006/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0007/tls', program '1' for tl-index 5
+Warning: Missing green phase in tlLogic 'intersection/0008/tls', program '1' for tl-index 7
+Warning: Missing green phase in tlLogic 'intersection/0009/tls', program '1' for tl-index 8
+Warning: Missing green phase in tlLogic 'intersection/0010/tls', program '1' for tl-index 4
+Warning: Missing green phase in tlLogic 'intersection/0011/tls', program '1' for tl-index 6
+Warning: Missing green phase in tlLogic 'intersection/0012/tls', program '1' for tl-index 7
+done (7ms).
+Loading done.
+Simulation started with time: 0.00
+Warning: Teleporting vehicle 'veh326'; waited too long (yield), lane='419814433#1_1', time=1095.00.
+Warning: Vehicle 'veh326' ends teleporting on edge '5962129#4', time 1140.00.
+Warning: Teleporting vehicle 'truck52'; waited too long (jam), lane='-593766960_1', time=1371.00.
+Warning: Teleporting vehicle 'veh330'; waited too long (yield), lane='419814433#1_1', time=1399.00.
+Warning: Teleporting vehicle 'veh416'; waited too long (jam), lane='419814433#0_1', time=1403.00.
+Warning: Teleporting vehicle 'truck55'; waited too long (jam), lane='-5955850#0_1', time=1425.00.
+Warning: Vehicle 'truck52' ends teleporting on edge '436291018', time 1449.00.
+Warning: Teleporting vehicle 'bus67'; waited too long (jam), lane='5962129#2_1', time=1456.00.
+Warning: Teleporting vehicle 'truck40'; waited too long (jam), lane='5962129#0_1', time=1456.00.
+Warning: Vehicle 'truck40' ends teleporting on edge '5962129#2', time 1456.00.
+Warning: Vehicle 'truck55' ends teleporting on edge '5962129#0', time 1456.00.
+Warning: Teleporting vehicle 'veh381'; waited too long (yield), lane='-419814433#2_1', time=1461.00.
+Warning: Teleporting vehicle 'bus59'; waited too long (yield), lane='436291016#0_1', time=1466.00.
+Warning: Vehicle 'veh330' ends teleporting on edge '593766961', time 1519.00.
+Warning: Vehicle 'bus67' ends teleporting on edge '593766961', time 1547.00.
+Warning: Vehicle 'veh381' ends teleporting on edge '5962129#4', time 1548.00.
+Warning: Vehicle 'veh416' ends teleporting on edge '5962129#4', time 1550.00.
+Warning: Vehicle 'bus59' ends teleporting on edge '5962129#4', time 1643.00.
+Warning: Teleporting vehicle 'veh547'; waited too long (yield), lane='436291010_2', time=1658.00.
+Warning: Teleporting vehicle 'veh560'; waited too long (yield), lane='436291031_1', time=1676.00.
+Warning: Teleporting vehicle 'veh353'; waited too long (yield), lane='436291016#0_1', time=1771.00.
+Warning: Teleporting vehicle 'truck59'; waited too long (yield), lane='436291010_1', time=1791.00.
+Warning: Teleporting vehicle 'bike292'; waited too long (yield), lane='-578934726_0', time=1796.00.
+Warning: Teleporting vehicle 'veh493'; waited too long (jam), lane='436291016#0_1', time=1797.00.
+Warning: Teleporting vehicle 'veh616'; waited too long (yield), lane='436291013_2', time=1816.00.
+Warning: Vehicle 'veh616' ends teleporting on edge '436291011', time 1816.00.
+Warning: Teleporting vehicle 'veh593'; waited too long (yield), lane='641705063#3_1', time=1818.00.
+Warning: Teleporting vehicle 'truck55'; waited too long (jam), lane='5962129#2_1', time=1857.00.
+Warning: Vehicle 'veh353' ends teleporting on edge '5962129#2', time 1857.00.
+Warning: Teleporting vehicle 'veh429'; waited too long (yield), lane='-419814433#2_1', time=1863.00.
+Warning: Teleporting vehicle 'bus73'; waited too long (jam), lane='-5955850#0_1', time=1870.00.
+Warning: Teleporting vehicle 'veh463'; waited too long (jam), lane='-5955850#2_1', time=1879.00.
+Warning: Vehicle 'veh463' ends teleporting on edge '-5955850#1', time 1890.00.
+Warning: Teleporting vehicle 'veh569'; waited too long (yield), lane='89927838#3_1', time=1893.00.
+Warning: Teleporting vehicle 'veh394'; waited too long (yield), lane='419814433#1_1', time=1894.00.
+Warning: Teleporting vehicle 'veh451'; waited too long (jam), lane='419814433#0_1', time=1904.00.
+Warning: Vehicle 'truck59' ends teleporting on edge '5962129#0', time 1907.00.
+Warning: Vehicle 'veh451' ends teleporting on edge '419814433#1', time 1908.00.
+Warning: Vehicle 'veh593' ends teleporting on edge '-419814433#1', time 1925.00.
+Warning: Vehicle 'truck55' ends teleporting on edge '5962129#4', time 1926.00.
+Warning: Vehicle 'veh429' ends teleporting on edge '5962129#4', time 1930.00.
+Warning: Vehicle 'bike292' ends teleporting on edge '5962129#4', time 1931.00.
+Warning: Teleporting vehicle 'veh443'; waited too long (yield), lane='36054466#9_1', time=1971.00.
+Warning: Vehicle 'veh569' ends teleporting on edge '36054466#3', time 1974.00.
+Warning: Teleporting vehicle 'veh589'; waited too long (jam), lane='36054466#7_1', time=1979.00.
+Warning: Teleporting vehicle 'veh471'; waited too long (jam), lane='36054466#6_1', time=1979.00.
+Warning: Vehicle 'veh471' ends teleporting on edge '36054466#7', time 1979.00.
+Warning: Teleporting vehicle 'veh652'; waited too long (yield), lane='436291031_1', time=1981.00.
+Warning: Vehicle 'veh547' ends teleporting on edge '593766960', time 1991.00.
+Warning: Vehicle 'veh443' ends teleporting on edge 'gneE0', time 1994.00.
+Warning: Vehicle 'veh560' ends teleporting on edge '5962129#4', time 1996.00.
+Warning: Vehicle 'veh589' ends teleporting on edge '-5962129#3', time 1998.00.
+Warning: Vehicle 'veh394' ends teleporting on edge '593766961', time 2003.00.
+Warning: Vehicle 'veh493' ends teleporting on edge '593766960', time 2005.00.
+Warning: Vehicle 'bus73' ends teleporting on edge '593766960', time 2068.00.
+Warning: Teleporting vehicle 'veh586'; waited too long (jam), lane='436291016#0_1', time=2102.00.
+Warning: Teleporting vehicle 'moto209'; waited too long (jam), lane='436291011_3', time=2123.00.
+Warning: Vehicle 'moto209' ends teleporting on edge '436291010', time 2123.00.
+Warning: Teleporting vehicle 'veh733'; waited too long (jam), lane='436291011_3', time=2129.00.
+Warning: Vehicle 'veh733' ends teleporting on edge '436291010', time 2129.00.
+Warning: Teleporting vehicle 'bus128'; waited too long (jam), lane='436291011_3', time=2132.00.
+Warning: Vehicle 'bus128' ends teleporting on edge '436291010', time 2132.00.
+Warning: Teleporting vehicle 'veh742'; waited too long (jam), lane='436291011_3', time=2134.00.
+Warning: Vehicle 'veh742' ends teleporting on edge '436291010', time 2134.00.
+Warning: Teleporting vehicle 'truck61'; waited too long (wrong lane), lane='436291018_3', time=2135.00.
+Warning: Vehicle 'truck61' ends teleporting on edge '641705063#0', time 2135.00.
+Warning: Teleporting vehicle 'bus114'; waited too long (jam), lane=':4341675284_0_2', time=2141.00.
+Warning: Vehicle 'bus114' ends teleporting on edge '436291010', time 2141.00.
+Warning: Teleporting vehicle 'veh685'; waited too long (jam), lane='436291011_2', time=2148.00.
+Warning: Vehicle 'veh685' ends teleporting on edge '436291010', time 2148.00.
+Warning: Teleporting vehicle 'veh699'; waited too long (jam), lane='436291011_2', time=2149.00.
+Warning: Vehicle 'veh586' ends teleporting on edge '5962129#2', time 2175.00.
+Warning: Vehicle 'veh699' ends teleporting on edge '5962129#0', time 2223.00.
+Warning: Vehicle 'veh652' ends teleporting on edge '5962129#4', time 2232.00.
+Warning: Teleporting vehicle 'bus110'; waited too long (wrong lane), lane='436291016#0_2', time=2661.00.
+Warning: Vehicle 'bus110' ends teleporting on edge '5962129#0', time 2662.00.
+Simulation ended at time: 3053.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 3053131ms
+ Real time factor: 0.999957
+ UPS: 165.945385
+Vehicles: 
+ Inserted: 1292
+ Running: 0
+ Waiting: 0
+Teleports: 38 (Jam: 20, Yield: 16, Wrong Lane: 2)
+Statistics (avg):
+ RouteLength: 546.07
+ Speed: 2.90
+ Duration: 392.15
+ WaitingTime: 285.21
+ TimeLoss: 337.20
+ DepartDelay: 64.61
+

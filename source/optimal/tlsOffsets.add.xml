@@ -1,11 +1,11 @@
 <additional>
     <tlLogic id="intersection/0002/tls" programID="1" offset="-12.87"/>
     <tlLogic id="intersection/0003/tls" programID="1" offset="0.00"/>
-    <tlLogic id="intersection/0004/tls" programID="1" offset="7.13"/>
+    <tlLogic id="intersection/0004/tls" programID="1" offset="27.13"/>
     <tlLogic id="intersection/0005/tls" programID="1" offset="-20.00"/>
     <tlLogic id="intersection/0006/tls" programID="1" offset="-7.13"/>
     <tlLogic id="intersection/0007/tls" programID="1" offset="-40.00"/>
-    <tlLogic id="intersection/0008/tls" programID="1" offset="12.87"/>
-    <tlLogic id="intersection/0009/tls" programID="1" offset="5.75"/>
-    <tlLogic id="intersection/0010/tls" programID="1" offset="-12.87"/>
+    <tlLogic id="intersection/0008/tls" programID="1" offset="-18.62"/>
+    <tlLogic id="intersection/0009/tls" programID="1" offset="-25.75"/>
+    <tlLogic id="intersection/0010/tls" programID="1" offset="-32.87"/>
 </additional>
